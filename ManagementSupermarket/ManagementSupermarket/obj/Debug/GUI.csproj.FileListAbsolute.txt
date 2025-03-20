@@ -1,0 +1,12 @@
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\ManagementSupermarket.exe.config
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\ManagementSupermarket.exe
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\ManagementSupermarket.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\FontAwesome.Sharp.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\ManagementSupermarket.frmLogin.resources
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\ManagementSupermarket.Properties.Resources.resources
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\GUI.csproj.Up2Date
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\ManagementSupermarket.exe
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\obj\Debug\ManagementSupermarket.pdb
