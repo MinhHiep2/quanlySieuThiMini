@@ -124,7 +124,7 @@
             this.btnHidePassWord.IconColor = System.Drawing.Color.Black;
             this.btnHidePassWord.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHidePassWord.IconSize = 35;
-            this.btnHidePassWord.Location = new System.Drawing.Point(799, 222);
+            this.btnHidePassWord.Location = new System.Drawing.Point(799, 226);
             this.btnHidePassWord.Name = "btnHidePassWord";
             this.btnHidePassWord.Size = new System.Drawing.Size(46, 38);
             this.btnHidePassWord.TabIndex = 16;
@@ -150,6 +150,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

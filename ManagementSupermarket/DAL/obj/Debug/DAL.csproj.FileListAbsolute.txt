@@ -1,0 +1,9 @@
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DAL.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DAL.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DTO.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DTO.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.pdb

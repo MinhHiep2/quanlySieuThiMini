@@ -59,17 +59,163 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmHomeOfManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmHomeOfManager.Designer.cs">
+      <DependentUpon>frmHomeOfManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfomation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfomation.Designer.cs">
+      <DependentUpon>frmInfomation.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager\frmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmAccounts.Designer.cs">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmThongTinLienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmThongTinLienHe.Designer.cs">
+      <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmDetailInvoiceSelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmDetailInvoiceSelling.Designer.cs">
+      <DependentUpon>frmDetailInvoiceSelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmDetailWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmDetailWarehouse.Designer.cs">
+      <DependentUpon>frmDetailWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmDiscount.Designer.cs">
+      <DependentUpon>frmDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmManagementEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmManagementEmployees.Designer.cs">
+      <DependentUpon>frmManagementEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmManagementProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmManagementProducts.Designer.cs">
+      <DependentUpon>frmManagementProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmOrder.Designer.cs">
+      <DependentUpon>frmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmRevenue.Designer.cs">
+      <DependentUpon>frmRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmSuppiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmSuppiler.Designer.cs">
+      <DependentUpon>frmSuppiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmTypeProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmTypeProduct.Designer.cs">
+      <DependentUpon>frmTypeProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\frmKhoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\frmKhoHang.Designer.cs">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Image\SIÊU THỊ MINI.png" />
+    <None Include="Resources\giaodien1.jpg" />
     <None Include="Resources\SIÊU THỊ MINI1.png" />
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmHomeOfManager.resx">
+      <DependentUpon>frmHomeOfManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfomation.resx">
+      <DependentUpon>frmInfomation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmAccounts.resx">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmThongTinLienHe.resx">
+      <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmDetailInvoiceSelling.resx">
+      <DependentUpon>frmDetailInvoiceSelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmDetailWarehouse.resx">
+      <DependentUpon>frmDetailWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmDiscount.resx">
+      <DependentUpon>frmDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmManagementEmployees.resx">
+      <DependentUpon>frmManagementEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmManagementProducts.resx">
+      <DependentUpon>frmManagementProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmOrder.resx">
+      <DependentUpon>frmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmRevenue.resx">
+      <DependentUpon>frmRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmSuppiler.resx">
+      <DependentUpon>frmSuppiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmTypeProduct.resx">
+      <DependentUpon>frmTypeProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\frmKhoHang.resx">
+      <DependentUpon>frmKhoHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +253,16 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{bf4465d8-7774-44ca-8b49-55cd6d1dd805}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{2f792b72-ff8b-4fcf-8468-ba6dc945893e}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

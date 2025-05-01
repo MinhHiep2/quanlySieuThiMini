@@ -1,0 +1,6 @@
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DTO.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DTO.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.pdb
