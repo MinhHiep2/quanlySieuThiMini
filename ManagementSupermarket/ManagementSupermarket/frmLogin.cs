@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BLL;
 namespace ManagementSupermarket
 {
     public partial class frmLogin : Form
@@ -48,16 +48,32 @@ namespace ManagementSupermarket
 
         private void btn_Login_Click(object sender, EventArgs e)
         {
-            if(txt_Username.Text == "admin" && txt_Password.Text == "admin")
+            string username = txt_Username.Text.Trim(), password = txt_Password.Text.Trim();
+
+            //Process if username or password empty
+            bool isEmpty = string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password);
+
+            BLL_Account account= new BLL_Account();
+            DataTable tblAccount = account.IsAccount(username, password);
+            bool isNotAccount = true;
+
+            if (tblAccount.Rows.Count > 0)
             {
-                frmLogin frmMain = new frmLogin();
-                frmMain.Show();
-                this.Hide();
-                MessageBox.Show("Bạn đã đăng nhập thành công!", "Thông báo");
+                isNotAccount = false;
+            }
+
+            if (isEmpty || isNotAccount)
+            {
+                lbl_Error.Visible = true;
+                lbl_Error.Text = "*Tài khoản hoặc mật khẩu không chính xác";
             }
             else
             {
-                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string role = tblAccount.Rows[0][1].ToString();
+                string idEmployee = txt_Username.Text.Trim();
+                frmHomeOfManager frmHomeOfManager = new frmHomeOfManager(idEmployee, role);
+                this.Hide();
+                frmHomeOfManager.Show();
             }
         }
 
@@ -72,7 +88,14 @@ namespace ManagementSupermarket
             {
                 txt_Password.UseSystemPasswordChar = true;
                 btnHidePassWord.IconChar = FontAwesome.Sharp.IconChar.Eye;
+
+
             }
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chào mừng bạn đến với phần mềm quản lý siêu thị!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

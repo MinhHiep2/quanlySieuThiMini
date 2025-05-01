@@ -63,6 +63,26 @@ namespace ManagementSupermarket.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap giaodien {
+            get {
+                object obj = ResourceManager.GetObject("giaodien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giaodien1 {
+            get {
+                object obj = ResourceManager.GetObject("giaodien1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SIÊU_THỊ_MINI {
             get {
                 object obj = ResourceManager.GetObject("SIÊU THỊ MINI", resourceCulture);
@@ -76,6 +96,16 @@ namespace ManagementSupermarket.Properties {
         internal static System.Drawing.Bitmap SIÊU_THỊ_MINI1 {
             get {
                 object obj = ResourceManager.GetObject("SIÊU THỊ MINI1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SIÊU_THỊ_MINI2 {
+            get {
+                object obj = ResourceManager.GetObject("SIÊU THỊ MINI2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

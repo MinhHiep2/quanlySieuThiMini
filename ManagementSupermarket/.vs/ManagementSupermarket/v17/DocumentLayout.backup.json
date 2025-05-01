@@ -3,12 +3,278 @@
   "WorkspaceRootPath": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmhomeofmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmhomeofmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmhomeofmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmhomeofmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmhomeofmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmhomeofmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dal\\dal_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|solutionrelative:dal\\dal_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dal\\dal_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|solutionrelative:dal\\dal_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\bll\\bll_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|solutionrelative:bll\\bll_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\bll\\bll_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|solutionrelative:bll\\bll_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DAL||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_typeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_typeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_invoicewarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_invoicewarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_invoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_invoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_detail_invoicewarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_detail_invoicewarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dto\\dto_detail_invoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F792B72-FF8B-4FCF-8468-BA6DC945893E}|DTO\\DTO.csproj|solutionrelative:dto\\dto_detail_invoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmsuppiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmsuppiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frminfomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frminfomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmsuppiler.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmsuppiler.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmhomeofmanager.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmhomeofmanager.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmtypeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmtypeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmtypeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmtypeproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmrevenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmrevenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailinvoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailinvoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailinvoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailinvoiceselling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmaccounts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmaccounts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmsuppiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmsuppiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmtypeproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmtypeproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementemployees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementemployees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmkhohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmkhohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmkhohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmkhohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmkhohang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmkhohang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailwarehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdiscount.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdiscount.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailwarehouse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailwarehouse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmdetailinvoiceselling.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmdetailinvoiceselling.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmthongtinlienhe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmthongtinlienhe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementproducts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\manager\\frmmanagementemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\manager\\frmmanagementemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4465D8-7774-44CA-8B49-55CD6D1DD805}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmchangepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\frmchangepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\resources\\si\u00EAu th\u1ECB mini.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\resources\\si\u00EAu th\u1ECB mini.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,10 +291,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\resources\\si\u00EAu th\u1ECB mini.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|solutionrelative:managementsupermarket\\resources\\si\u00EAu th\u1ECB mini.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +311,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\ManagementSupermarket.csproj|D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\ManagementSupermarket.csproj|solutionrelative:managementsupermarket\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FE145A-5FDC-4D67-B0D1-8C714B23E809}|ManagementSupermarket\\GUI.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\managementsupermarket\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D5A2AE-1688-41E0-A2DD-695FCCC09E8C}|DAL\\DAL.csproj|d:\\hk5\\winform-c#\\doansieuthimini\\managementsupermarket\\dal\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,15 +326,854 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmOrder.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmOrder.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:45:28.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHomeOfManager.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmHomeOfManager.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmHomeOfManager.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:37:10.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmHomeOfManager.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmHomeOfManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:44:40.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHomeOfManager.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmHomeOfManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:37:56.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:44:05.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DataProvider.cs",
+              "RelativeToolTip": "DAL\\DataProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:42:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAL_Role.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL_Role.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Role.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL_Role.cs",
+              "RelativeToolTip": "DAL\\DAL_Role.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:28:34.238Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
+              "RelativeToolTip": "ManagementSupermarket\\frmLogin.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAD4v0oAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T13:15:41.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DAL_Account.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL_Account.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Account.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL_Account.cs",
+              "RelativeToolTip": "DAL\\DAL_Account.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:30:01.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLL_Role.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\BLL_Role.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_Role.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\BLL_Role.cs",
+              "RelativeToolTip": "BLL\\BLL_Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:27:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BLL_Account.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\BLL_Account.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_Account.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\BLL_Account.cs",
+              "RelativeToolTip": "BLL\\BLL_Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:14:28.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DTO_Supplier.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Supplier.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Supplier.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Supplier.cs",
+              "RelativeToolTip": "DTO\\DTO_Supplier.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswCYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:00:36.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DTO_Customer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Customer.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Customer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Customer.cs",
+              "RelativeToolTip": "DTO\\DTO_Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:56:50.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DAL",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-01T14:05:07.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DTO_Discount.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Discount.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Discount.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Discount.cs",
+              "RelativeToolTip": "DTO\\DTO_Discount.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvygAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:58:33.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DTO_Employee.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Employee.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Employee.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Employee.cs",
+              "RelativeToolTip": "DTO\\DTO_Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:58:55.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DTO\\DataProvider.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DataProvider.cs",
+              "RelativeToolTip": "DTO\\DataProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:42:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DTO_TypeProduct.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_TypeProduct.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_TypeProduct.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_TypeProduct.cs",
+              "RelativeToolTip": "DTO\\DTO_TypeProduct.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:00:52.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DTO_Product.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Product.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Product.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Product.cs",
+              "RelativeToolTip": "DTO\\DTO_Product.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:00:09.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DTO_InvoiceWarehouse.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_InvoiceWarehouse.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_InvoiceWarehouse.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_InvoiceWarehouse.cs",
+              "RelativeToolTip": "DTO\\DTO_InvoiceWarehouse.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:59:33.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DTO_InvoiceSelling.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_InvoiceSelling.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_InvoiceSelling.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_InvoiceSelling.cs",
+              "RelativeToolTip": "DTO\\DTO_InvoiceSelling.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:59:11.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DTO_Detail_InvoiceWarehouse.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Detail_InvoiceWarehouse.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Detail_InvoiceWarehouse.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Detail_InvoiceWarehouse.cs",
+              "RelativeToolTip": "DTO\\DTO_Detail_InvoiceWarehouse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:58:07.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DTO_Detail_InvoiceSelling.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Detail_InvoiceSelling.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Detail_InvoiceSelling.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\DTO\\DTO_Detail_InvoiceSelling.cs",
+              "RelativeToolTip": "DTO\\DTO_Detail_InvoiceSelling.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:57:38.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GUI",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\GUI.csproj",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\GUI.csproj",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\GUI.csproj",
+              "RelativeToolTip": "ManagementSupermarket\\GUI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-01T13:40:55.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmManagementProducts.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:25:35.2Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmRevenue.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmRevenue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:40:16.47Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmSuppiler.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmSuppiler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:34:04.168Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmThongTinLienHe.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmThongTinLienHe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:16.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmInfomation.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmInfomation.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmInfomation.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmInfomation.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\frmInfomation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:39:59.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmSuppiler.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmSuppiler.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmSuppiler.Designer.cs",
+              "ViewState": "AgIAALEBAAAAAAAAAAAgwLQBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:34:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmOrder.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmOrder.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmOrder.Designer.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAIAwwHsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:45:30.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmCustomer.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmCustomer.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmCustomer.Designer.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAIAwwHUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:15:18.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmHomeOfManager.resx",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.resx",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmHomeOfManager.resx",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmHomeOfManager.resx",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmHomeOfManager.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-01T12:52:47.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmManagementEmployees.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementEmployees.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:46:24.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmChangePassword.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmChangePassword.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\frmChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:05:48.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmTypeProduct.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:33:26.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmTypeProduct.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmTypeProduct.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmTypeProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:41:30.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmRevenue.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmRevenue.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmRevenue.Designer.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAIAwwHsBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:36:44.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frmRevenue.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmRevenue.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:24:32.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frmOrder.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmOrder.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmOrder.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmOrder.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:16:51.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frmDetailWarehouse.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailWarehouse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:20.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "frmDetailInvoiceSelling.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:23.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "frmDetailInvoiceSelling.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:27:56.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:27:56.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "frmAccounts.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmAccounts.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmAccounts.Designer.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAIAwwA8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:12.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmAccounts.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmAccounts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:10.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmAccounts.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmAccounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:02.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmCustomer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmCustomer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:17.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "frmSuppiler.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmSuppiler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:34:15.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "frmThongTinLienHe.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmThongTinLienHe.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:07.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "frmTypeProduct.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmTypeProduct.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmTypeProduct.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmTypeProduct.Designer.cs",
+              "ViewState": "AgIAACwBAAAAAAAAAIAwwEEBAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:43.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "frmManagementProducts.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementProducts.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:45:17.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "frmManagementEmployees.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementEmployees.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementEmployees.Designer.cs",
+              "ViewState": "AgIAAHoCAAAAAAAAAIAwwIkCAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:46:25.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "frmKhoHang.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmKhoHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "frmKhoHang.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmKhoHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:54:21.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "frmKhoHang.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmKhoHang.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmKhoHang.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmKhoHang.Designer.cs",
+              "ViewState": "AgIAANcCAAAAAAAAAIAwwN8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:39.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "frmDiscount.cs [Design]",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.cs [Design]",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDiscount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:53.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "frmDetailWarehouse.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailWarehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:56.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "frmDiscount.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDiscount.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:36:25.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "frmDiscount.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDiscount.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDiscount.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDiscount.Designer.cs",
+              "ViewState": "AgIAALABAAAAAAAAAIAwwLgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:12:16.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "frmDetailWarehouse.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailWarehouse.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailWarehouse.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailWarehouse.Designer.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAkwNgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:12:06.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "frmDetailInvoiceSelling.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmDetailInvoiceSelling.Designer.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAkwB0BAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:47.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "frmThongTinLienHe.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmThongTinLienHe.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmThongTinLienHe.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmThongTinLienHe.Designer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:28:57.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "frmManagementProducts.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementProducts.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementProducts.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementProducts.Designer.cs",
+              "ViewState": "AgIAAF4CAAAAAAAAAAAkwGQCAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:25:36.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "frmManagementEmployees.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "RelativeToolTip": "ManagementSupermarket\\Manager\\frmManagementEmployees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:43:01.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:18:40.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "frmChangePassword.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmChangePassword.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.cs",
+              "RelativeToolTip": "ManagementSupermarket\\frmChangePassword.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:09:25.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "frmChangePassword.Designer.cs",
+              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.Designer.cs",
+              "RelativeDocumentMoniker": "ManagementSupermarket\\frmChangePassword.Designer.cs",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmChangePassword.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\frmChangePassword.Designer.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:09:33.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\packages.config",
               "RelativeDocumentMoniker": "ManagementSupermarket\\packages.config",
@@ -78,19 +1185,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 69,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Form1.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Form1.cs",
               "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Form1.cs [Design]",
               "RelativeToolTip": "ManagementSupermarket\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:49:29.795Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-20T09:49:29.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 71,
               "Title": "Resources.resx",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Properties\\Resources.resx",
@@ -103,7 +1209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 70,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Form1.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Form1.cs",
@@ -114,32 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
-              "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.cs",
-              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs [Design]*",
-              "RelativeToolTip": "ManagementSupermarket\\frmLogin.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:44:05.354Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
-              "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.cs",
-              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs*",
-              "RelativeToolTip": "ManagementSupermarket\\frmLogin.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAWwEoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T13:15:41.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 68,
               "Title": "SI\u00CAU TH\u1ECA MINI.png",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Resources\\SI\u00CAU TH\u1ECA MINI.png",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Resources\\SI\u00CAU TH\u1ECA MINI.png",
@@ -150,20 +1231,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 73,
               "Title": "frmLogin.Designer.cs",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.Designer.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.Designer.cs",
-              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.Designer.cs*",
-              "RelativeToolTip": "ManagementSupermarket\\frmLogin.Designer.cs*",
+              "ToolTip": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.Designer.cs",
+              "RelativeToolTip": "ManagementSupermarket\\frmLogin.Designer.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAjwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:44:03.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:44:03.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 74,
               "Title": "frmLogin.Designer.cs",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.Designer.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.Designer.cs",
@@ -175,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 75,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Program.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Program.cs",
@@ -187,7 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 76,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\Program.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\Program.cs",
@@ -199,7 +1279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 77,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "D:\\HK5\\Winform-C#\\DoAnSieuThiMiNi\\ManagementSupermarket\\ManagementSupermarket\\frmLogin.cs",
               "RelativeDocumentMoniker": "ManagementSupermarket\\frmLogin.cs",
