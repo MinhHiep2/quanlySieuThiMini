@@ -51,6 +51,7 @@
             this.NgayBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayKetThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Alter = new FontAwesome.Sharp.IconButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btn_Add = new FontAwesome.Sharp.IconButton();
             this.btn_Refresh = new FontAwesome.Sharp.IconButton();
             this.btn_Search = new FontAwesome.Sharp.IconButton();
@@ -58,7 +59,6 @@
             this.chk_DiscountStatus = new System.Windows.Forms.CheckBox();
             this.num_CountTime = new System.Windows.Forms.NumericUpDown();
             this.cbb_SearchRole = new System.Windows.Forms.ComboBox();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListDiscount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CountTime)).BeginInit();
             this.SuspendLayout();
@@ -130,7 +130,7 @@
             this.lbl_.AutoSize = true;
             this.lbl_.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_.Location = new System.Drawing.Point(6, 71);
+            this.lbl_.Location = new System.Drawing.Point(0, 71);
             this.lbl_.Name = "lbl_";
             this.lbl_.Size = new System.Drawing.Size(371, 29);
             this.lbl_.TabIndex = 22;
@@ -230,14 +230,14 @@
             this.GiaKhuyenMai,
             this.NgayBatDau,
             this.NgayKetThuc});
-            this.dgv_ListDiscount.Location = new System.Drawing.Point(401, 78);
+            this.dgv_ListDiscount.Location = new System.Drawing.Point(369, 77);
             this.dgv_ListDiscount.MultiSelect = false;
             this.dgv_ListDiscount.Name = "dgv_ListDiscount";
             this.dgv_ListDiscount.ReadOnly = true;
             this.dgv_ListDiscount.RowHeadersWidth = 51;
             this.dgv_ListDiscount.RowTemplate.Height = 24;
             this.dgv_ListDiscount.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_ListDiscount.Size = new System.Drawing.Size(879, 641);
+            this.dgv_ListDiscount.Size = new System.Drawing.Size(751, 641);
             this.dgv_ListDiscount.TabIndex = 32;
             // 
             // MaKM
@@ -303,6 +303,16 @@
             this.btn_Alter.TabIndex = 34;
             this.btn_Alter.UseVisualStyleBackColor = true;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "delete.png");
+            this.imageList1.Images.SetKeyName(1, "edit.png");
+            this.imageList1.Images.SetKeyName(2, "kinhlup.png");
+            this.imageList1.Images.SetKeyName(3, "plus.png");
+            this.imageList1.Images.SetKeyName(4, "loading-arrow.png");
+            // 
             // btn_Add
             // 
             this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -340,7 +350,7 @@
             this.btn_Search.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Search.ImageIndex = 2;
             this.btn_Search.ImageList = this.imageList1;
-            this.btn_Search.Location = new System.Drawing.Point(1215, 28);
+            this.btn_Search.Location = new System.Drawing.Point(1055, 24);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(65, 47);
             this.btn_Search.TabIndex = 37;
@@ -350,7 +360,7 @@
             // 
             this.txt_Search.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Search.Location = new System.Drawing.Point(971, 28);
+            this.txt_Search.Location = new System.Drawing.Point(811, 24);
             this.txt_Search.Name = "txt_Search";
             this.txt_Search.Size = new System.Drawing.Size(238, 45);
             this.txt_Search.TabIndex = 38;
@@ -384,27 +394,17 @@
             this.cbb_SearchRole.Items.AddRange(new object[] {
             "MaKM",
             "TenKM"});
-            this.cbb_SearchRole.Location = new System.Drawing.Point(834, 34);
+            this.cbb_SearchRole.Location = new System.Drawing.Point(674, 30);
             this.cbb_SearchRole.Name = "cbb_SearchRole";
             this.cbb_SearchRole.Size = new System.Drawing.Size(131, 37);
             this.cbb_SearchRole.TabIndex = 42;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "delete.png");
-            this.imageList1.Images.SetKeyName(1, "edit.png");
-            this.imageList1.Images.SetKeyName(2, "kinhlup.png");
-            this.imageList1.Images.SetKeyName(3, "plus.png");
-            this.imageList1.Images.SetKeyName(4, "loading-arrow.png");
             // 
             // frmDiscount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1292, 731);
+            this.ClientSize = new System.Drawing.Size(1136, 731);
             this.Controls.Add(this.cbb_SearchRole);
             this.Controls.Add(this.num_CountTime);
             this.Controls.Add(this.chk_DiscountStatus);

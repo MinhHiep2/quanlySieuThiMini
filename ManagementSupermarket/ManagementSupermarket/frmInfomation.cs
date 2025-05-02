@@ -12,9 +12,10 @@ namespace ManagementSupermarket
 {
     public partial class frmInfomation : Form
     {
-        public frmInfomation()
+        public frmInfomation(string id)
         {
             InitializeComponent();
+
         }
     }
 }

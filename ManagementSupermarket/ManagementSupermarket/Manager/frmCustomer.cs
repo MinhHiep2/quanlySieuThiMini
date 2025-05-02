@@ -18,6 +18,17 @@ namespace ManagementSupermarket
 {
     public partial class frmCustomer : Form
     {
-       
+       public frmCustomer()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
+
+        private void frmCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

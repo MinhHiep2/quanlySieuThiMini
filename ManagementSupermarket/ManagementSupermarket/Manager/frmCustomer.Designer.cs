@@ -62,6 +62,7 @@
             this.lbl_ErrorCCCD = new System.Windows.Forms.Label();
             this.lbl_ErrorName = new System.Windows.Forms.Label();
             this.btn_Search = new FontAwesome.Sharp.IconButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btn_Refresh = new FontAwesome.Sharp.IconButton();
             this.btn_Delete = new FontAwesome.Sharp.IconButton();
             this.btn_Add = new FontAwesome.Sharp.IconButton();
@@ -69,7 +70,6 @@
             this.chk_CustomerStatus = new System.Windows.Forms.CheckBox();
             this.cbb_SearchRole = new System.Windows.Forms.ComboBox();
             this.btn_ExportExcel = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListCustomer)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -79,9 +79,9 @@
             // txt_Search
             // 
             this.txt_Search.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Search.Location = new System.Drawing.Point(1000, 313);
+            this.txt_Search.Location = new System.Drawing.Point(924, 315);
             this.txt_Search.Name = "txt_Search";
-            this.txt_Search.Size = new System.Drawing.Size(212, 32);
+            this.txt_Search.Size = new System.Drawing.Size(164, 32);
             this.txt_Search.TabIndex = 15;
             // 
             // dgv_ListCustomer
@@ -113,9 +113,8 @@
             this.dgv_ListCustomer.RowHeadersWidth = 51;
             this.dgv_ListCustomer.RowTemplate.Height = 24;
             this.dgv_ListCustomer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_ListCustomer.Size = new System.Drawing.Size(1295, 373);
+            this.dgv_ListCustomer.Size = new System.Drawing.Size(1189, 373);
             this.dgv_ListCustomer.TabIndex = 9;
-//            this.dgv_ListCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListCustomer_CellClick);
             // 
             // MaKH
             // 
@@ -241,7 +240,7 @@
             // rad_Female
             // 
             this.rad_Female.AutoSize = true;
-            this.rad_Female.ForeColor = System.Drawing.Color.White;
+            this.rad_Female.ForeColor = System.Drawing.Color.Black;
             this.rad_Female.Location = new System.Drawing.Point(139, 32);
             this.rad_Female.Name = "rad_Female";
             this.rad_Female.Size = new System.Drawing.Size(61, 30);
@@ -285,7 +284,7 @@
             this.groupBox1.Controls.Add(this.rad_Female);
             this.groupBox1.Controls.Add(this.rad_Male);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(940, 42);
+            this.groupBox1.Location = new System.Drawing.Point(915, 42);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(221, 76);
             this.groupBox1.TabIndex = 10;
@@ -371,8 +370,9 @@
             this.grpInfo.Controls.Add(this.label5);
             this.grpInfo.Controls.Add(this.label4);
             this.grpInfo.Controls.Add(this.label2);
+            this.grpInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.grpInfo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.grpInfo.Location = new System.Drawing.Point(46, 12);
+            this.grpInfo.Location = new System.Drawing.Point(12, 12);
             this.grpInfo.Name = "grpInfo";
             this.grpInfo.Size = new System.Drawing.Size(1198, 241);
             this.grpInfo.TabIndex = 8;
@@ -435,11 +435,22 @@
             this.btn_Search.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Search.ImageIndex = 5;
             this.btn_Search.ImageList = this.imageList1;
-            this.btn_Search.Location = new System.Drawing.Point(1218, 297);
+            this.btn_Search.Location = new System.Drawing.Point(1125, 297);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(59, 48);
             this.btn_Search.TabIndex = 14;
             this.btn_Search.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "delete.png");
+            this.imageList1.Images.SetKeyName(1, "edit.png");
+            this.imageList1.Images.SetKeyName(2, "export.png");
+            this.imageList1.Images.SetKeyName(3, "loading-arrow.png");
+            this.imageList1.Images.SetKeyName(4, "plus.png");
+            this.imageList1.Images.SetKeyName(5, "kinhlup.png");
             // 
             // btn_Refresh
             // 
@@ -504,7 +515,7 @@
             this.chk_CustomerStatus.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_CustomerStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk_CustomerStatus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chk_CustomerStatus.Location = new System.Drawing.Point(512, 307);
+            this.chk_CustomerStatus.Location = new System.Drawing.Point(437, 305);
             this.chk_CustomerStatus.Name = "chk_CustomerStatus";
             this.chk_CustomerStatus.Size = new System.Drawing.Size(351, 40);
             this.chk_CustomerStatus.TabIndex = 17;
@@ -515,7 +526,7 @@
             // 
             this.cbb_SearchRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_SearchRole.FormattingEnabled = true;
-            this.cbb_SearchRole.Location = new System.Drawing.Point(863, 311);
+            this.cbb_SearchRole.Location = new System.Drawing.Point(787, 313);
             this.cbb_SearchRole.Name = "cbb_SearchRole";
             this.cbb_SearchRole.Size = new System.Drawing.Size(131, 34);
             this.cbb_SearchRole.TabIndex = 18;
@@ -530,17 +541,6 @@
             this.btn_ExportExcel.Size = new System.Drawing.Size(82, 64);
             this.btn_ExportExcel.TabIndex = 29;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "delete.png");
-            this.imageList1.Images.SetKeyName(1, "edit.png");
-            this.imageList1.Images.SetKeyName(2, "export.png");
-            this.imageList1.Images.SetKeyName(3, "loading-arrow.png");
-            this.imageList1.Images.SetKeyName(4, "plus.png");
-            this.imageList1.Images.SetKeyName(5, "kinhlup.png");
             // 
             // frmCustomer
             // 
@@ -565,6 +565,7 @@
             this.Name = "frmCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmCustomer";
+            this.Load += new System.EventHandler(this.frmCustomer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListCustomer)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

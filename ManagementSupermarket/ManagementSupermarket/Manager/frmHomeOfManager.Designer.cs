@@ -29,30 +29,32 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_Home = new System.Windows.Forms.Label();
             this.btnBanHang = new FontAwesome.Sharp.IconButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAccounts = new FontAwesome.Sharp.IconButton();
             this.btnNhanVien = new FontAwesome.Sharp.IconButton();
             this.btnProducts = new FontAwesome.Sharp.IconButton();
             this.btnLoaiSanPham = new FontAwesome.Sharp.IconButton();
             this.btnKhachHang = new FontAwesome.Sharp.IconButton();
-            this.Sidebar_Panel = new System.Windows.Forms.Panel();
-            this.btnOut = new FontAwesome.Sharp.IconButton();
             this.btnContact = new FontAwesome.Sharp.IconButton();
             this.btnThongKe = new FontAwesome.Sharp.IconButton();
             this.btnKhoHang = new FontAwesome.Sharp.IconButton();
             this.btnKhuyenMai = new FontAwesome.Sharp.IconButton();
-            this.lbl_Home = new System.Windows.Forms.Label();
             this.ptbAnhDaiDien = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblName = new System.Windows.Forms.Label();
+            this.SlideBar_ = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnNhaCungCap = new FontAwesome.Sharp.IconButton();
+            this.btnInformation = new FontAwesome.Sharp.IconButton();
+            this.btnChangePassword = new FontAwesome.Sharp.IconButton();
+            this.btnDangXuat = new FontAwesome.Sharp.IconButton();
+            this.btnOut = new FontAwesome.Sharp.IconButton();
+            this.panel_body = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.Sidebar_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAnhDaiDien)).BeginInit();
+            this.SlideBar_.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -60,183 +62,21 @@
             this.panel1.BackColor = System.Drawing.Color.NavajoWhite;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lbl_Home);
-            this.panel1.Location = new System.Drawing.Point(244, 1);
+            this.panel1.Location = new System.Drawing.Point(-3, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1142, 153);
+            this.panel1.Size = new System.Drawing.Size(1682, 153);
             this.panel1.TabIndex = 2;
             // 
-            // btnBanHang
+            // label3
             // 
-            this.btnBanHang.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnBanHang.IconColor = System.Drawing.Color.Black;
-            this.btnBanHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnBanHang.Location = new System.Drawing.Point(0, 2);
-            this.btnBanHang.Name = "btnBanHang";
-            this.btnBanHang.Size = new System.Drawing.Size(241, 67);
-            this.btnBanHang.TabIndex = 4;
-            this.btnBanHang.Text = "Bán hàng";
-            this.btnBanHang.UseVisualStyleBackColor = true;
-            this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.NavajoWhite;
-            this.pictureBox2.ErrorImage = global::ManagementSupermarket.Properties.Resources.giaodien;
-            this.pictureBox2.InitialImage = global::ManagementSupermarket.Properties.Resources.giaodien;
-            this.pictureBox2.Location = new System.Drawing.Point(1387, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(172, 153);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(-3, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 154);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // btnAccounts
-            // 
-            this.btnAccounts.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnAccounts.IconColor = System.Drawing.Color.Black;
-            this.btnAccounts.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAccounts.Location = new System.Drawing.Point(0, 67);
-            this.btnAccounts.Name = "btnAccounts";
-            this.btnAccounts.Size = new System.Drawing.Size(241, 67);
-            this.btnAccounts.TabIndex = 4;
-            this.btnAccounts.Text = "Tài khoản";
-            this.btnAccounts.UseVisualStyleBackColor = true;
-            // 
-            // btnNhanVien
-            // 
-            this.btnNhanVien.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnNhanVien.IconColor = System.Drawing.Color.Black;
-            this.btnNhanVien.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnNhanVien.Location = new System.Drawing.Point(0, 133);
-            this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Size = new System.Drawing.Size(241, 67);
-            this.btnNhanVien.TabIndex = 4;
-            this.btnNhanVien.Text = "Nhân viên";
-            this.btnNhanVien.UseVisualStyleBackColor = true;
-            // 
-            // btnProducts
-            // 
-            this.btnProducts.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnProducts.IconColor = System.Drawing.Color.Black;
-            this.btnProducts.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnProducts.Location = new System.Drawing.Point(0, 198);
-            this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Size = new System.Drawing.Size(241, 67);
-            this.btnProducts.TabIndex = 4;
-            this.btnProducts.Text = "Sản phẩm";
-            this.btnProducts.UseVisualStyleBackColor = true;
-            // 
-            // btnLoaiSanPham
-            // 
-            this.btnLoaiSanPham.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnLoaiSanPham.IconColor = System.Drawing.Color.Black;
-            this.btnLoaiSanPham.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnLoaiSanPham.Location = new System.Drawing.Point(0, 264);
-            this.btnLoaiSanPham.Name = "btnLoaiSanPham";
-            this.btnLoaiSanPham.Size = new System.Drawing.Size(241, 67);
-            this.btnLoaiSanPham.TabIndex = 4;
-            this.btnLoaiSanPham.Text = "Loại sản phẩm";
-            this.btnLoaiSanPham.UseVisualStyleBackColor = true;
-            // 
-            // btnKhachHang
-            // 
-            this.btnKhachHang.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnKhachHang.IconColor = System.Drawing.Color.Black;
-            this.btnKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnKhachHang.Location = new System.Drawing.Point(0, 330);
-            this.btnKhachHang.Name = "btnKhachHang";
-            this.btnKhachHang.Size = new System.Drawing.Size(241, 67);
-            this.btnKhachHang.TabIndex = 4;
-            this.btnKhachHang.Text = "Khách hàng";
-            this.btnKhachHang.UseVisualStyleBackColor = true;
-            // 
-            // Sidebar_Panel
-            // 
-            this.Sidebar_Panel.AutoScroll = true;
-            this.Sidebar_Panel.AutoScrollMinSize = new System.Drawing.Size(241, 67);
-            this.Sidebar_Panel.Controls.Add(this.btnAccounts);
-            this.Sidebar_Panel.Controls.Add(this.btnOut);
-            this.Sidebar_Panel.Controls.Add(this.btnContact);
-            this.Sidebar_Panel.Controls.Add(this.btnThongKe);
-            this.Sidebar_Panel.Controls.Add(this.btnKhoHang);
-            this.Sidebar_Panel.Controls.Add(this.btnKhuyenMai);
-            this.Sidebar_Panel.Controls.Add(this.btnKhachHang);
-            this.Sidebar_Panel.Controls.Add(this.btnBanHang);
-            this.Sidebar_Panel.Controls.Add(this.btnLoaiSanPham);
-            this.Sidebar_Panel.Controls.Add(this.btnNhanVien);
-            this.Sidebar_Panel.Controls.Add(this.btnProducts);
-            this.Sidebar_Panel.Location = new System.Drawing.Point(2, 150);
-            this.Sidebar_Panel.Name = "Sidebar_Panel";
-            this.Sidebar_Panel.Size = new System.Drawing.Size(244, 686);
-            this.Sidebar_Panel.TabIndex = 5;
-            // 
-            // btnOut
-            // 
-            this.btnOut.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnOut.IconColor = System.Drawing.Color.Black;
-            this.btnOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnOut.Location = new System.Drawing.Point(1, 655);
-            this.btnOut.Name = "btnOut";
-            this.btnOut.Size = new System.Drawing.Size(241, 67);
-            this.btnOut.TabIndex = 4;
-            this.btnOut.Text = "Thoát";
-            this.btnOut.UseVisualStyleBackColor = true;
-            // 
-            // btnContact
-            // 
-            this.btnContact.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnContact.IconColor = System.Drawing.Color.Black;
-            this.btnContact.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnContact.Location = new System.Drawing.Point(0, 589);
-            this.btnContact.Name = "btnContact";
-            this.btnContact.Size = new System.Drawing.Size(241, 67);
-            this.btnContact.TabIndex = 4;
-            this.btnContact.Text = "Thông tin liên hệ";
-            this.btnContact.UseVisualStyleBackColor = true;
-            // 
-            // btnThongKe
-            // 
-            this.btnThongKe.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnThongKe.IconColor = System.Drawing.Color.Black;
-            this.btnThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 526);
-            this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(241, 67);
-            this.btnThongKe.TabIndex = 4;
-            this.btnThongKe.Text = "Thống kê";
-            this.btnThongKe.UseVisualStyleBackColor = true;
-            // 
-            // btnKhoHang
-            // 
-            this.btnKhoHang.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnKhoHang.IconColor = System.Drawing.Color.Black;
-            this.btnKhoHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnKhoHang.Location = new System.Drawing.Point(0, 462);
-            this.btnKhoHang.Name = "btnKhoHang";
-            this.btnKhoHang.Size = new System.Drawing.Size(241, 67);
-            this.btnKhoHang.TabIndex = 4;
-            this.btnKhoHang.Text = "Kho hàng";
-            this.btnKhoHang.UseVisualStyleBackColor = true;
-            // 
-            // btnKhuyenMai
-            // 
-            this.btnKhuyenMai.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnKhuyenMai.IconColor = System.Drawing.Color.Black;
-            this.btnKhuyenMai.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnKhuyenMai.Location = new System.Drawing.Point(1, 396);
-            this.btnKhuyenMai.Name = "btnKhuyenMai";
-            this.btnKhuyenMai.Size = new System.Drawing.Size(241, 67);
-            this.btnKhuyenMai.TabIndex = 4;
-            this.btnKhuyenMai.Text = "Khuyến mãi";
-            this.btnKhuyenMai.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Sitka Display", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label3.Location = new System.Drawing.Point(834, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(184, 48);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "HIỆP - KHẢI";
             // 
             // lbl_Home
             // 
@@ -248,45 +88,311 @@
             this.lbl_Home.Size = new System.Drawing.Size(602, 121);
             this.lbl_Home.TabIndex = 8;
             this.lbl_Home.Text = "Siêu thị Mini HK";
-            this.lbl_Home.Click += new System.EventHandler(this.lbl_Home_Click);
+            // 
+            // btnBanHang
+            // 
+            this.btnBanHang.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnBanHang.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBanHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBanHang.IconChar = FontAwesome.Sharp.IconChar.Shopify;
+            this.btnBanHang.IconColor = System.Drawing.Color.Black;
+            this.btnBanHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnBanHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBanHang.Location = new System.Drawing.Point(3, 3);
+            this.btnBanHang.Name = "btnBanHang";
+            this.btnBanHang.Size = new System.Drawing.Size(256, 67);
+            this.btnBanHang.TabIndex = 4;
+            this.btnBanHang.Text = "Bán hàng";
+            this.btnBanHang.UseVisualStyleBackColor = true;
+            this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.NavajoWhite;
+            this.pictureBox2.ErrorImage = global::ManagementSupermarket.Properties.Resources.giaodien;
+            this.pictureBox2.InitialImage = global::ManagementSupermarket.Properties.Resources.giaodien;
+            this.pictureBox2.Location = new System.Drawing.Point(1679, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(172, 153);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnAccounts
+            // 
+            this.btnAccounts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccounts.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.btnAccounts.IconColor = System.Drawing.Color.Black;
+            this.btnAccounts.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAccounts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccounts.Location = new System.Drawing.Point(3, 76);
+            this.btnAccounts.Name = "btnAccounts";
+            this.btnAccounts.Size = new System.Drawing.Size(256, 67);
+            this.btnAccounts.TabIndex = 4;
+            this.btnAccounts.Tag = "Accounts";
+            this.btnAccounts.Text = "Tài khoản";
+            this.btnAccounts.UseVisualStyleBackColor = true;
+            this.btnAccounts.Click += new System.EventHandler(this.btnAccounts_Click);
+            // 
+            // btnNhanVien
+            // 
+            this.btnNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhanVien.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.btnNhanVien.IconColor = System.Drawing.Color.Black;
+            this.btnNhanVien.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNhanVien.Location = new System.Drawing.Point(3, 149);
+            this.btnNhanVien.Name = "btnNhanVien";
+            this.btnNhanVien.Size = new System.Drawing.Size(256, 67);
+            this.btnNhanVien.TabIndex = 4;
+            this.btnNhanVien.Tag = "Employee";
+            this.btnNhanVien.Text = "Nhân viên";
+            this.btnNhanVien.UseVisualStyleBackColor = true;
+            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
+            // 
+            // btnProducts
+            // 
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProducts.IconChar = FontAwesome.Sharp.IconChar.RectangleList;
+            this.btnProducts.IconColor = System.Drawing.Color.Black;
+            this.btnProducts.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.Location = new System.Drawing.Point(3, 222);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(256, 67);
+            this.btnProducts.TabIndex = 4;
+            this.btnProducts.Tag = "Product";
+            this.btnProducts.Text = "Sản phẩm";
+            this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
+            // 
+            // btnLoaiSanPham
+            // 
+            this.btnLoaiSanPham.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLoaiSanPham.IconChar = FontAwesome.Sharp.IconChar.BoxesStacked;
+            this.btnLoaiSanPham.IconColor = System.Drawing.Color.Black;
+            this.btnLoaiSanPham.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLoaiSanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLoaiSanPham.Location = new System.Drawing.Point(3, 295);
+            this.btnLoaiSanPham.Name = "btnLoaiSanPham";
+            this.btnLoaiSanPham.Size = new System.Drawing.Size(256, 67);
+            this.btnLoaiSanPham.TabIndex = 4;
+            this.btnLoaiSanPham.Tag = "TypeProduct";
+            this.btnLoaiSanPham.Text = "Loại sản phẩm";
+            this.btnLoaiSanPham.UseVisualStyleBackColor = true;
+            this.btnLoaiSanPham.Click += new System.EventHandler(this.btnLoaiSanPham_Click);
+            // 
+            // btnKhachHang
+            // 
+            this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhachHang.IconChar = FontAwesome.Sharp.IconChar.Person;
+            this.btnKhachHang.IconColor = System.Drawing.Color.Black;
+            this.btnKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachHang.Location = new System.Drawing.Point(3, 441);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Size = new System.Drawing.Size(256, 67);
+            this.btnKhachHang.TabIndex = 4;
+            this.btnKhachHang.Tag = "Customer";
+            this.btnKhachHang.Text = "Khách hàng";
+            this.btnKhachHang.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
+            // 
+            // btnContact
+            // 
+            this.btnContact.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContact.IconChar = FontAwesome.Sharp.IconChar.RectangleList;
+            this.btnContact.IconColor = System.Drawing.Color.Black;
+            this.btnContact.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnContact.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContact.Location = new System.Drawing.Point(3, 733);
+            this.btnContact.Name = "btnContact";
+            this.btnContact.Size = new System.Drawing.Size(256, 67);
+            this.btnContact.TabIndex = 4;
+            this.btnContact.Tag = "Contact";
+            this.btnContact.Text = "Thông tin liên hệ";
+            this.btnContact.UseVisualStyleBackColor = true;
+            this.btnContact.Click += new System.EventHandler(this.btnContact_Click);
+            // 
+            // btnThongKe
+            // 
+            this.btnThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThongKe.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            this.btnThongKe.IconColor = System.Drawing.Color.Black;
+            this.btnThongKe.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThongKe.Location = new System.Drawing.Point(3, 660);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(256, 67);
+            this.btnThongKe.TabIndex = 4;
+            this.btnThongKe.Tag = "revenue";
+            this.btnThongKe.Text = "Thống kê";
+            this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
+            // 
+            // btnKhoHang
+            // 
+            this.btnKhoHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhoHang.IconChar = FontAwesome.Sharp.IconChar.Box;
+            this.btnKhoHang.IconColor = System.Drawing.Color.Black;
+            this.btnKhoHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnKhoHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhoHang.Location = new System.Drawing.Point(3, 587);
+            this.btnKhoHang.Name = "btnKhoHang";
+            this.btnKhoHang.Size = new System.Drawing.Size(256, 67);
+            this.btnKhoHang.TabIndex = 4;
+            this.btnKhoHang.Tag = "Warehouse";
+            this.btnKhoHang.Text = "Kho hàng";
+            this.btnKhoHang.UseVisualStyleBackColor = true;
+            this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
+            // 
+            // btnKhuyenMai
+            // 
+            this.btnKhuyenMai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhuyenMai.IconChar = FontAwesome.Sharp.IconChar.Tags;
+            this.btnKhuyenMai.IconColor = System.Drawing.Color.Black;
+            this.btnKhuyenMai.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnKhuyenMai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhuyenMai.Location = new System.Drawing.Point(3, 514);
+            this.btnKhuyenMai.Name = "btnKhuyenMai";
+            this.btnKhuyenMai.Size = new System.Drawing.Size(256, 67);
+            this.btnKhuyenMai.TabIndex = 4;
+            this.btnKhuyenMai.Tag = "Discount";
+            this.btnKhuyenMai.Text = "Khuyến mãi";
+            this.btnKhuyenMai.UseVisualStyleBackColor = true;
+            this.btnKhuyenMai.Click += new System.EventHandler(this.btnKhuyenMai_Click);
             // 
             // ptbAnhDaiDien
             // 
-            this.ptbAnhDaiDien.Location = new System.Drawing.Point(1412, 12);
+            this.ptbAnhDaiDien.Location = new System.Drawing.Point(1704, 12);
             this.ptbAnhDaiDien.Name = "ptbAnhDaiDien";
             this.ptbAnhDaiDien.Size = new System.Drawing.Size(115, 107);
             this.ptbAnhDaiDien.TabIndex = 6;
             this.ptbAnhDaiDien.TabStop = false;
             // 
-            // label2
+            // lblName
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.NavajoWhite;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1392, 122);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Họ tên";
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.NavajoWhite;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(1685, 122);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(59, 20);
+            this.lblName.TabIndex = 7;
+            this.lblName.Text = "Họ tên";
             // 
-            // label3
+            // SlideBar_
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Sitka Display", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label3.Location = new System.Drawing.Point(769, 92);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 49);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "HIỆP - KHẢI";
-            this.label3.Click += new System.EventHandler(this.lbl_Home_Click);
+            this.SlideBar_.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.SlideBar_.AutoScroll = true;
+            this.SlideBar_.AutoScrollMinSize = new System.Drawing.Size(517, 64);
+            this.SlideBar_.Controls.Add(this.btnBanHang);
+            this.SlideBar_.Controls.Add(this.btnAccounts);
+            this.SlideBar_.Controls.Add(this.btnNhanVien);
+            this.SlideBar_.Controls.Add(this.btnProducts);
+            this.SlideBar_.Controls.Add(this.btnLoaiSanPham);
+            this.SlideBar_.Controls.Add(this.btnNhaCungCap);
+            this.SlideBar_.Controls.Add(this.btnKhachHang);
+            this.SlideBar_.Controls.Add(this.btnKhuyenMai);
+            this.SlideBar_.Controls.Add(this.btnKhoHang);
+            this.SlideBar_.Controls.Add(this.btnThongKe);
+            this.SlideBar_.Controls.Add(this.btnContact);
+            this.SlideBar_.Controls.Add(this.btnInformation);
+            this.SlideBar_.Controls.Add(this.btnChangePassword);
+            this.SlideBar_.Controls.Add(this.btnDangXuat);
+            this.SlideBar_.Controls.Add(this.btnOut);
+            this.SlideBar_.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.SlideBar_.Location = new System.Drawing.Point(-6, 155);
+            this.SlideBar_.Name = "SlideBar_";
+            this.SlideBar_.Size = new System.Drawing.Size(281, 902);
+            this.SlideBar_.TabIndex = 9;
+            this.SlideBar_.WrapContents = false;
             // 
-            // panel2
+            // btnNhaCungCap
             // 
-            this.panel2.Location = new System.Drawing.Point(244, 152);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1315, 720);
-            this.panel2.TabIndex = 8;
+            this.btnNhaCungCap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhaCungCap.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.btnNhaCungCap.IconColor = System.Drawing.Color.Black;
+            this.btnNhaCungCap.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnNhaCungCap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNhaCungCap.Location = new System.Drawing.Point(3, 368);
+            this.btnNhaCungCap.Name = "btnNhaCungCap";
+            this.btnNhaCungCap.Size = new System.Drawing.Size(256, 67);
+            this.btnNhaCungCap.TabIndex = 4;
+            this.btnNhaCungCap.Tag = "Supplier";
+            this.btnNhaCungCap.Text = "Nhà cung cấp";
+            this.btnNhaCungCap.UseVisualStyleBackColor = true;
+            this.btnNhaCungCap.Click += new System.EventHandler(this.btnNhaCungCap_Click);
+            // 
+            // btnInformation
+            // 
+            this.btnInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInformation.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
+            this.btnInformation.IconColor = System.Drawing.Color.Black;
+            this.btnInformation.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnInformation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInformation.Location = new System.Drawing.Point(3, 806);
+            this.btnInformation.Name = "btnInformation";
+            this.btnInformation.Size = new System.Drawing.Size(256, 67);
+            this.btnInformation.TabIndex = 4;
+            this.btnInformation.Tag = "Info";
+            this.btnInformation.Text = "Thông tin tài khoản";
+            this.btnInformation.UseVisualStyleBackColor = true;
+            this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
+            // 
+            // btnChangePassword
+            // 
+            this.btnChangePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangePassword.IconChar = FontAwesome.Sharp.IconChar.Redo;
+            this.btnChangePassword.IconColor = System.Drawing.Color.Black;
+            this.btnChangePassword.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnChangePassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChangePassword.Location = new System.Drawing.Point(3, 879);
+            this.btnChangePassword.Name = "btnChangePassword";
+            this.btnChangePassword.Size = new System.Drawing.Size(256, 67);
+            this.btnChangePassword.TabIndex = 4;
+            this.btnChangePassword.Tag = "ChangePass";
+            this.btnChangePassword.Text = "Đổi mật khẩu";
+            this.btnChangePassword.UseVisualStyleBackColor = true;
+            this.btnChangePassword.Click += new System.EventHandler(this.btnChangePassword_Click);
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDangXuat.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.btnDangXuat.IconColor = System.Drawing.Color.Black;
+            this.btnDangXuat.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDangXuat.Location = new System.Drawing.Point(3, 952);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(256, 67);
+            this.btnDangXuat.TabIndex = 4;
+            this.btnDangXuat.Text = "Đăng xuất";
+            this.btnDangXuat.UseVisualStyleBackColor = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
+            // 
+            // btnOut
+            // 
+            this.btnOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOut.IconChar = FontAwesome.Sharp.IconChar.DoorClosed;
+            this.btnOut.IconColor = System.Drawing.Color.Black;
+            this.btnOut.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOut.Location = new System.Drawing.Point(3, 1025);
+            this.btnOut.Name = "btnOut";
+            this.btnOut.Size = new System.Drawing.Size(256, 67);
+            this.btnOut.TabIndex = 4;
+            this.btnOut.Text = "Thoát";
+            this.btnOut.UseVisualStyleBackColor = true;
+            this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
+            // 
+            // panel_body
+            // 
+            this.panel_body.AutoScroll = true;
+            this.panel_body.AutoSize = true;
+            this.panel_body.Location = new System.Drawing.Point(276, 153);
+            this.panel_body.Name = "panel_body";
+            this.panel_body.Size = new System.Drawing.Size(1585, 902);
+            this.panel_body.TabIndex = 8;
             // 
             // frmHomeOfManager
             // 
@@ -294,31 +400,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(67, 731);
-            this.ClientSize = new System.Drawing.Size(1557, 893);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label2);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1920, 1051);
+            this.Controls.Add(this.SlideBar_);
+            this.Controls.Add(this.panel_body);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.ptbAnhDaiDien);
-            this.Controls.Add(this.Sidebar_Panel);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmHomeOfManager";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmHomeOfManager";
-            this.Load += new System.EventHandler(this.frmHomeOfManager_Load_1);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmHomeOfManager_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.Sidebar_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ptbAnhDaiDien)).EndInit();
+            this.SlideBar_.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
@@ -328,16 +434,20 @@
         private FontAwesome.Sharp.IconButton btnProducts;
         private FontAwesome.Sharp.IconButton btnLoaiSanPham;
         private FontAwesome.Sharp.IconButton btnKhachHang;
-        private System.Windows.Forms.Panel Sidebar_Panel;
-        private FontAwesome.Sharp.IconButton btnOut;
         private FontAwesome.Sharp.IconButton btnContact;
         private FontAwesome.Sharp.IconButton btnThongKe;
         private FontAwesome.Sharp.IconButton btnKhoHang;
         private FontAwesome.Sharp.IconButton btnKhuyenMai;
         private System.Windows.Forms.Label lbl_Home;
         private System.Windows.Forms.PictureBox ptbAnhDaiDien;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel SlideBar_;
+        private FontAwesome.Sharp.IconButton btnOut;
+        private System.Windows.Forms.Panel panel_body;
+        private FontAwesome.Sharp.IconButton btnInformation;
+        private FontAwesome.Sharp.IconButton btnChangePassword;
+        private FontAwesome.Sharp.IconButton btnNhaCungCap;
+        private FontAwesome.Sharp.IconButton btnDangXuat;
     }
 }

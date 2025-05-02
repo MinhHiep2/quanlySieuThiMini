@@ -17,7 +17,13 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmDiscount : Form
     {
-        
+        public frmDiscount()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
    
 }

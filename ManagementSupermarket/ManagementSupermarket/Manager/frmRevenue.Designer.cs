@@ -67,7 +67,6 @@
             this.cbb_Criteria.Name = "cbb_Criteria";
             this.cbb_Criteria.Size = new System.Drawing.Size(202, 37);
             this.cbb_Criteria.TabIndex = 1;
-//            this.cbb_Criteria.SelectedIndexChanged += new System.EventHandler(this.cbb_Criteria_SelectedIndexChanged);
             // 
             // dtp_Revenue
             // 
@@ -78,7 +77,6 @@
             this.dtp_Revenue.Name = "dtp_Revenue";
             this.dtp_Revenue.Size = new System.Drawing.Size(204, 36);
             this.dtp_Revenue.TabIndex = 2;
-           // this.dtp_Revenue.ValueChanged += new System.EventHandler(this.dtp_Revenue_ValueChanged);
             // 
             // iconButton1
             // 
@@ -151,7 +149,6 @@
             this.iconButton4.Text = "KHUYẾN MÃI";
             this.iconButton4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.iconButton4.UseVisualStyleBackColor = false;
-          //  this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
             // 
             // iconButton5
             // 
@@ -165,7 +162,7 @@
             this.iconButton5.Location = new System.Drawing.Point(815, 416);
             this.iconButton5.Name = "iconButton5";
             this.iconButton5.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.iconButton5.Size = new System.Drawing.Size(348, 156);
+            this.iconButton5.Size = new System.Drawing.Size(348, 168);
             this.iconButton5.TabIndex = 8;
             this.iconButton5.Text = "NHÀ CUNG CẤP";
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -201,7 +198,7 @@
             this.iconButton7.Location = new System.Drawing.Point(461, 416);
             this.iconButton7.Name = "iconButton7";
             this.iconButton7.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.iconButton7.Size = new System.Drawing.Size(348, 156);
+            this.iconButton7.Size = new System.Drawing.Size(348, 168);
             this.iconButton7.TabIndex = 10;
             this.iconButton7.Text = "SẢN PHẨM NHẬP";
             this.iconButton7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -377,7 +374,6 @@
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "frm_Revenue";
             this.Text = "Revenue";
-          //  this.Load += new System.EventHandler(this.frmRevenue_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

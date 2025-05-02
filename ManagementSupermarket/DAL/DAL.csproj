@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_Product.cs" />
     <Compile Include="DAL_Role.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="DAL_Account.cs" />
@@ -52,6 +53,9 @@
       <Project>{2f792b72-ff8b-4fcf-8468-ba6dc945893e}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

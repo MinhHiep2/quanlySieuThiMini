@@ -66,7 +66,7 @@
             // 
             this.lbl_NameCustomer.AutoSize = true;
             this.lbl_NameCustomer.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_NameCustomer.Location = new System.Drawing.Point(933, 224);
+            this.lbl_NameCustomer.Location = new System.Drawing.Point(913, 224);
             this.lbl_NameCustomer.Name = "lbl_NameCustomer";
             this.lbl_NameCustomer.Size = new System.Drawing.Size(148, 30);
             this.lbl_NameCustomer.TabIndex = 24;
@@ -76,7 +76,7 @@
             // 
             this.lbl_CreateTime.AutoSize = true;
             this.lbl_CreateTime.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_CreateTime.Location = new System.Drawing.Point(933, 165);
+            this.lbl_CreateTime.Location = new System.Drawing.Point(913, 165);
             this.lbl_CreateTime.Name = "lbl_CreateTime";
             this.lbl_CreateTime.Size = new System.Drawing.Size(148, 30);
             this.lbl_CreateTime.TabIndex = 23;
@@ -139,7 +139,7 @@
             this.dgv_Detail_InvoiceSelling.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_Detail_InvoiceSelling.RowHeadersWidth = 51;
             this.dgv_Detail_InvoiceSelling.RowTemplate.Height = 24;
-            this.dgv_Detail_InvoiceSelling.Size = new System.Drawing.Size(1116, 302);
+            this.dgv_Detail_InvoiceSelling.Size = new System.Drawing.Size(1037, 302);
             this.dgv_Detail_InvoiceSelling.TabIndex = 20;
             // 
             // MaHD
@@ -204,7 +204,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(732, 172);
+            this.label6.Location = new System.Drawing.Point(712, 172);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(200, 20);
             this.label6.TabIndex = 18;
@@ -214,7 +214,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(753, 231);
+            this.label5.Location = new System.Drawing.Point(733, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(181, 20);
             this.label5.TabIndex = 17;

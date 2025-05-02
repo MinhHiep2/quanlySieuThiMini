@@ -95,7 +95,6 @@ namespace ManagementSupermarket
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Chào mừng bạn đến với phần mềm quản lý siêu thị!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

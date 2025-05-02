@@ -12,11 +12,16 @@ namespace ManagementSupermarket
 {
     public partial class frmChangePassword : Form
     {
-        public frmChangePassword()
+        public frmChangePassword(string id)
         {
             InitializeComponent();
         }
 
-        
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            txtMKHienTai.Clear();
+            txtNhapLai.Clear();
+            txtMKMoi.Clear();
+        }
     }
 }

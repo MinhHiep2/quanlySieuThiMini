@@ -31,6 +31,22 @@ namespace ManagementSupermarket
 {
     public partial class frmOrder : Form
     {
-        
+        public frmOrder()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
+
+        private void tab_FormCreateInvoice_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btn_Add_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

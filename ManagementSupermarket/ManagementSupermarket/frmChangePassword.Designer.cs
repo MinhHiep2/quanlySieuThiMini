@@ -41,7 +41,7 @@
             // txtMKHienTai
             // 
             this.txtMKHienTai.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMKHienTai.Location = new System.Drawing.Point(417, 95);
+            this.txtMKHienTai.Location = new System.Drawing.Point(516, 114);
             this.txtMKHienTai.Multiline = true;
             this.txtMKHienTai.Name = "txtMKHienTai";
             this.txtMKHienTai.Size = new System.Drawing.Size(274, 51);
@@ -70,7 +70,7 @@
             // txtMKMoi
             // 
             this.txtMKMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMKMoi.Location = new System.Drawing.Point(417, 181);
+            this.txtMKMoi.Location = new System.Drawing.Point(516, 200);
             this.txtMKMoi.Multiline = true;
             this.txtMKMoi.Name = "txtMKMoi";
             this.txtMKMoi.Size = new System.Drawing.Size(274, 51);
@@ -79,7 +79,7 @@
             // txtNhapLai
             // 
             this.txtNhapLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhapLai.Location = new System.Drawing.Point(417, 275);
+            this.txtNhapLai.Location = new System.Drawing.Point(516, 294);
             this.txtNhapLai.Multiline = true;
             this.txtNhapLai.Name = "txtNhapLai";
             this.txtNhapLai.Size = new System.Drawing.Size(274, 51);
@@ -97,7 +97,7 @@
             // 
             // btnDoiMatKhau
             // 
-            this.btnDoiMatKhau.Location = new System.Drawing.Point(570, 378);
+            this.btnDoiMatKhau.Location = new System.Drawing.Point(612, 391);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
             this.btnDoiMatKhau.Size = new System.Drawing.Size(150, 58);
             this.btnDoiMatKhau.TabIndex = 4;
@@ -106,12 +106,13 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(375, 378);
+            this.btnHuy.Location = new System.Drawing.Point(417, 391);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(152, 58);
             this.btnHuy.TabIndex = 4;
             this.btnHuy.Text = "Huỷ";
             this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // frmChangePassword
             // 

@@ -39,6 +39,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -79,11 +80,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(155, 280);
+            this.label4.Location = new System.Drawing.Point(70, 280);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 36);
+            this.label4.Size = new System.Drawing.Size(212, 36);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Mở cửa:";
+            this.label4.Text = "Giờ hoạt động:";
             // 
             // label5
             // 
@@ -94,7 +95,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(687, 36);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Từ 6h00 đến 23h00, từ Thứ 2 đến Thứ 7 hàng tuần";
+            this.label5.Text = "Từ 6h45 đến 22h00, từ Thứ 2 đến Thứ 6 hàng tuần";
             // 
             // label6
             // 
@@ -126,9 +127,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(282, 372);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(938, 36);
+            this.label8.Size = new System.Drawing.Size(239, 36);
             this.label8.TabIndex = 0;
-            this.label8.Text = "65 Huỳnh Thúc Kháng,  Phường Bến Nghé, Quận 1, Tp.Hồ Chí Minhh";
+            this.label8.Text = "Toà nhà F, lầu 7.";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
@@ -136,7 +137,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(126, 443);
+            this.label9.Location = new System.Drawing.Point(126, 500);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(150, 36);
             this.label9.TabIndex = 0;
@@ -147,22 +148,35 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(276, 443);
+            this.label10.Location = new System.Drawing.Point(282, 500);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(779, 36);
+            this.label10.Size = new System.Drawing.Size(771, 36);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Phần mềm hỗ trợ quản lý siêu thị mini được thực hiện bởi :";
+            this.label10.Text = "Phần mềm hỗ trợ quản lý siêu thị mini được thực hiện bởi:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(276, 483);
+            this.label11.Location = new System.Drawing.Point(282, 540);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(832, 36);
             this.label11.TabIndex = 0;
             this.label11.Text = "Trần Hữu Minh Hiệp và Phạm Quang Khải lớp CĐTH23WEBC";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.Location = new System.Drawing.Point(282, 412);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(938, 36);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "65 Huỳnh Thúc Kháng,  Phường Bến Nghé, Quận 1, Tp.Hồ Chí Minhh";
+            this.label12.Click += new System.EventHandler(this.label8_Click);
             // 
             // frmThongTinLienHe
             // 
@@ -173,6 +187,7 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -206,5 +221,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }
