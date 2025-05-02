@@ -283,6 +283,7 @@
             this.Name = "frmDetailInvoiceSelling";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chi tiết hoá đơn bán hàng";
+            this.Load += new System.EventHandler(this.frmDetailInvoiceSelling_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Detail_InvoiceSelling)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

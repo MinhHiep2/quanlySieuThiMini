@@ -34,7 +34,7 @@
             this.btn_ExportPDF = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btn_ExportExcel = new System.Windows.Forms.Button();
-            this.cbb_Search = new System.Windows.Forms.ComboBox();
+            this.cbo_Search = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btn_Search = new System.Windows.Forms.Button();
             this.dgv_InvoiceSelling = new System.Windows.Forms.DataGridView();
@@ -52,6 +52,7 @@
             this.lbl_ErrorPhone = new System.Windows.Forms.Label();
             this.lbl_ErrorCashCustomer = new System.Windows.Forms.Label();
             this.btn_RefreshCreate = new FontAwesome.Sharp.IconButton();
+            this.btn_Add = new FontAwesome.Sharp.IconButton();
             this.txt_ChangeCreate = new System.Windows.Forms.TextBox();
             this.txt_PhoneCustomerCreate = new System.Windows.Forms.TextBox();
             this.txt_CashCustomerCreate = new System.Windows.Forms.TextBox();
@@ -71,10 +72,9 @@
             this.ThanhTien = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.grpInfo = new System.Windows.Forms.GroupBox();
             this.txt_AmountCreate = new System.Windows.Forms.TextBox();
-            this.cbb_DiscountCreate = new System.Windows.Forms.ComboBox();
-            this.cbb_NameProductCreate = new System.Windows.Forms.ComboBox();
+            this.cbo_DiscountCreate = new System.Windows.Forms.ComboBox();
+            this.cbo_NameProductCreate = new System.Windows.Forms.ComboBox();
             this.num_CountProductCreate = new System.Windows.Forms.NumericUpDown();
-            this.btn_Add = new FontAwesome.Sharp.IconButton();
             this.txt_ProductInWarehouse = new System.Windows.Forms.TextBox();
             this.txt_PriceCreate = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -97,7 +97,7 @@
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tabPage2.Controls.Add(this.btn_ExportPDF);
             this.tabPage2.Controls.Add(this.btn_ExportExcel);
-            this.tabPage2.Controls.Add(this.cbb_Search);
+            this.tabPage2.Controls.Add(this.cbo_Search);
             this.tabPage2.Controls.Add(this.txtSearch);
             this.tabPage2.Controls.Add(this.btn_Search);
             this.tabPage2.Controls.Add(this.dgv_InvoiceSelling);
@@ -121,6 +121,7 @@
             this.btn_ExportPDF.Size = new System.Drawing.Size(98, 70);
             this.btn_ExportPDF.TabIndex = 31;
             this.btn_ExportPDF.UseVisualStyleBackColor = true;
+            this.btn_ExportPDF.Click += new System.EventHandler(this.btn_ExportPDF_Click);
             // 
             // imageList1
             // 
@@ -144,16 +145,17 @@
             this.btn_ExportExcel.Size = new System.Drawing.Size(98, 70);
             this.btn_ExportExcel.TabIndex = 31;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click);
             // 
-            // cbb_Search
+            // cbo_Search
             // 
-            this.cbb_Search.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.cbb_Search.FormattingEnabled = true;
-            this.cbb_Search.Location = new System.Drawing.Point(670, 69);
-            this.cbb_Search.Name = "cbb_Search";
-            this.cbb_Search.Size = new System.Drawing.Size(153, 37);
-            this.cbb_Search.TabIndex = 23;
+            this.cbo_Search.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.cbo_Search.FormattingEnabled = true;
+            this.cbo_Search.Location = new System.Drawing.Point(670, 69);
+            this.cbo_Search.Name = "cbo_Search";
+            this.cbo_Search.Size = new System.Drawing.Size(153, 37);
+            this.cbo_Search.TabIndex = 23;
             // 
             // txtSearch
             // 
@@ -173,6 +175,7 @@
             this.btn_Search.Size = new System.Drawing.Size(67, 50);
             this.btn_Search.TabIndex = 20;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // dgv_InvoiceSelling
             // 
@@ -271,6 +274,7 @@
             this.btn_ShowDetailInvoice.Text = "Xem Chi Tiết Hoá Đơn";
             this.btn_ShowDetailInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_ShowDetailInvoice.UseVisualStyleBackColor = true;
+            this.btn_ShowDetailInvoice.Click += new System.EventHandler(this.btn_ShowDetailInvoice_Click);
             // 
             // btn_Refresh
             // 
@@ -285,6 +289,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(95, 71);
             this.btn_Refresh.TabIndex = 19;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // tab_FormCreateInvoice
             // 
@@ -325,6 +330,7 @@
             this.chk_PhoneCustomer.TabIndex = 34;
             this.chk_PhoneCustomer.Text = "Số Điện Thoại Khách Hàng";
             this.chk_PhoneCustomer.UseVisualStyleBackColor = false;
+            this.chk_PhoneCustomer.CheckedChanged += new System.EventHandler(this.chk_PhoneCustomer_CheckedChanged);
             // 
             // lbl_ErrorPhone
             // 
@@ -356,11 +362,27 @@
             this.btn_RefreshCreate.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_RefreshCreate.ImageIndex = 3;
             this.btn_RefreshCreate.ImageList = this.imageList1;
-            this.btn_RefreshCreate.Location = new System.Drawing.Point(280, 153);
+            this.btn_RefreshCreate.Location = new System.Drawing.Point(942, 156);
             this.btn_RefreshCreate.Name = "btn_RefreshCreate";
             this.btn_RefreshCreate.Size = new System.Drawing.Size(79, 64);
             this.btn_RefreshCreate.TabIndex = 26;
             this.btn_RefreshCreate.UseVisualStyleBackColor = true;
+            this.btn_RefreshCreate.Click += new System.EventHandler(this.btn_RefreshCreate_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Add.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_Add.IconColor = System.Drawing.Color.Black;
+            this.btn_Add.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Add.ImageIndex = 4;
+            this.btn_Add.ImageList = this.imageList1;
+            this.btn_Add.Location = new System.Drawing.Point(1062, 156);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(79, 64);
+            this.btn_Add.TabIndex = 3;
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // txt_ChangeCreate
             // 
@@ -384,6 +406,7 @@
             this.txt_PhoneCustomerCreate.Name = "txt_PhoneCustomerCreate";
             this.txt_PhoneCustomerCreate.Size = new System.Drawing.Size(273, 45);
             this.txt_PhoneCustomerCreate.TabIndex = 31;
+            this.txt_PhoneCustomerCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_PhoneCustomerCreate_KeyPress);
             // 
             // txt_CashCustomerCreate
             // 
@@ -393,6 +416,8 @@
             this.txt_CashCustomerCreate.Name = "txt_CashCustomerCreate";
             this.txt_CashCustomerCreate.Size = new System.Drawing.Size(273, 45);
             this.txt_CashCustomerCreate.TabIndex = 32;
+            this.txt_CashCustomerCreate.TextChanged += new System.EventHandler(this.txt_CashCustomerCreate_TextChanged);
+            this.txt_CashCustomerCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_CashCustomerCreate_KeyPress);
             // 
             // txt_TotalCashCreate
             // 
@@ -437,11 +462,12 @@
             this.btn_FinishOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_FinishOrder.Location = new System.Drawing.Point(1006, 619);
             this.btn_FinishOrder.Name = "btn_FinishOrder";
-            this.btn_FinishOrder.Size = new System.Drawing.Size(188, 67);
+            this.btn_FinishOrder.Size = new System.Drawing.Size(168, 67);
             this.btn_FinishOrder.TabIndex = 24;
             this.btn_FinishOrder.Text = "Tổng Tiền";
             this.btn_FinishOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_FinishOrder.UseVisualStyleBackColor = false;
+            this.btn_FinishOrder.Click += new System.EventHandler(this.btn_FinishOrder_Click);
             // 
             // btn_Alter
             // 
@@ -451,11 +477,12 @@
             this.btn_Alter.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Alter.ImageIndex = 1;
             this.btn_Alter.ImageList = this.imageList1;
-            this.btn_Alter.Location = new System.Drawing.Point(18, 156);
+            this.btn_Alter.Location = new System.Drawing.Point(680, 159);
             this.btn_Alter.Name = "btn_Alter";
             this.btn_Alter.Size = new System.Drawing.Size(85, 59);
             this.btn_Alter.TabIndex = 22;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // btn_Delete
             // 
@@ -465,11 +492,12 @@
             this.btn_Delete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Delete.ImageIndex = 0;
             this.btn_Delete.ImageList = this.imageList1;
-            this.btn_Delete.Location = new System.Drawing.Point(147, 156);
+            this.btn_Delete.Location = new System.Drawing.Point(809, 159);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(81, 59);
             this.btn_Delete.TabIndex = 23;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // lst_OrderCurrency
             // 
@@ -492,6 +520,7 @@
             this.lst_OrderCurrency.TabIndex = 21;
             this.lst_OrderCurrency.UseCompatibleStateImageBehavior = false;
             this.lst_OrderCurrency.View = System.Windows.Forms.View.Details;
+            this.lst_OrderCurrency.Click += new System.EventHandler(this.lst_OrderCurrency_Click);
             // 
             // MaSP
             // 
@@ -532,8 +561,8 @@
             // 
             this.grpInfo.BackColor = System.Drawing.Color.Transparent;
             this.grpInfo.Controls.Add(this.txt_AmountCreate);
-            this.grpInfo.Controls.Add(this.cbb_DiscountCreate);
-            this.grpInfo.Controls.Add(this.cbb_NameProductCreate);
+            this.grpInfo.Controls.Add(this.cbo_DiscountCreate);
+            this.grpInfo.Controls.Add(this.cbo_NameProductCreate);
             this.grpInfo.Controls.Add(this.num_CountProductCreate);
             this.grpInfo.Controls.Add(this.txt_ProductInWarehouse);
             this.grpInfo.Controls.Add(this.txt_PriceCreate);
@@ -546,10 +575,11 @@
             this.grpInfo.ForeColor = System.Drawing.Color.Black;
             this.grpInfo.Location = new System.Drawing.Point(6, -1);
             this.grpInfo.Name = "grpInfo";
-            this.grpInfo.Size = new System.Drawing.Size(1236, 151);
+            this.grpInfo.Size = new System.Drawing.Size(1146, 151);
             this.grpInfo.TabIndex = 20;
             this.grpInfo.TabStop = false;
             this.grpInfo.Text = "Thông tin hoá đơn";
+            this.grpInfo.Enter += new System.EventHandler(this.grpInfo_Enter);
             // 
             // txt_AmountCreate
             // 
@@ -561,24 +591,25 @@
             this.txt_AmountCreate.Size = new System.Drawing.Size(184, 32);
             this.txt_AmountCreate.TabIndex = 34;
             // 
-            // cbb_DiscountCreate
+            // cbo_DiscountCreate
             // 
-            this.cbb_DiscountCreate.DisplayMember = " ";
-            this.cbb_DiscountCreate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_DiscountCreate.FormattingEnabled = true;
-            this.cbb_DiscountCreate.Location = new System.Drawing.Point(758, 58);
-            this.cbb_DiscountCreate.Name = "cbb_DiscountCreate";
-            this.cbb_DiscountCreate.Size = new System.Drawing.Size(154, 34);
-            this.cbb_DiscountCreate.TabIndex = 33;
+            this.cbo_DiscountCreate.DisplayMember = " ";
+            this.cbo_DiscountCreate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_DiscountCreate.FormattingEnabled = true;
+            this.cbo_DiscountCreate.Location = new System.Drawing.Point(758, 58);
+            this.cbo_DiscountCreate.Name = "cbo_DiscountCreate";
+            this.cbo_DiscountCreate.Size = new System.Drawing.Size(154, 34);
+            this.cbo_DiscountCreate.TabIndex = 33;
             // 
-            // cbb_NameProductCreate
+            // cbo_NameProductCreate
             // 
-            this.cbb_NameProductCreate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_NameProductCreate.FormattingEnabled = true;
-            this.cbb_NameProductCreate.Location = new System.Drawing.Point(17, 60);
-            this.cbb_NameProductCreate.Name = "cbb_NameProductCreate";
-            this.cbb_NameProductCreate.Size = new System.Drawing.Size(207, 34);
-            this.cbb_NameProductCreate.TabIndex = 33;
+            this.cbo_NameProductCreate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_NameProductCreate.FormattingEnabled = true;
+            this.cbo_NameProductCreate.Location = new System.Drawing.Point(17, 60);
+            this.cbo_NameProductCreate.Name = "cbo_NameProductCreate";
+            this.cbo_NameProductCreate.Size = new System.Drawing.Size(207, 34);
+            this.cbo_NameProductCreate.TabIndex = 33;
+            this.cbo_NameProductCreate.SelectionChangeCommitted += new System.EventHandler(this.cbo_NameProductCreate_SelectionChangeCommitted_1);
             // 
             // num_CountProductCreate
             // 
@@ -592,21 +623,8 @@
             0,
             0,
             0});
-            // 
-            // btn_Add
-            // 
-            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Add.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_Add.IconColor = System.Drawing.Color.Black;
-            this.btn_Add.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Add.ImageIndex = 4;
-            this.btn_Add.ImageList = this.imageList1;
-            this.btn_Add.Location = new System.Drawing.Point(1051, 156);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(79, 64);
-            this.btn_Add.TabIndex = 3;
-            this.btn_Add.UseVisualStyleBackColor = true;
-            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            this.num_CountProductCreate.ValueChanged += new System.EventHandler(this.num_CountProductCreate_ValueChanged);
+            this.num_CountProductCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.num_CountProductCreate_KeyPress);
             // 
             // txt_ProductInWarehouse
             // 
@@ -710,7 +728,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1292, 731);
+            this.ClientSize = new System.Drawing.Size(1219, 731);
             this.Controls.Add(this.tab_HomeInvoiceSelling);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
@@ -736,7 +754,7 @@
 
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button btn_ExportExcel;
-        private System.Windows.Forms.ComboBox cbb_Search;
+        private System.Windows.Forms.ComboBox cbo_Search;
         private FontAwesome.Sharp.IconButton btn_ShowDetailInvoice;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btn_Search;
@@ -765,8 +783,8 @@
         private System.Windows.Forms.ColumnHeader ThanhTien;
         private System.Windows.Forms.GroupBox grpInfo;
         private System.Windows.Forms.TextBox txt_AmountCreate;
-        private System.Windows.Forms.ComboBox cbb_DiscountCreate;
-        private System.Windows.Forms.ComboBox cbb_NameProductCreate;
+        private System.Windows.Forms.ComboBox cbo_DiscountCreate;
+        private System.Windows.Forms.ComboBox cbo_NameProductCreate;
         private System.Windows.Forms.NumericUpDown num_CountProductCreate;
         private FontAwesome.Sharp.IconButton btn_Add;
         private System.Windows.Forms.TextBox txt_PriceCreate;

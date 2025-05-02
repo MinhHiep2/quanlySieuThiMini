@@ -60,6 +60,7 @@
             this.btn_ExportExcel.Size = new System.Drawing.Size(89, 70);
             this.btn_ExportExcel.TabIndex = 39;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click);
             // 
             // imageList1
             // 
@@ -87,6 +88,7 @@
             this.btn_Search.Size = new System.Drawing.Size(67, 49);
             this.btn_Search.TabIndex = 34;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // btn_Refresh
             // 
@@ -101,6 +103,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(86, 70);
             this.btn_Refresh.TabIndex = 33;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // dgv_Accounts
             // 
@@ -129,6 +132,7 @@
             this.dgv_Accounts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_Accounts.Size = new System.Drawing.Size(1178, 615);
             this.dgv_Accounts.TabIndex = 32;
+            this.dgv_Accounts.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Accounts_CellClick);
             // 
             // MaNV
             // 
@@ -183,6 +187,7 @@
             this.btn_ChangePassword.Size = new System.Drawing.Size(94, 70);
             this.btn_ChangePassword.TabIndex = 39;
             this.btn_ChangePassword.UseVisualStyleBackColor = false;
+            this.btn_ChangePassword.Click += new System.EventHandler(this.btn_ChangePassword_Click);
             // 
             // cbb_Search
             // 
@@ -217,13 +222,14 @@
             this.chk_Status.Checked = true;
             this.chk_Status.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk_Status.ForeColor = System.Drawing.SystemColors.Control;
+            this.chk_Status.ForeColor = System.Drawing.Color.Blue;
             this.chk_Status.Location = new System.Drawing.Point(940, 9);
             this.chk_Status.Name = "chk_Status";
             this.chk_Status.Size = new System.Drawing.Size(202, 43);
             this.chk_Status.TabIndex = 41;
             this.chk_Status.Text = "Hoạt Động";
             this.chk_Status.UseVisualStyleBackColor = true;
+            this.chk_Status.CheckedChanged += new System.EventHandler(this.chk_Status_CheckedChanged);
             // 
             // chk_Active
             // 
@@ -231,18 +237,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chk_Active.AutoSize = true;
-            this.chk_Active.ForeColor = System.Drawing.SystemColors.Control;
+            this.chk_Active.ForeColor = System.Drawing.Color.Blue;
             this.chk_Active.Location = new System.Drawing.Point(287, 66);
             this.chk_Active.Name = "chk_Active";
             this.chk_Active.Size = new System.Drawing.Size(156, 33);
             this.chk_Active.TabIndex = 41;
             this.chk_Active.Text = "Trạng Thái";
             this.chk_Active.UseVisualStyleBackColor = true;
+            this.chk_Active.CheckedChanged += new System.EventHandler(this.chk_Active_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(12, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 29);

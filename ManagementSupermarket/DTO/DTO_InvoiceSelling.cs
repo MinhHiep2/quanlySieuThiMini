@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class DTO_InvoiceSelling
+   public class DTO_InvoiceSelling
     {
 
         private string s_IdInvoice;

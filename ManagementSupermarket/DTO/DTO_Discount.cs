@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class DTO_Discount
+    public class DTO_Discount
     {
         private string s_ID;
         private string s_NameDiscount;

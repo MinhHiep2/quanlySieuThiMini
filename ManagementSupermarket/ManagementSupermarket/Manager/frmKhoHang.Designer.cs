@@ -121,6 +121,7 @@
             this.tabPage1.Size = new System.Drawing.Size(1284, 692);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Lập Hoá Đơn Nhập Kho";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // grpInfo
             // 
@@ -188,6 +189,7 @@
             this.cbb_NameSupplierCreate.Name = "cbb_NameSupplierCreate";
             this.cbb_NameSupplierCreate.Size = new System.Drawing.Size(240, 34);
             this.cbb_NameSupplierCreate.TabIndex = 41;
+            this.cbb_NameSupplierCreate.SelectedIndexChanged += new System.EventHandler(this.cbb_NameSupplierCreate_SelectedIndexChanged);
             // 
             // groupBox2
             // 
@@ -222,6 +224,7 @@
             this.btn_RefreshCreate.Size = new System.Drawing.Size(79, 64);
             this.btn_RefreshCreate.TabIndex = 38;
             this.btn_RefreshCreate.UseVisualStyleBackColor = true;
+            this.btn_RefreshCreate.Click += new System.EventHandler(this.btn_RefreshCreate_Click);
             // 
             // imageList1
             // 
@@ -241,6 +244,7 @@
             this.num_CountProductCreate.Size = new System.Drawing.Size(148, 32);
             this.num_CountProductCreate.TabIndex = 16;
             this.num_CountProductCreate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.num_CountProductCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.num_CountProductCreate_KeyPress);
             // 
             // btn_DeleteCreate
             // 
@@ -255,6 +259,7 @@
             this.btn_DeleteCreate.Size = new System.Drawing.Size(79, 64);
             this.btn_DeleteCreate.TabIndex = 35;
             this.btn_DeleteCreate.UseVisualStyleBackColor = true;
+            this.btn_DeleteCreate.Click += new System.EventHandler(this.btn_DeleteCreate_Click);
             // 
             // btn_AddCreate
             // 
@@ -269,6 +274,7 @@
             this.btn_AddCreate.Size = new System.Drawing.Size(92, 68);
             this.btn_AddCreate.TabIndex = 3;
             this.btn_AddCreate.UseVisualStyleBackColor = true;
+            this.btn_AddCreate.Click += new System.EventHandler(this.btn_AddCreate_Click);
             // 
             // txt_IntoMoney
             // 
@@ -358,6 +364,7 @@
             this.btn_AlterCreate.Size = new System.Drawing.Size(79, 64);
             this.btn_AlterCreate.TabIndex = 22;
             this.btn_AlterCreate.UseVisualStyleBackColor = true;
+            this.btn_AlterCreate.Click += new System.EventHandler(this.btn_AlterCreate_Click);
             // 
             // btn_Finish
             // 
@@ -373,6 +380,7 @@
             this.btn_Finish.Text = "Tính Tiền";
             this.btn_Finish.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Finish.UseVisualStyleBackColor = false;
+            this.btn_Finish.Click += new System.EventHandler(this.btn_Finish_Click);
             // 
             // lst_ToReceive
             // 
@@ -393,6 +401,7 @@
             this.lst_ToReceive.TabIndex = 34;
             this.lst_ToReceive.UseCompatibleStateImageBehavior = false;
             this.lst_ToReceive.View = System.Windows.Forms.View.Details;
+            this.lst_ToReceive.Click += new System.EventHandler(this.lst_ToReceive_Click);
             // 
             // columnHeader7
             // 
@@ -458,11 +467,12 @@
             this.btn_ExportExcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ExportExcel.ImageIndex = 4;
             this.btn_ExportExcel.ImageList = this.imageList1;
-            this.btn_ExportExcel.Location = new System.Drawing.Point(144, 245);
+            this.btn_ExportExcel.Location = new System.Drawing.Point(204, 230);
             this.btn_ExportExcel.Name = "btn_ExportExcel";
-            this.btn_ExportExcel.Size = new System.Drawing.Size(60, 55);
+            this.btn_ExportExcel.Size = new System.Drawing.Size(66, 68);
             this.btn_ExportExcel.TabIndex = 39;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click);
             // 
             // cbb_SearchRole
             // 
@@ -492,6 +502,7 @@
             this.btn_SeeDetailWarehouse.Text = "Xem Chi Tiết Hóa Đơn";
             this.btn_SeeDetailWarehouse.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_SeeDetailWarehouse.UseVisualStyleBackColor = false;
+            this.btn_SeeDetailWarehouse.Click += new System.EventHandler(this.btn_SeeDetailWarehouse_Click);
             // 
             // btn_Refresh
             // 
@@ -501,11 +512,12 @@
             this.btn_Refresh.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Refresh.ImageIndex = 2;
             this.btn_Refresh.ImageList = this.imageList1;
-            this.btn_Refresh.Location = new System.Drawing.Point(83, 246);
+            this.btn_Refresh.Location = new System.Drawing.Point(122, 230);
             this.btn_Refresh.Name = "btn_Refresh";
-            this.btn_Refresh.Size = new System.Drawing.Size(55, 55);
+            this.btn_Refresh.Size = new System.Drawing.Size(76, 68);
             this.btn_Refresh.TabIndex = 19;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Delete
             // 
@@ -515,11 +527,12 @@
             this.btn_Delete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Delete.ImageIndex = 0;
             this.btn_Delete.ImageList = this.imageList1;
-            this.btn_Delete.Location = new System.Drawing.Point(24, 247);
+            this.btn_Delete.Location = new System.Drawing.Point(40, 230);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(55, 55);
+            this.btn_Delete.Size = new System.Drawing.Size(76, 68);
             this.btn_Delete.TabIndex = 18;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // txt_SearchOrderToReceive
             // 
@@ -544,6 +557,7 @@
             this.btn_SearchOrderToReceive.Size = new System.Drawing.Size(65, 48);
             this.btn_SearchOrderToReceive.TabIndex = 16;
             this.btn_SearchOrderToReceive.UseVisualStyleBackColor = true;
+            this.btn_SearchOrderToReceive.Click += new System.EventHandler(this.btn_SearchOrderToReceive_Click);
             // 
             // dgv_ListOrder
             // 
@@ -569,6 +583,7 @@
             this.dgv_ListOrder.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ListOrder.Size = new System.Drawing.Size(1175, 370);
             this.dgv_ListOrder.TabIndex = 23;
+            this.dgv_ListOrder.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListOrder_CellClick);
             // 
             // MaNK
             // 
@@ -645,10 +660,11 @@
             this.cbb_NameSuplier.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cbb_NameSuplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_NameSuplier.FormattingEnabled = true;
-            this.cbb_NameSuplier.Location = new System.Drawing.Point(60, 160);
+            this.cbb_NameSuplier.Location = new System.Drawing.Point(82, 160);
             this.cbb_NameSuplier.Name = "cbb_NameSuplier";
             this.cbb_NameSuplier.Size = new System.Drawing.Size(240, 34);
             this.cbb_NameSuplier.TabIndex = 28;
+            this.cbb_NameSuplier.SelectionChangeCommitted += new System.EventHandler(this.cbb_NameSuplier_SelectionChangeCommitted);
             // 
             // txt_TotalCash
             // 
@@ -744,6 +760,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmKhoHang";
             this.Text = "Kho Hàng";
+            this.Load += new System.EventHandler(this.frmKhoHang_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

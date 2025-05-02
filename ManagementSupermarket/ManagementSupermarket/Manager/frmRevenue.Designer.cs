@@ -49,6 +49,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_MoneyImort = new System.Windows.Forms.Label();
+            this.btn_Revenue = new FontAwesome.Sharp.IconButton();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbb_Criteria
@@ -62,11 +65,12 @@
             "Tháng",
             "Quý",
             "Năm"});
-            this.cbb_Criteria.Location = new System.Drawing.Point(745, 16);
+            this.cbb_Criteria.Location = new System.Drawing.Point(712, 16);
             this.cbb_Criteria.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.cbb_Criteria.Name = "cbb_Criteria";
-            this.cbb_Criteria.Size = new System.Drawing.Size(202, 37);
+            this.cbb_Criteria.Size = new System.Drawing.Size(235, 37);
             this.cbb_Criteria.TabIndex = 1;
+            this.cbb_Criteria.SelectedIndexChanged += new System.EventHandler(this.cbb_Criteria_SelectedIndexChanged);
             // 
             // dtp_Revenue
             // 
@@ -77,6 +81,7 @@
             this.dtp_Revenue.Name = "dtp_Revenue";
             this.dtp_Revenue.Size = new System.Drawing.Size(204, 36);
             this.dtp_Revenue.TabIndex = 2;
+            this.dtp_Revenue.ValueChanged += new System.EventHandler(this.dtp_Revenue_ValueChanged);
             // 
             // iconButton1
             // 
@@ -286,7 +291,7 @@
             this.lbl_MoneySell.AutoSize = true;
             this.lbl_MoneySell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lbl_MoneySell.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_MoneySell.Location = new System.Drawing.Point(212, 627);
+            this.lbl_MoneySell.Location = new System.Drawing.Point(212, 640);
             this.lbl_MoneySell.Name = "lbl_MoneySell";
             this.lbl_MoneySell.Size = new System.Drawing.Size(40, 42);
             this.lbl_MoneySell.TabIndex = 12;
@@ -304,9 +309,9 @@
             this.iconButton9.Location = new System.Drawing.Point(97, 590);
             this.iconButton9.Name = "iconButton9";
             this.iconButton9.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.iconButton9.Size = new System.Drawing.Size(1066, 156);
+            this.iconButton9.Size = new System.Drawing.Size(555, 156);
             this.iconButton9.TabIndex = 13;
-            this.iconButton9.Text = "TỔNG DOANH THU CỦA CỬA HÀNG";
+            this.iconButton9.Text = "TỔNG BÁN VÀ NHẬP";
             this.iconButton9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.iconButton9.UseVisualStyleBackColor = false;
             // 
@@ -315,7 +320,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(126, 633);
+            this.label1.Location = new System.Drawing.Point(126, 646);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 36);
             this.label1.TabIndex = 14;
@@ -326,7 +331,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(107, 679);
+            this.label2.Location = new System.Drawing.Point(107, 692);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 36);
             this.label2.TabIndex = 14;
@@ -337,11 +342,51 @@
             this.lbl_MoneyImort.AutoSize = true;
             this.lbl_MoneyImort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lbl_MoneyImort.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_MoneyImort.Location = new System.Drawing.Point(212, 673);
+            this.lbl_MoneyImort.Location = new System.Drawing.Point(212, 686);
             this.lbl_MoneyImort.Name = "lbl_MoneyImort";
             this.lbl_MoneyImort.Size = new System.Drawing.Size(40, 42);
             this.lbl_MoneyImort.TabIndex = 12;
             this.lbl_MoneyImort.Text = "0";
+            // 
+            // btn_Revenue
+            // 
+            this.btn_Revenue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_Revenue.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Revenue.IconChar = FontAwesome.Sharp.IconChar.DollarSign;
+            this.btn_Revenue.IconColor = System.Drawing.Color.Black;
+            this.btn_Revenue.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Revenue.IconSize = 100;
+            this.btn_Revenue.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.btn_Revenue.Location = new System.Drawing.Point(658, 590);
+            this.btn_Revenue.Name = "btn_Revenue";
+            this.btn_Revenue.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btn_Revenue.Size = new System.Drawing.Size(505, 156);
+            this.btn_Revenue.TabIndex = 13;
+            this.btn_Revenue.Text = "TỔNG DOANH THU";
+            this.btn_Revenue.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_Revenue.UseVisualStyleBackColor = false;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(894, 686);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(40, 42);
+            this.lblTotal.TabIndex = 12;
+            this.lblTotal.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(678, 692);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(180, 36);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Doanh thu: ";
             // 
             // frm_Revenue
             // 
@@ -349,6 +394,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1274, 773);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_ProductImport);
@@ -357,6 +403,7 @@
             this.Controls.Add(this.lbl_ProductSell);
             this.Controls.Add(this.lbl_Supplier);
             this.Controls.Add(this.lbl_Import);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lbl_MoneyImort);
             this.Controls.Add(this.lbl_MoneySell);
             this.Controls.Add(this.lbl_Sell);
@@ -369,11 +416,13 @@
             this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.dtp_Revenue);
             this.Controls.Add(this.cbb_Criteria);
+            this.Controls.Add(this.btn_Revenue);
             this.Controls.Add(this.iconButton9);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "frm_Revenue";
             this.Text = "Revenue";
+            this.Load += new System.EventHandler(this.frm_Revenue_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -401,5 +450,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_MoneyImort;
+        private FontAwesome.Sharp.IconButton btn_Revenue;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label label3;
     }
 }

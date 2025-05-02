@@ -115,6 +115,7 @@
             this.dgv_ListEmployee.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ListEmployee.Size = new System.Drawing.Size(1165, 373);
             this.dgv_ListEmployee.TabIndex = 1;
+            this.dgv_ListEmployee.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListEmployee_CellClick);
             // 
             // MaNV
             // 
@@ -192,7 +193,7 @@
             // 
             this.txt_Search.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Search.Location = new System.Drawing.Point(773, 294);
+            this.txt_Search.Location = new System.Drawing.Point(851, 294);
             this.txt_Search.Name = "txt_Search";
             this.txt_Search.Size = new System.Drawing.Size(222, 45);
             this.txt_Search.TabIndex = 7;
@@ -202,7 +203,7 @@
             this.cbb_SearchRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_SearchRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_SearchRole.FormattingEnabled = true;
-            this.cbb_SearchRole.Location = new System.Drawing.Point(656, 294);
+            this.cbb_SearchRole.Location = new System.Drawing.Point(734, 294);
             this.cbb_SearchRole.Name = "cbb_SearchRole";
             this.cbb_SearchRole.Size = new System.Drawing.Size(111, 46);
             this.cbb_SearchRole.TabIndex = 8;
@@ -454,6 +455,7 @@
             this.grpInfo.TabIndex = 0;
             this.grpInfo.TabStop = false;
             this.grpInfo.Text = "Thông tin";
+            this.grpInfo.Enter += new System.EventHandler(this.grpInfo_Enter);
             // 
             // pic_Avatar
             // 
@@ -500,23 +502,25 @@
             this.chk_EmployeeStatus.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_EmployeeStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk_EmployeeStatus.ForeColor = System.Drawing.Color.Blue;
-            this.chk_EmployeeStatus.Location = new System.Drawing.Point(15, 310);
+            this.chk_EmployeeStatus.Location = new System.Drawing.Point(15, 294);
             this.chk_EmployeeStatus.Name = "chk_EmployeeStatus";
-            this.chk_EmployeeStatus.Size = new System.Drawing.Size(193, 24);
+            this.chk_EmployeeStatus.Size = new System.Drawing.Size(188, 24);
             this.chk_EmployeeStatus.TabIndex = 27;
-            this.chk_EmployeeStatus.Text = "Nhân Viên Hoạt Động";
+            this.chk_EmployeeStatus.Text = "Nhân ViênHoạt Động";
             this.chk_EmployeeStatus.UseVisualStyleBackColor = true;
+            this.chk_EmployeeStatus.CheckedChanged += new System.EventHandler(this.chk_EmployeeStatus_CheckedChanged);
             // 
             // btn_ExportExcel
             // 
             this.btn_ExportExcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ExportExcel.ImageIndex = 2;
             this.btn_ExportExcel.ImageList = this.imageList1;
-            this.btn_ExportExcel.Location = new System.Drawing.Point(452, 276);
+            this.btn_ExportExcel.Location = new System.Drawing.Point(530, 276);
             this.btn_ExportExcel.Name = "btn_ExportExcel";
             this.btn_ExportExcel.Size = new System.Drawing.Size(82, 64);
             this.btn_ExportExcel.TabIndex = 28;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click);
             // 
             // imageList1
             // 
@@ -537,11 +541,12 @@
             this.btn_Refresh.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Refresh.ImageIndex = 4;
             this.btn_Refresh.ImageList = this.imageList1;
-            this.btn_Refresh.Location = new System.Drawing.Point(554, 276);
+            this.btn_Refresh.Location = new System.Drawing.Point(632, 276);
             this.btn_Refresh.Name = "btn_Refresh";
             this.btn_Refresh.Size = new System.Drawing.Size(79, 64);
             this.btn_Refresh.TabIndex = 5;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Delete
             // 
@@ -551,11 +556,12 @@
             this.btn_Delete.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Delete.ImageIndex = 0;
             this.btn_Delete.ImageList = this.imageList1;
-            this.btn_Delete.Location = new System.Drawing.Point(367, 276);
+            this.btn_Delete.Location = new System.Drawing.Point(445, 276);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(79, 64);
             this.btn_Delete.TabIndex = 4;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Alter
             // 
@@ -565,11 +571,12 @@
             this.btn_Alter.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Alter.ImageIndex = 1;
             this.btn_Alter.ImageList = this.imageList1;
-            this.btn_Alter.Location = new System.Drawing.Point(284, 276);
+            this.btn_Alter.Location = new System.Drawing.Point(362, 276);
             this.btn_Alter.Name = "btn_Alter";
             this.btn_Alter.Size = new System.Drawing.Size(79, 64);
             this.btn_Alter.TabIndex = 3;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // btn_Add
             // 
@@ -579,11 +586,12 @@
             this.btn_Add.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Add.ImageIndex = 5;
             this.btn_Add.ImageList = this.imageList1;
-            this.btn_Add.Location = new System.Drawing.Point(199, 276);
+            this.btn_Add.Location = new System.Drawing.Point(277, 276);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(79, 64);
             this.btn_Add.TabIndex = 2;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // iconDropDownButton1
             // 
@@ -602,11 +610,12 @@
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.ImageIndex = 3;
             this.iconButton1.ImageList = this.imageList1;
-            this.iconButton1.Location = new System.Drawing.Point(1001, 276);
+            this.iconButton1.Location = new System.Drawing.Point(1079, 276);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(79, 64);
             this.iconButton1.TabIndex = 5;
             this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // frmManagementEmployees
             // 
@@ -635,6 +644,7 @@
             this.Name = "frmManagementEmployees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmManagementEmployee";
+            this.Load += new System.EventHandler(this.frmManagementEmployees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListEmployee)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
