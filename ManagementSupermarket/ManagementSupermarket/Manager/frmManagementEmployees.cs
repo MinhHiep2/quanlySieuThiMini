@@ -18,6 +18,12 @@ namespace ManagementSupermarket
 {
     public partial class frmManagementEmployees : Form
     {
-        
+        public frmManagementEmployees()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
 }

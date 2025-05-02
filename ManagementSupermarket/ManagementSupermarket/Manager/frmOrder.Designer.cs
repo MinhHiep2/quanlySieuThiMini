@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrder));
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_ExportPDF = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btn_ExportExcel = new System.Windows.Forms.Button();
             this.cbb_Search = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
@@ -43,16 +45,22 @@
             this.TongTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TienKhachDua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TienTraKhach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_ShowDetailInvoice = new FontAwesome.Sharp.IconButton();
+            this.btn_Refresh = new FontAwesome.Sharp.IconButton();
             this.tab_FormCreateInvoice = new System.Windows.Forms.TabPage();
             this.chk_PhoneCustomer = new System.Windows.Forms.CheckBox();
             this.lbl_ErrorPhone = new System.Windows.Forms.Label();
             this.lbl_ErrorCashCustomer = new System.Windows.Forms.Label();
+            this.btn_RefreshCreate = new FontAwesome.Sharp.IconButton();
             this.txt_ChangeCreate = new System.Windows.Forms.TextBox();
             this.txt_PhoneCustomerCreate = new System.Windows.Forms.TextBox();
             this.txt_CashCustomerCreate = new System.Windows.Forms.TextBox();
             this.txt_TotalCashCreate = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_FinishOrder = new FontAwesome.Sharp.IconButton();
+            this.btn_Alter = new FontAwesome.Sharp.IconButton();
+            this.btn_Delete = new FontAwesome.Sharp.IconButton();
             this.lst_OrderCurrency = new System.Windows.Forms.ListView();
             this.MaSP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TenSP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -66,6 +74,7 @@
             this.cbb_DiscountCreate = new System.Windows.Forms.ComboBox();
             this.cbb_NameProductCreate = new System.Windows.Forms.ComboBox();
             this.num_CountProductCreate = new System.Windows.Forms.NumericUpDown();
+            this.btn_Add = new FontAwesome.Sharp.IconButton();
             this.txt_ProductInWarehouse = new System.Windows.Forms.TextBox();
             this.txt_PriceCreate = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -75,15 +84,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tab_HomeInvoiceSelling = new System.Windows.Forms.TabControl();
-            this.btn_RefreshCreate = new FontAwesome.Sharp.IconButton();
-            this.btn_FinishOrder = new FontAwesome.Sharp.IconButton();
-            this.btn_Alter = new FontAwesome.Sharp.IconButton();
-            this.btn_Delete = new FontAwesome.Sharp.IconButton();
-            this.btn_Add = new FontAwesome.Sharp.IconButton();
-            this.btn_ExportPDF = new System.Windows.Forms.Button();
-            this.btn_ShowDetailInvoice = new FontAwesome.Sharp.IconButton();
-            this.btn_Refresh = new FontAwesome.Sharp.IconButton();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_InvoiceSelling)).BeginInit();
             this.tab_FormCreateInvoice.SuspendLayout();
@@ -107,9 +107,32 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 35);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1284, 692);
+            this.tabPage2.Size = new System.Drawing.Size(1200, 698);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Danh Sách Hoá Đơn";
+            // 
+            // btn_ExportPDF
+            // 
+            this.btn_ExportPDF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_ExportPDF.ImageIndex = 5;
+            this.btn_ExportPDF.ImageList = this.imageList1;
+            this.btn_ExportPDF.Location = new System.Drawing.Point(539, 43);
+            this.btn_ExportPDF.Name = "btn_ExportPDF";
+            this.btn_ExportPDF.Size = new System.Drawing.Size(98, 70);
+            this.btn_ExportPDF.TabIndex = 31;
+            this.btn_ExportPDF.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "delete.png");
+            this.imageList1.Images.SetKeyName(1, "edit.png");
+            this.imageList1.Images.SetKeyName(2, "kinhlup.png");
+            this.imageList1.Images.SetKeyName(3, "loading-arrow.png");
+            this.imageList1.Images.SetKeyName(4, "plus.png");
+            this.imageList1.Images.SetKeyName(5, "download.png");
+            this.imageList1.Images.SetKeyName(6, "export.png");
             // 
             // btn_ExportExcel
             // 
@@ -121,22 +144,21 @@
             this.btn_ExportExcel.Size = new System.Drawing.Size(98, 70);
             this.btn_ExportExcel.TabIndex = 31;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
-         //   this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click_1);
             // 
             // cbb_Search
             // 
             this.cbb_Search.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.cbb_Search.FormattingEnabled = true;
-            this.cbb_Search.Location = new System.Drawing.Point(748, 69);
+            this.cbb_Search.Location = new System.Drawing.Point(670, 69);
             this.cbb_Search.Name = "cbb_Search";
-            this.cbb_Search.Size = new System.Drawing.Size(235, 37);
+            this.cbb_Search.Size = new System.Drawing.Size(153, 37);
             this.cbb_Search.TabIndex = 23;
             // 
             // txtSearch
             // 
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txtSearch.Location = new System.Drawing.Point(989, 69);
+            this.txtSearch.Location = new System.Drawing.Point(829, 71);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(189, 36);
             this.txtSearch.TabIndex = 21;
@@ -146,12 +168,11 @@
             this.btn_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_Search.ImageIndex = 2;
             this.btn_Search.ImageList = this.imageList1;
-            this.btn_Search.Location = new System.Drawing.Point(1184, 55);
+            this.btn_Search.Location = new System.Drawing.Point(1024, 57);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(67, 50);
             this.btn_Search.TabIndex = 20;
             this.btn_Search.UseVisualStyleBackColor = true;
-        //    this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // dgv_InvoiceSelling
             // 
@@ -178,7 +199,7 @@
             this.dgv_InvoiceSelling.RowHeadersWidth = 51;
             this.dgv_InvoiceSelling.RowTemplate.Height = 24;
             this.dgv_InvoiceSelling.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_InvoiceSelling.Size = new System.Drawing.Size(1271, 603);
+            this.dgv_InvoiceSelling.Size = new System.Drawing.Size(1118, 609);
             this.dgv_InvoiceSelling.TabIndex = 5;
             // 
             // MaHD
@@ -237,6 +258,34 @@
             this.TienTraKhach.Name = "TienTraKhach";
             this.TienTraKhach.ReadOnly = true;
             // 
+            // btn_ShowDetailInvoice
+            // 
+            this.btn_ShowDetailInvoice.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.btn_ShowDetailInvoice.IconColor = System.Drawing.Color.Black;
+            this.btn_ShowDetailInvoice.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btn_ShowDetailInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_ShowDetailInvoice.Location = new System.Drawing.Point(10, 55);
+            this.btn_ShowDetailInvoice.Name = "btn_ShowDetailInvoice";
+            this.btn_ShowDetailInvoice.Size = new System.Drawing.Size(281, 52);
+            this.btn_ShowDetailInvoice.TabIndex = 22;
+            this.btn_ShowDetailInvoice.Text = "Xem Chi Tiết Hoá Đơn";
+            this.btn_ShowDetailInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_ShowDetailInvoice.UseVisualStyleBackColor = true;
+            // 
+            // btn_Refresh
+            // 
+            this.btn_Refresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Refresh.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_Refresh.IconColor = System.Drawing.Color.Black;
+            this.btn_Refresh.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Refresh.ImageIndex = 3;
+            this.btn_Refresh.ImageList = this.imageList1;
+            this.btn_Refresh.Location = new System.Drawing.Point(307, 43);
+            this.btn_Refresh.Name = "btn_Refresh";
+            this.btn_Refresh.Size = new System.Drawing.Size(95, 71);
+            this.btn_Refresh.TabIndex = 19;
+            this.btn_Refresh.UseVisualStyleBackColor = true;
+            // 
             // tab_FormCreateInvoice
             // 
             this.tab_FormCreateInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -244,6 +293,7 @@
             this.tab_FormCreateInvoice.Controls.Add(this.lbl_ErrorPhone);
             this.tab_FormCreateInvoice.Controls.Add(this.lbl_ErrorCashCustomer);
             this.tab_FormCreateInvoice.Controls.Add(this.btn_RefreshCreate);
+            this.tab_FormCreateInvoice.Controls.Add(this.btn_Add);
             this.tab_FormCreateInvoice.Controls.Add(this.txt_ChangeCreate);
             this.tab_FormCreateInvoice.Controls.Add(this.txt_PhoneCustomerCreate);
             this.tab_FormCreateInvoice.Controls.Add(this.txt_CashCustomerCreate);
@@ -258,9 +308,10 @@
             this.tab_FormCreateInvoice.Location = new System.Drawing.Point(4, 35);
             this.tab_FormCreateInvoice.Name = "tab_FormCreateInvoice";
             this.tab_FormCreateInvoice.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_FormCreateInvoice.Size = new System.Drawing.Size(1284, 692);
+            this.tab_FormCreateInvoice.Size = new System.Drawing.Size(1200, 698);
             this.tab_FormCreateInvoice.TabIndex = 0;
             this.tab_FormCreateInvoice.Text = "Lập Hoá Đơn";
+            this.tab_FormCreateInvoice.Click += new System.EventHandler(this.tab_FormCreateInvoice_Click);
             // 
             // chk_PhoneCustomer
             // 
@@ -274,7 +325,6 @@
             this.chk_PhoneCustomer.TabIndex = 34;
             this.chk_PhoneCustomer.Text = "Số Điện Thoại Khách Hàng";
             this.chk_PhoneCustomer.UseVisualStyleBackColor = false;
-      //      this.chk_PhoneCustomer.CheckedChanged += new System.EventHandler(this.chk_PhoneCustomer_CheckedChanged);
             // 
             // lbl_ErrorPhone
             // 
@@ -298,6 +348,20 @@
             this.lbl_ErrorCashCustomer.Text = "label18";
             this.lbl_ErrorCashCustomer.Visible = false;
             // 
+            // btn_RefreshCreate
+            // 
+            this.btn_RefreshCreate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_RefreshCreate.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_RefreshCreate.IconColor = System.Drawing.Color.Black;
+            this.btn_RefreshCreate.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_RefreshCreate.ImageIndex = 3;
+            this.btn_RefreshCreate.ImageList = this.imageList1;
+            this.btn_RefreshCreate.Location = new System.Drawing.Point(280, 153);
+            this.btn_RefreshCreate.Name = "btn_RefreshCreate";
+            this.btn_RefreshCreate.Size = new System.Drawing.Size(79, 64);
+            this.btn_RefreshCreate.TabIndex = 26;
+            this.btn_RefreshCreate.UseVisualStyleBackColor = true;
+            // 
             // txt_ChangeCreate
             // 
             this.txt_ChangeCreate.BackColor = System.Drawing.SystemColors.AppWorkspace;
@@ -320,7 +384,6 @@
             this.txt_PhoneCustomerCreate.Name = "txt_PhoneCustomerCreate";
             this.txt_PhoneCustomerCreate.Size = new System.Drawing.Size(273, 45);
             this.txt_PhoneCustomerCreate.TabIndex = 31;
-        //    this.txt_PhoneCustomerCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_PhoneCustomerCreate_KeyPress);
             // 
             // txt_CashCustomerCreate
             // 
@@ -330,16 +393,14 @@
             this.txt_CashCustomerCreate.Name = "txt_CashCustomerCreate";
             this.txt_CashCustomerCreate.Size = new System.Drawing.Size(273, 45);
             this.txt_CashCustomerCreate.TabIndex = 32;
-        //    this.txt_CashCustomerCreate.TextChanged += new System.EventHandler(this.txt_CashCustomerCreate_TextChanged);
-        //    this.txt_CashCustomerCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_CashCustomerCreate_KeyPress);
             // 
             // txt_TotalCashCreate
             // 
             this.txt_TotalCashCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-            this.txt_TotalCashCreate.Location = new System.Drawing.Point(717, 619);
+            this.txt_TotalCashCreate.Location = new System.Drawing.Point(717, 621);
             this.txt_TotalCashCreate.Name = "txt_TotalCashCreate";
             this.txt_TotalCashCreate.ReadOnly = true;
-            this.txt_TotalCashCreate.Size = new System.Drawing.Size(366, 68);
+            this.txt_TotalCashCreate.Size = new System.Drawing.Size(283, 68);
             this.txt_TotalCashCreate.TabIndex = 25;
             this.txt_TotalCashCreate.Text = "0";
             // 
@@ -367,6 +428,49 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "Tiền Khách Đưa";
             // 
+            // btn_FinishOrder
+            // 
+            this.btn_FinishOrder.BackColor = System.Drawing.Color.Transparent;
+            this.btn_FinishOrder.IconChar = FontAwesome.Sharp.IconChar.SackDollar;
+            this.btn_FinishOrder.IconColor = System.Drawing.Color.Black;
+            this.btn_FinishOrder.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_FinishOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_FinishOrder.Location = new System.Drawing.Point(1006, 619);
+            this.btn_FinishOrder.Name = "btn_FinishOrder";
+            this.btn_FinishOrder.Size = new System.Drawing.Size(188, 67);
+            this.btn_FinishOrder.TabIndex = 24;
+            this.btn_FinishOrder.Text = "Tổng Tiền";
+            this.btn_FinishOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_FinishOrder.UseVisualStyleBackColor = false;
+            // 
+            // btn_Alter
+            // 
+            this.btn_Alter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Alter.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_Alter.IconColor = System.Drawing.Color.Black;
+            this.btn_Alter.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Alter.ImageIndex = 1;
+            this.btn_Alter.ImageList = this.imageList1;
+            this.btn_Alter.Location = new System.Drawing.Point(18, 156);
+            this.btn_Alter.Name = "btn_Alter";
+            this.btn_Alter.Size = new System.Drawing.Size(85, 59);
+            this.btn_Alter.TabIndex = 22;
+            this.btn_Alter.UseVisualStyleBackColor = true;
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Delete.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_Delete.IconColor = System.Drawing.Color.Black;
+            this.btn_Delete.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Delete.ImageIndex = 0;
+            this.btn_Delete.ImageList = this.imageList1;
+            this.btn_Delete.Location = new System.Drawing.Point(147, 156);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(81, 59);
+            this.btn_Delete.TabIndex = 23;
+            this.btn_Delete.UseVisualStyleBackColor = true;
+            // 
             // lst_OrderCurrency
             // 
             this.lst_OrderCurrency.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -388,7 +492,6 @@
             this.lst_OrderCurrency.TabIndex = 21;
             this.lst_OrderCurrency.UseCompatibleStateImageBehavior = false;
             this.lst_OrderCurrency.View = System.Windows.Forms.View.Details;
-         //   this.lst_OrderCurrency.Click += new System.EventHandler(this.lst_OrderCurrency_Click);
             // 
             // MaSP
             // 
@@ -432,7 +535,6 @@
             this.grpInfo.Controls.Add(this.cbb_DiscountCreate);
             this.grpInfo.Controls.Add(this.cbb_NameProductCreate);
             this.grpInfo.Controls.Add(this.num_CountProductCreate);
-            this.grpInfo.Controls.Add(this.btn_Add);
             this.grpInfo.Controls.Add(this.txt_ProductInWarehouse);
             this.grpInfo.Controls.Add(this.txt_PriceCreate);
             this.grpInfo.Controls.Add(this.label6);
@@ -477,7 +579,6 @@
             this.cbb_NameProductCreate.Name = "cbb_NameProductCreate";
             this.cbb_NameProductCreate.Size = new System.Drawing.Size(207, 34);
             this.cbb_NameProductCreate.TabIndex = 33;
-        //   this.cbb_NameProductCreate.SelectionChangeCommitted += new System.EventHandler(this.cbb_NameProductCreate_SelectionChangeCommitted);
             // 
             // num_CountProductCreate
             // 
@@ -491,8 +592,21 @@
             0,
             0,
             0});
-   //         this.num_CountProductCreate.ValueChanged += new System.EventHandler(this.num_CountProductCreate_ValueChanged);
-     //       this.num_CountProductCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.num_CountProductCreate_KeyPress);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Add.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btn_Add.IconColor = System.Drawing.Color.Black;
+            this.btn_Add.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_Add.ImageIndex = 4;
+            this.btn_Add.ImageList = this.imageList1;
+            this.btn_Add.Location = new System.Drawing.Point(1051, 156);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(79, 64);
+            this.btn_Add.TabIndex = 3;
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // txt_ProductInWarehouse
             // 
@@ -515,7 +629,6 @@
             this.txt_PriceCreate.Size = new System.Drawing.Size(139, 32);
             this.txt_PriceCreate.TabIndex = 14;
             this.txt_PriceCreate.Text = " 0";
-          //  this.txt_PriceCreate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_CashCustomerCreate_KeyPress);
             // 
             // label6
             // 
@@ -590,137 +703,8 @@
             this.tab_HomeInvoiceSelling.Location = new System.Drawing.Point(-1, -2);
             this.tab_HomeInvoiceSelling.Name = "tab_HomeInvoiceSelling";
             this.tab_HomeInvoiceSelling.SelectedIndex = 0;
-            this.tab_HomeInvoiceSelling.Size = new System.Drawing.Size(1292, 731);
+            this.tab_HomeInvoiceSelling.Size = new System.Drawing.Size(1208, 737);
             this.tab_HomeInvoiceSelling.TabIndex = 0;
-            // 
-            // btn_RefreshCreate
-            // 
-            this.btn_RefreshCreate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_RefreshCreate.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_RefreshCreate.IconColor = System.Drawing.Color.Black;
-            this.btn_RefreshCreate.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_RefreshCreate.ImageIndex = 3;
-            this.btn_RefreshCreate.ImageList = this.imageList1;
-            this.btn_RefreshCreate.Location = new System.Drawing.Point(280, 153);
-            this.btn_RefreshCreate.Name = "btn_RefreshCreate";
-            this.btn_RefreshCreate.Size = new System.Drawing.Size(79, 64);
-            this.btn_RefreshCreate.TabIndex = 26;
-            this.btn_RefreshCreate.UseVisualStyleBackColor = true;
-    //        this.btn_RefreshCreate.Click += new System.EventHandler(this.btn_RefreshCreate_Click);
-            // 
-            // btn_FinishOrder
-            // 
-            this.btn_FinishOrder.BackColor = System.Drawing.Color.Transparent;
-            this.btn_FinishOrder.IconChar = FontAwesome.Sharp.IconChar.SackDollar;
-            this.btn_FinishOrder.IconColor = System.Drawing.Color.Black;
-            this.btn_FinishOrder.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_FinishOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_FinishOrder.Location = new System.Drawing.Point(1089, 619);
-            this.btn_FinishOrder.Name = "btn_FinishOrder";
-            this.btn_FinishOrder.Size = new System.Drawing.Size(188, 67);
-            this.btn_FinishOrder.TabIndex = 24;
-            this.btn_FinishOrder.Text = "Tổng Tiền";
-            this.btn_FinishOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_FinishOrder.UseVisualStyleBackColor = false;
-         //   this.btn_FinishOrder.Click += new System.EventHandler(this.btn_FinishOrder_Click);
-            // 
-            // btn_Alter
-            // 
-            this.btn_Alter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Alter.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_Alter.IconColor = System.Drawing.Color.Black;
-            this.btn_Alter.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Alter.ImageIndex = 1;
-            this.btn_Alter.ImageList = this.imageList1;
-            this.btn_Alter.Location = new System.Drawing.Point(18, 156);
-            this.btn_Alter.Name = "btn_Alter";
-            this.btn_Alter.Size = new System.Drawing.Size(85, 59);
-            this.btn_Alter.TabIndex = 22;
-            this.btn_Alter.UseVisualStyleBackColor = true;
-//            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
-            // 
-            // btn_Delete
-            // 
-            this.btn_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Delete.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_Delete.IconColor = System.Drawing.Color.Black;
-            this.btn_Delete.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Delete.ImageIndex = 0;
-            this.btn_Delete.ImageList = this.imageList1;
-            this.btn_Delete.Location = new System.Drawing.Point(147, 156);
-            this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(81, 59);
-            this.btn_Delete.TabIndex = 23;
-            this.btn_Delete.UseVisualStyleBackColor = true;
-//            // 
-            // btn_Add
-            // 
-            this.btn_Add.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Add.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_Add.IconColor = System.Drawing.Color.Black;
-            this.btn_Add.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Add.ImageIndex = 4;
-            this.btn_Add.ImageList = this.imageList1;
-            this.btn_Add.Location = new System.Drawing.Point(1157, 42);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(79, 64);
-            this.btn_Add.TabIndex = 3;
-            this.btn_Add.UseVisualStyleBackColor = true;
- //           this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
-            // 
-            // btn_ExportPDF
-            // 
-            this.btn_ExportPDF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_ExportPDF.ImageIndex = 5;
-            this.btn_ExportPDF.ImageList = this.imageList1;
-            this.btn_ExportPDF.Location = new System.Drawing.Point(539, 43);
-            this.btn_ExportPDF.Name = "btn_ExportPDF";
-            this.btn_ExportPDF.Size = new System.Drawing.Size(98, 70);
-            this.btn_ExportPDF.TabIndex = 31;
-            this.btn_ExportPDF.UseVisualStyleBackColor = true;
-      //      this.btn_ExportPDF.Click += new System.EventHandler(this.btn_ExportPDF_Click);
-            // 
-            // btn_ShowDetailInvoice
-            // 
-            this.btn_ShowDetailInvoice.IconChar = FontAwesome.Sharp.IconChar.Eye;
-            this.btn_ShowDetailInvoice.IconColor = System.Drawing.Color.Black;
-            this.btn_ShowDetailInvoice.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btn_ShowDetailInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ShowDetailInvoice.Location = new System.Drawing.Point(10, 55);
-            this.btn_ShowDetailInvoice.Name = "btn_ShowDetailInvoice";
-            this.btn_ShowDetailInvoice.Size = new System.Drawing.Size(281, 52);
-            this.btn_ShowDetailInvoice.TabIndex = 22;
-            this.btn_ShowDetailInvoice.Text = "Xem Chi Tiết Hoá Đơn";
-            this.btn_ShowDetailInvoice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_ShowDetailInvoice.UseVisualStyleBackColor = true;
-      //      this.btn_ShowDetailInvoice.Click += new System.EventHandler(this.btn_ShowDetailInvoice_Click);
-            // 
-            // btn_Refresh
-            // 
-            this.btn_Refresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Refresh.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btn_Refresh.IconColor = System.Drawing.Color.Black;
-            this.btn_Refresh.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Refresh.ImageIndex = 3;
-            this.btn_Refresh.ImageList = this.imageList1;
-            this.btn_Refresh.Location = new System.Drawing.Point(307, 43);
-            this.btn_Refresh.Name = "btn_Refresh";
-            this.btn_Refresh.Size = new System.Drawing.Size(95, 71);
-            this.btn_Refresh.TabIndex = 19;
-            this.btn_Refresh.UseVisualStyleBackColor = true;
-     //       this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "delete.png");
-            this.imageList1.Images.SetKeyName(1, "edit.png");
-            this.imageList1.Images.SetKeyName(2, "kinhlup.png");
-            this.imageList1.Images.SetKeyName(3, "loading-arrow.png");
-            this.imageList1.Images.SetKeyName(4, "plus.png");
-            this.imageList1.Images.SetKeyName(5, "download.png");
-            this.imageList1.Images.SetKeyName(6, "export.png");
             // 
             // frmOrder
             // 
@@ -735,7 +719,6 @@
             this.Name = "frmOrder";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmOrder";
-          //  this.Load += new System.EventHandler(this.frmOrder_Load);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_InvoiceSelling)).EndInit();

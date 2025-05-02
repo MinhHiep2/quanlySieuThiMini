@@ -15,6 +15,13 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmDetailInvoiceSelling : Form
     {
-     
+       public frmDetailInvoiceSelling()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
+       
     }
 }

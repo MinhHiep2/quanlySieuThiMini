@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAccounts));
             this.btn_ExportExcel = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btn_Search = new System.Windows.Forms.Button();
             this.btn_Refresh = new FontAwesome.Sharp.IconButton();
@@ -46,7 +47,6 @@
             this.chk_Status = new System.Windows.Forms.CheckBox();
             this.chk_Active = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Accounts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,10 +61,18 @@
             this.btn_ExportExcel.TabIndex = 39;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "loading-arrow.png");
+            this.imageList1.Images.SetKeyName(1, "export.png");
+            this.imageList1.Images.SetKeyName(2, "kinhlup.png");
+            // 
             // txtSearch
             // 
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txtSearch.Location = new System.Drawing.Point(997, 63);
+            this.txtSearch.Location = new System.Drawing.Point(907, 62);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(210, 36);
             this.txtSearch.TabIndex = 35;
@@ -72,9 +80,11 @@
             // btn_Search
             // 
             this.btn_Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Search.Location = new System.Drawing.Point(1213, 59);
+            this.btn_Search.ImageIndex = 2;
+            this.btn_Search.ImageList = this.imageList1;
+            this.btn_Search.Location = new System.Drawing.Point(1123, 49);
             this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(67, 40);
+            this.btn_Search.Size = new System.Drawing.Size(67, 49);
             this.btn_Search.TabIndex = 34;
             this.btn_Search.UseVisualStyleBackColor = true;
             // 
@@ -117,7 +127,7 @@
             this.dgv_Accounts.RowHeadersWidth = 51;
             this.dgv_Accounts.RowTemplate.Height = 24;
             this.dgv_Accounts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Accounts.Size = new System.Drawing.Size(1268, 615);
+            this.dgv_Accounts.Size = new System.Drawing.Size(1178, 615);
             this.dgv_Accounts.TabIndex = 32;
             // 
             // MaNV
@@ -183,7 +193,7 @@
             "MaHD",
             "MaNV",
             "MaKH"});
-            this.cbb_Search.Location = new System.Drawing.Point(860, 63);
+            this.cbb_Search.Location = new System.Drawing.Point(770, 62);
             this.cbb_Search.Name = "cbb_Search";
             this.cbb_Search.Size = new System.Drawing.Size(131, 37);
             this.cbb_Search.TabIndex = 40;
@@ -208,7 +218,7 @@
             this.chk_Status.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk_Status.ForeColor = System.Drawing.SystemColors.Control;
-            this.chk_Status.Location = new System.Drawing.Point(1078, 10);
+            this.chk_Status.Location = new System.Drawing.Point(940, 9);
             this.chk_Status.Name = "chk_Status";
             this.chk_Status.Size = new System.Drawing.Size(202, 43);
             this.chk_Status.TabIndex = 41;
@@ -239,18 +249,11 @@
             this.label1.TabIndex = 42;
             this.label1.Text = "Mật Khẩu";
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "loading-arrow.png");
-            this.imageList1.Images.SetKeyName(1, "export.png");
-            // 
             // frmAccounts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(65)))), ((int)(((byte)(107)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1292, 731);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chk_Status);

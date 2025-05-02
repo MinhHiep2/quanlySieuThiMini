@@ -22,6 +22,12 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmKhoHang : Form
     {
-   
+        public frmKhoHang()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
 }

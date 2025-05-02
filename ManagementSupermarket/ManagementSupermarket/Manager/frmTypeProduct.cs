@@ -19,6 +19,12 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmTypeProduct : Form
     {
-        
+        public frmTypeProduct()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
 }

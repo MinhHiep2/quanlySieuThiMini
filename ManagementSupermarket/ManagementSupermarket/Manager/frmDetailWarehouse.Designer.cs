@@ -110,7 +110,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(801, 522);
+            this.label7.Location = new System.Drawing.Point(737, 535);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(114, 20);
             this.label7.TabIndex = 6;
@@ -141,7 +141,7 @@
             this.dgv_DetailWarehouse.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_DetailWarehouse.RowHeadersWidth = 51;
             this.dgv_DetailWarehouse.RowTemplate.Height = 24;
-            this.dgv_DetailWarehouse.Size = new System.Drawing.Size(1020, 228);
+            this.dgv_DetailWarehouse.Size = new System.Drawing.Size(984, 228);
             this.dgv_DetailWarehouse.TabIndex = 7;
             // 
             // lbl_idReceive
@@ -188,7 +188,7 @@
             // 
             this.lbl_TotalCash.AutoSize = true;
             this.lbl_TotalCash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TotalCash.Location = new System.Drawing.Point(962, 522);
+            this.lbl_TotalCash.Location = new System.Drawing.Point(898, 535);
             this.lbl_TotalCash.Name = "lbl_TotalCash";
             this.lbl_TotalCash.Size = new System.Drawing.Size(153, 20);
             this.lbl_TotalCash.TabIndex = 12;

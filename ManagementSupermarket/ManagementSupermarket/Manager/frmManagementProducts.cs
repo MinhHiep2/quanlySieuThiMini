@@ -25,6 +25,25 @@ namespace ManagementSupermarket
 {
     public partial class frmManagementProducts : Form
     {
-        
+        //public frmManagementProducts()
+        //{
+        //    InitializeComponent();
+        //    this.TopLevel = false;
+        //    this.FormBorderStyle = FormBorderStyle.None;
+        //    this.Dock = DockStyle.Fill;
+        //}
+        public frmManagementProducts()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+          
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

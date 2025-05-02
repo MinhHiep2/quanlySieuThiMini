@@ -15,6 +15,12 @@ namespace ManagementSupermarket
 
     public partial class frmSuppiler : Form
     {
-        
+        public frmSuppiler()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
 }

@@ -13,7 +13,13 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmDetailWarehouse : Form
     {
-        
-        
+        public frmDetailWarehouse()
+        {
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
+
     }
 }

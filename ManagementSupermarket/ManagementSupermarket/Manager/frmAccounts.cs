@@ -14,6 +14,17 @@ namespace ManagementSupermarket.Manager
 {
     public partial class frmAccounts : Form
     {
-       
+        private string s_role;
+        private string s_idEmployee;
+        string nameForm = "Form Account";
+        public frmAccounts(string idEmployee, string role)
+        {
+            this.s_idEmployee = idEmployee;
+            this.s_role = role;
+            InitializeComponent();
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
+        }
     }
 }

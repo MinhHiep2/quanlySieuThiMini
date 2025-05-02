@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInfomation));
             this.lbl_ID = new System.Windows.Forms.Label();
             this.lbl_RoleName = new System.Windows.Forms.Label();
             this.txt_Phone = new System.Windows.Forms.TextBox();
@@ -45,6 +47,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btn_Alter = new FontAwesome.Sharp.IconButton();
             this.pic_Avatar = new FontAwesome.Sharp.IconPictureBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Avatar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +56,7 @@
             this.lbl_ID.AutoSize = true;
             this.lbl_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.lbl_ID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_ID.Location = new System.Drawing.Point(690, 20);
+            this.lbl_ID.Location = new System.Drawing.Point(742, 62);
             this.lbl_ID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ID.Name = "lbl_ID";
             this.lbl_ID.Size = new System.Drawing.Size(37, 29);
@@ -65,7 +68,7 @@
             this.lbl_RoleName.AutoSize = true;
             this.lbl_RoleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.lbl_RoleName.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lbl_RoleName.Location = new System.Drawing.Point(690, 152);
+            this.lbl_RoleName.Location = new System.Drawing.Point(742, 194);
             this.lbl_RoleName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_RoleName.Name = "lbl_RoleName";
             this.lbl_RoleName.Size = new System.Drawing.Size(56, 29);
@@ -76,7 +79,7 @@
             // 
             this.txt_Phone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txt_Phone.Location = new System.Drawing.Point(697, 401);
+            this.txt_Phone.Location = new System.Drawing.Point(749, 443);
             this.txt_Phone.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Phone.MaxLength = 10;
             this.txt_Phone.Name = "txt_Phone";
@@ -87,7 +90,7 @@
             // 
             this.txt_Address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txt_Address.Location = new System.Drawing.Point(697, 336);
+            this.txt_Address.Location = new System.Drawing.Point(749, 378);
             this.txt_Address.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Address.Name = "txt_Address";
             this.txt_Address.Size = new System.Drawing.Size(417, 36);
@@ -97,7 +100,7 @@
             // 
             this.txt_CCCD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_CCCD.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txt_CCCD.Location = new System.Drawing.Point(697, 206);
+            this.txt_CCCD.Location = new System.Drawing.Point(749, 248);
             this.txt_CCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txt_CCCD.MaxLength = 12;
             this.txt_CCCD.Name = "txt_CCCD";
@@ -108,7 +111,7 @@
             // 
             this.txt_FullName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_FullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txt_FullName.Location = new System.Drawing.Point(697, 81);
+            this.txt_FullName.Location = new System.Drawing.Point(749, 123);
             this.txt_FullName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_FullName.Name = "txt_FullName";
             this.txt_FullName.Size = new System.Drawing.Size(313, 36);
@@ -119,7 +122,7 @@
             this.rad_Female.AutoSize = true;
             this.rad_Female.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.rad_Female.ForeColor = System.Drawing.Color.White;
-            this.rad_Female.Location = new System.Drawing.Point(839, 274);
+            this.rad_Female.Location = new System.Drawing.Point(891, 316);
             this.rad_Female.Margin = new System.Windows.Forms.Padding(4);
             this.rad_Female.Name = "rad_Female";
             this.rad_Female.Size = new System.Drawing.Size(66, 33);
@@ -133,7 +136,7 @@
             this.rad_Male.AutoSize = true;
             this.rad_Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.rad_Male.ForeColor = System.Drawing.Color.White;
-            this.rad_Male.Location = new System.Drawing.Point(697, 274);
+            this.rad_Male.Location = new System.Drawing.Point(749, 316);
             this.rad_Male.Margin = new System.Windows.Forms.Padding(4);
             this.rad_Male.Name = "rad_Male";
             this.rad_Male.Size = new System.Drawing.Size(88, 33);
@@ -147,7 +150,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
-            this.label15.Location = new System.Drawing.Point(545, 278);
+            this.label15.Location = new System.Drawing.Point(545, 320);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(121, 29);
@@ -159,7 +162,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(570, 343);
+            this.label13.Location = new System.Drawing.Point(570, 385);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(96, 29);
@@ -171,7 +174,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(596, 408);
+            this.label12.Location = new System.Drawing.Point(596, 450);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 29);
@@ -183,7 +186,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(574, 213);
+            this.label11.Location = new System.Drawing.Point(574, 255);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(92, 29);
@@ -195,7 +198,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Location = new System.Drawing.Point(542, 148);
+            this.label10.Location = new System.Drawing.Point(542, 190);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 29);
@@ -207,7 +210,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(471, 82);
+            this.label7.Location = new System.Drawing.Point(471, 124);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(195, 29);
@@ -219,7 +222,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(479, 17);
+            this.label6.Location = new System.Drawing.Point(479, 59);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(187, 29);
@@ -229,14 +232,20 @@
             // btn_Alter
             // 
             this.btn_Alter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Alter.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Alter.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btn_Alter.IconColor = System.Drawing.Color.Black;
             this.btn_Alter.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btn_Alter.Location = new System.Drawing.Point(697, 463);
+            this.btn_Alter.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Alter.ImageIndex = 0;
+            this.btn_Alter.ImageList = this.imageList1;
+            this.btn_Alter.Location = new System.Drawing.Point(686, 520);
             this.btn_Alter.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Alter.Name = "btn_Alter";
-            this.btn_Alter.Size = new System.Drawing.Size(95, 65);
+            this.btn_Alter.Size = new System.Drawing.Size(224, 65);
             this.btn_Alter.TabIndex = 34;
+            this.btn_Alter.Text = "Lưu";
+            this.btn_Alter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Alter.UseVisualStyleBackColor = true;
             // 
             // pic_Avatar
@@ -247,7 +256,7 @@
             this.pic_Avatar.IconColor = System.Drawing.SystemColors.ControlLightLight;
             this.pic_Avatar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.pic_Avatar.IconSize = 395;
-            this.pic_Avatar.Location = new System.Drawing.Point(6, 10);
+            this.pic_Avatar.Location = new System.Drawing.Point(6, 52);
             this.pic_Avatar.Margin = new System.Windows.Forms.Padding(4);
             this.pic_Avatar.Name = "pic_Avatar";
             this.pic_Avatar.Size = new System.Drawing.Size(395, 533);
@@ -255,12 +264,18 @@
             this.pic_Avatar.TabIndex = 18;
             this.pic_Avatar.TabStop = false;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "edit.png");
+            // 
             // frmInfomation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1121, 552);
+            this.ClientSize = new System.Drawing.Size(1286, 722);
             this.Controls.Add(this.btn_Alter);
             this.Controls.Add(this.lbl_ID);
             this.Controls.Add(this.lbl_RoleName);
@@ -306,5 +321,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
