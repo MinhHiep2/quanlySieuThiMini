@@ -41,6 +41,7 @@
             this.TenLoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Search = new FontAwesome.Sharp.IconButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.txt_Search = new System.Windows.Forms.TextBox();
             this.btn_Delete = new FontAwesome.Sharp.IconButton();
             this.btn_Alter = new FontAwesome.Sharp.IconButton();
@@ -49,7 +50,7 @@
             this.txt_ID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.cbb_SearchRole = new System.Windows.Forms.ComboBox();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.btnExportExcel = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_TypeProduct)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.lbl_ErrorDescribe.AutoSize = true;
             this.lbl_ErrorDescribe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ErrorDescribe.ForeColor = System.Drawing.Color.Red;
-            this.lbl_ErrorDescribe.Location = new System.Drawing.Point(717, 84);
+            this.lbl_ErrorDescribe.Location = new System.Drawing.Point(726, 112);
             this.lbl_ErrorDescribe.Name = "lbl_ErrorDescribe";
             this.lbl_ErrorDescribe.Size = new System.Drawing.Size(64, 25);
             this.lbl_ErrorDescribe.TabIndex = 26;
@@ -82,8 +83,9 @@
             this.txt_Desc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Desc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Desc.Location = new System.Drawing.Point(717, 45);
+            this.txt_Desc.Multiline = true;
             this.txt_Desc.Name = "txt_Desc";
-            this.txt_Desc.Size = new System.Drawing.Size(529, 36);
+            this.txt_Desc.Size = new System.Drawing.Size(414, 64);
             this.txt_Desc.TabIndex = 25;
             // 
             // label2
@@ -142,6 +144,7 @@
             this.dgv_TypeProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_TypeProduct.Size = new System.Drawing.Size(1269, 510);
             this.dgv_TypeProduct.TabIndex = 28;
+            this.dgv_TypeProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TypeProduct_CellClick);
             // 
             // MaLoaiSP
             // 
@@ -181,6 +184,18 @@
             this.btn_Search.Size = new System.Drawing.Size(65, 64);
             this.btn_Search.TabIndex = 33;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "delete.png");
+            this.imageList1.Images.SetKeyName(1, "edit.png");
+            this.imageList1.Images.SetKeyName(2, "loading-arrow.png");
+            this.imageList1.Images.SetKeyName(3, "plus.png");
+            this.imageList1.Images.SetKeyName(4, "kinhlup.png");
+            this.imageList1.Images.SetKeyName(5, "export.png");
             // 
             // txt_Search
             // 
@@ -204,6 +219,7 @@
             this.btn_Delete.Size = new System.Drawing.Size(91, 78);
             this.btn_Delete.TabIndex = 31;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Alter
             // 
@@ -218,6 +234,7 @@
             this.btn_Alter.Size = new System.Drawing.Size(91, 78);
             this.btn_Alter.TabIndex = 30;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // btn_Add
             // 
@@ -232,6 +249,7 @@
             this.btn_Add.Size = new System.Drawing.Size(91, 78);
             this.btn_Add.TabIndex = 29;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Refresh
             // 
@@ -246,6 +264,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(91, 78);
             this.btn_Refresh.TabIndex = 32;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // txt_ID
             // 
@@ -281,15 +300,20 @@
             this.cbb_SearchRole.Size = new System.Drawing.Size(131, 37);
             this.cbb_SearchRole.TabIndex = 37;
             // 
-            // imageList1
+            // btnExportExcel
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "delete.png");
-            this.imageList1.Images.SetKeyName(1, "edit.png");
-            this.imageList1.Images.SetKeyName(2, "loading-arrow.png");
-            this.imageList1.Images.SetKeyName(3, "plus.png");
-            this.imageList1.Images.SetKeyName(4, "kinhlup.png");
+            this.btnExportExcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnExportExcel.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnExportExcel.IconColor = System.Drawing.Color.Black;
+            this.btnExportExcel.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExportExcel.ImageIndex = 5;
+            this.btnExportExcel.ImageList = this.imageList1;
+            this.btnExportExcel.Location = new System.Drawing.Point(439, 125);
+            this.btnExportExcel.Name = "btnExportExcel";
+            this.btnExportExcel.Size = new System.Drawing.Size(91, 78);
+            this.btnExportExcel.TabIndex = 32;
+            this.btnExportExcel.UseVisualStyleBackColor = true;
+            this.btnExportExcel.Click += new System.EventHandler(this.btnExportExcel_Click);
             // 
             // frmTypeProduct
             // 
@@ -306,6 +330,7 @@
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Alter);
             this.Controls.Add(this.btn_Add);
+            this.Controls.Add(this.btnExportExcel);
             this.Controls.Add(this.btn_Refresh);
             this.Controls.Add(this.lbl_ErrorDescribe);
             this.Controls.Add(this.lbl_ErrorName);
@@ -347,5 +372,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TenLoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn MoTa;
         private System.Windows.Forms.ImageList imageList1;
+        private FontAwesome.Sharp.IconButton btnExportExcel;
     }
 }

@@ -72,6 +72,7 @@
             this.num_ShelfLife = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
             this.chk_ProductStatus = new System.Windows.Forms.CheckBox();
+            this.btnExport_ = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListProduct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Product)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_Count)).BeginInit();
@@ -109,6 +110,7 @@
             this.dgv_ListProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ListProduct.Size = new System.Drawing.Size(1129, 732);
             this.dgv_ListProduct.TabIndex = 1;
+            this.dgv_ListProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListProduct_CellClick);
             // 
             // MaSP
             // 
@@ -208,11 +210,12 @@
             this.btn_Search.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Search.ImageIndex = 4;
             this.btn_Search.ImageList = this.imageList1;
-            this.btn_Search.Location = new System.Drawing.Point(533, 270);
+            this.btn_Search.Location = new System.Drawing.Point(533, 263);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(65, 55);
             this.btn_Search.TabIndex = 10;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // imageList1
             // 
@@ -223,6 +226,7 @@
             this.imageList1.Images.SetKeyName(2, "loading-arrow.png");
             this.imageList1.Images.SetKeyName(3, "plus.png");
             this.imageList1.Images.SetKeyName(4, "kinhlup.png");
+            this.imageList1.Images.SetKeyName(5, "export.png");
             // 
             // pic_Product
             // 
@@ -249,6 +253,7 @@
             this.btn_Upload.Text = "Upload";
             this.btn_Upload.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Upload.UseVisualStyleBackColor = true;
+            this.btn_Upload.Click += new System.EventHandler(this.btn_Upload_Click);
             // 
             // label6
             // 
@@ -400,6 +405,7 @@
             this.chk_Status.TabIndex = 20;
             this.chk_Status.Text = "Trạng Thái Bán";
             this.chk_Status.UseVisualStyleBackColor = true;
+            this.chk_Status.CheckedChanged += new System.EventHandler(this.chk_Status_CheckedChanged);
             // 
             // num_Count
             // 
@@ -408,6 +414,7 @@
             this.num_Count.Size = new System.Drawing.Size(131, 32);
             this.num_Count.TabIndex = 21;
             this.num_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.num_Count.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.num_Count_KeyPress);
             // 
             // cbb_Supplier
             // 
@@ -431,6 +438,7 @@
             this.btn_Add.Size = new System.Drawing.Size(79, 64);
             this.btn_Add.TabIndex = 6;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // cbb_UnitCaculator
             // 
@@ -454,6 +462,7 @@
             this.btn_Alter.Size = new System.Drawing.Size(79, 64);
             this.btn_Alter.TabIndex = 7;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // cbb_TypeProduct
             // 
@@ -477,6 +486,7 @@
             this.btn_Delete.Size = new System.Drawing.Size(79, 64);
             this.btn_Delete.TabIndex = 8;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Refresh
             // 
@@ -491,6 +501,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(79, 64);
             this.btn_Refresh.TabIndex = 9;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // cbb_UnitTime
             // 
@@ -527,6 +538,7 @@
             this.panel1.Controls.Add(this.txt_Search);
             this.panel1.Controls.Add(this.btn_Search);
             this.panel1.Controls.Add(this.cbb_UnitTime);
+            this.panel1.Controls.Add(this.btnExport_);
             this.panel1.Controls.Add(this.btn_Refresh);
             this.panel1.Controls.Add(this.dgv_ListProduct);
             this.panel1.Controls.Add(this.btn_Delete);
@@ -572,6 +584,21 @@
             this.chk_ProductStatus.TabIndex = 28;
             this.chk_ProductStatus.Text = "Hoạt Động";
             this.chk_ProductStatus.UseVisualStyleBackColor = true;
+            // 
+            // btnExport_
+            // 
+            this.btnExport_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnExport_.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnExport_.IconColor = System.Drawing.Color.Black;
+            this.btnExport_.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExport_.ImageIndex = 5;
+            this.btnExport_.ImageList = this.imageList1;
+            this.btnExport_.Location = new System.Drawing.Point(1056, 150);
+            this.btnExport_.Name = "btnExport_";
+            this.btnExport_.Size = new System.Drawing.Size(79, 64);
+            this.btnExport_.TabIndex = 9;
+            this.btnExport_.UseVisualStyleBackColor = true;
+            this.btnExport_.Click += new System.EventHandler(this.btnExport__Click);
             // 
             // frmManagementProducts
             // 
@@ -642,5 +669,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox chk_ProductStatus;
         private System.Windows.Forms.ImageList imageList1;
+        private FontAwesome.Sharp.IconButton btnExport_;
     }
 }

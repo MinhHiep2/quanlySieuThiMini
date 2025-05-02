@@ -48,16 +48,17 @@
             this.txt_Search = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbl_Address = new System.Windows.Forms.Label();
+            this.lbl_Phone = new System.Windows.Forms.Label();
+            this.lbl_Name = new System.Windows.Forms.Label();
             this.btn_Delete = new FontAwesome.Sharp.IconButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.lbl_Phone = new System.Windows.Forms.Label();
             this.btn_Alter = new FontAwesome.Sharp.IconButton();
-            this.lbl_Name = new System.Windows.Forms.Label();
             this.btn_Add = new FontAwesome.Sharp.IconButton();
             this.btn_Refresh = new FontAwesome.Sharp.IconButton();
             this.btn_Search = new FontAwesome.Sharp.IconButton();
             this.chk_StatusDGV = new System.Windows.Forms.CheckBox();
             this.cbb_Search = new System.Windows.Forms.ComboBox();
+            this.btnExportExel = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Supplier)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -89,6 +90,7 @@
             this.dgv_Supplier.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_Supplier.Size = new System.Drawing.Size(1218, 629);
             this.dgv_Supplier.TabIndex = 13;
+            this.dgv_Supplier.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Supplier_CellClick);
             // 
             // MaNCC
             // 
@@ -141,6 +143,7 @@
             this.chk_Status.TabIndex = 20;
             this.chk_Status.Text = "Trạng Thái Cung Cấp";
             this.chk_Status.UseVisualStyleBackColor = true;
+            this.chk_Status.CheckedChanged += new System.EventHandler(this.chk_Status_CheckedChanged);
             // 
             // txt_Phone
             // 
@@ -150,6 +153,7 @@
             this.txt_Phone.Name = "txt_Phone";
             this.txt_Phone.Size = new System.Drawing.Size(248, 36);
             this.txt_Phone.TabIndex = 19;
+            this.txt_Phone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Phone_KeyPress);
             // 
             // label2
             // 
@@ -251,7 +255,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1292, 124);
+            this.panel1.Size = new System.Drawing.Size(1292, 134);
             this.panel1.TabIndex = 12;
             // 
             // lbl_Address
@@ -264,6 +268,28 @@
             this.lbl_Address.TabIndex = 21;
             this.lbl_Address.Text = "label4";
             this.lbl_Address.Visible = false;
+            // 
+            // lbl_Phone
+            // 
+            this.lbl_Phone.AutoSize = true;
+            this.lbl_Phone.ForeColor = System.Drawing.Color.Red;
+            this.lbl_Phone.Location = new System.Drawing.Point(636, 80);
+            this.lbl_Phone.Name = "lbl_Phone";
+            this.lbl_Phone.Size = new System.Drawing.Size(70, 26);
+            this.lbl_Phone.TabIndex = 21;
+            this.lbl_Phone.Text = "label4";
+            this.lbl_Phone.Visible = false;
+            // 
+            // lbl_Name
+            // 
+            this.lbl_Name.AutoSize = true;
+            this.lbl_Name.ForeColor = System.Drawing.Color.Red;
+            this.lbl_Name.Location = new System.Drawing.Point(283, 80);
+            this.lbl_Name.Name = "lbl_Name";
+            this.lbl_Name.Size = new System.Drawing.Size(70, 26);
+            this.lbl_Name.TabIndex = 21;
+            this.lbl_Name.Text = "label4";
+            this.lbl_Name.Visible = false;
             // 
             // btn_Delete
             // 
@@ -278,6 +304,7 @@
             this.btn_Delete.Size = new System.Drawing.Size(79, 64);
             this.btn_Delete.TabIndex = 16;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // imageList1
             // 
@@ -288,17 +315,7 @@
             this.imageList1.Images.SetKeyName(2, "loading-arrow.png");
             this.imageList1.Images.SetKeyName(3, "plus.png");
             this.imageList1.Images.SetKeyName(4, "kinhlup.png");
-            // 
-            // lbl_Phone
-            // 
-            this.lbl_Phone.AutoSize = true;
-            this.lbl_Phone.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Phone.Location = new System.Drawing.Point(636, 80);
-            this.lbl_Phone.Name = "lbl_Phone";
-            this.lbl_Phone.Size = new System.Drawing.Size(70, 26);
-            this.lbl_Phone.TabIndex = 21;
-            this.lbl_Phone.Text = "label4";
-            this.lbl_Phone.Visible = false;
+            this.imageList1.Images.SetKeyName(5, "export.png");
             // 
             // btn_Alter
             // 
@@ -313,17 +330,7 @@
             this.btn_Alter.Size = new System.Drawing.Size(79, 64);
             this.btn_Alter.TabIndex = 15;
             this.btn_Alter.UseVisualStyleBackColor = true;
-            // 
-            // lbl_Name
-            // 
-            this.lbl_Name.AutoSize = true;
-            this.lbl_Name.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Name.Location = new System.Drawing.Point(283, 80);
-            this.lbl_Name.Name = "lbl_Name";
-            this.lbl_Name.Size = new System.Drawing.Size(70, 26);
-            this.lbl_Name.TabIndex = 21;
-            this.lbl_Name.Text = "label4";
-            this.lbl_Name.Visible = false;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // btn_Add
             // 
@@ -338,6 +345,7 @@
             this.btn_Add.Size = new System.Drawing.Size(79, 64);
             this.btn_Add.TabIndex = 14;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Refresh
             // 
@@ -352,6 +360,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(79, 64);
             this.btn_Refresh.TabIndex = 17;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Search
             // 
@@ -367,6 +376,7 @@
             this.btn_Search.Size = new System.Drawing.Size(74, 62);
             this.btn_Search.TabIndex = 18;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // chk_StatusDGV
             // 
@@ -396,6 +406,21 @@
             this.cbb_Search.Size = new System.Drawing.Size(131, 46);
             this.cbb_Search.TabIndex = 23;
             // 
+            // btnExportExel
+            // 
+            this.btnExportExel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnExportExel.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnExportExel.IconColor = System.Drawing.Color.Black;
+            this.btnExportExel.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnExportExel.ImageIndex = 5;
+            this.btnExportExel.ImageList = this.imageList1;
+            this.btnExportExel.Location = new System.Drawing.Point(766, 130);
+            this.btnExportExel.Name = "btnExportExel";
+            this.btnExportExel.Size = new System.Drawing.Size(79, 64);
+            this.btnExportExel.TabIndex = 17;
+            this.btnExportExel.UseVisualStyleBackColor = true;
+            this.btnExportExel.Click += new System.EventHandler(this.btnExportExel_Click);
+            // 
             // frmSuppiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
@@ -411,12 +436,14 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.txt_Search);
+            this.Controls.Add(this.btnExportExel);
             this.Controls.Add(this.btn_Refresh);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmSuppiler";
             this.Text = "frmSuppiler";
+            this.Load += new System.EventHandler(this.frmSuppiler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Supplier)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -455,5 +482,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
         private System.Windows.Forms.DataGridViewCheckBoxColumn TrangThai;
         private System.Windows.Forms.ImageList imageList1;
+        private FontAwesome.Sharp.IconButton btnExportExel;
     }
 }

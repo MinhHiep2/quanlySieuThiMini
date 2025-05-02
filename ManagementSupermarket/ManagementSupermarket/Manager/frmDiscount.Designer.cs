@@ -239,6 +239,7 @@
             this.dgv_ListDiscount.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ListDiscount.Size = new System.Drawing.Size(751, 641);
             this.dgv_ListDiscount.TabIndex = 32;
+            this.dgv_ListDiscount.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListDiscount_CellClick);
             // 
             // MaKM
             // 
@@ -302,6 +303,7 @@
             this.btn_Alter.Size = new System.Drawing.Size(79, 64);
             this.btn_Alter.TabIndex = 34;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // imageList1
             // 
@@ -326,6 +328,7 @@
             this.btn_Add.Size = new System.Drawing.Size(79, 64);
             this.btn_Add.TabIndex = 33;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Refresh
             // 
@@ -340,6 +343,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(79, 64);
             this.btn_Refresh.TabIndex = 36;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Search
             // 
@@ -355,6 +359,7 @@
             this.btn_Search.Size = new System.Drawing.Size(65, 47);
             this.btn_Search.TabIndex = 37;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // txt_Search
             // 
@@ -378,6 +383,7 @@
             this.chk_DiscountStatus.TabIndex = 40;
             this.chk_DiscountStatus.Text = "Hoạt Động";
             this.chk_DiscountStatus.UseVisualStyleBackColor = true;
+            this.chk_DiscountStatus.CheckedChanged += new System.EventHandler(this.chk_DiscountStatus_CheckedChanged);
             // 
             // num_CountTime
             // 
@@ -434,6 +440,7 @@
             this.Name = "frmDiscount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmDiscount";
+            this.Load += new System.EventHandler(this.frmDiscount_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListDiscount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CountTime)).EndInit();
             this.ResumeLayout(false);

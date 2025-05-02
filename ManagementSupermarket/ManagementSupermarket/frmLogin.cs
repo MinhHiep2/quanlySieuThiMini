@@ -20,7 +20,7 @@ namespace ManagementSupermarket
         
         private void btn_Exit_Click(object sender, EventArgs e)
         {
-            Close();
+            Close();    
         }
 
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
@@ -75,6 +75,7 @@ namespace ManagementSupermarket
                 this.Hide();
                 frmHomeOfManager.Show();
             }
+
         }
 
         private void btnHidePassWord_Click_1(object sender, EventArgs e)

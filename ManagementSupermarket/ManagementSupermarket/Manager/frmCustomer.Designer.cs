@@ -115,6 +115,7 @@
             this.dgv_ListCustomer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ListCustomer.Size = new System.Drawing.Size(1189, 373);
             this.dgv_ListCustomer.TabIndex = 9;
+            this.dgv_ListCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListCustomer_CellClick);
             // 
             // MaKH
             // 
@@ -265,8 +266,9 @@
             // 
             this.txt_Address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Address.Location = new System.Drawing.Point(20, 162);
+            this.txt_Address.Multiline = true;
             this.txt_Address.Name = "txt_Address";
-            this.txt_Address.Size = new System.Drawing.Size(543, 32);
+            this.txt_Address.Size = new System.Drawing.Size(604, 73);
             this.txt_Address.TabIndex = 14;
             // 
             // txt_ID
@@ -312,6 +314,7 @@
             this.chk_Status.TabIndex = 21;
             this.chk_Status.Text = "Hoạt Động";
             this.chk_Status.UseVisualStyleBackColor = true;
+            this.chk_Status.CheckedChanged += new System.EventHandler(this.chk_Status_CheckedChanged);
             // 
             // txt_Phone
             // 
@@ -384,7 +387,7 @@
             this.lbl_ErrorAddress.AutoSize = true;
             this.lbl_ErrorAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ErrorAddress.ForeColor = System.Drawing.Color.Red;
-            this.lbl_ErrorAddress.Location = new System.Drawing.Point(25, 197);
+            this.lbl_ErrorAddress.Location = new System.Drawing.Point(97, 139);
             this.lbl_ErrorAddress.Name = "lbl_ErrorAddress";
             this.lbl_ErrorAddress.Size = new System.Drawing.Size(53, 20);
             this.lbl_ErrorAddress.TabIndex = 25;
@@ -440,6 +443,7 @@
             this.btn_Search.Size = new System.Drawing.Size(59, 48);
             this.btn_Search.TabIndex = 14;
             this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // imageList1
             // 
@@ -465,6 +469,7 @@
             this.btn_Refresh.Size = new System.Drawing.Size(79, 64);
             this.btn_Refresh.TabIndex = 13;
             this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Delete
             // 
@@ -479,6 +484,7 @@
             this.btn_Delete.Size = new System.Drawing.Size(79, 64);
             this.btn_Delete.TabIndex = 12;
             this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Add
             // 
@@ -493,6 +499,7 @@
             this.btn_Add.Size = new System.Drawing.Size(79, 64);
             this.btn_Add.TabIndex = 10;
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // btn_Alter
             // 
@@ -507,6 +514,7 @@
             this.btn_Alter.Size = new System.Drawing.Size(79, 64);
             this.btn_Alter.TabIndex = 11;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
             // 
             // chk_CustomerStatus
             // 
@@ -541,6 +549,7 @@
             this.btn_ExportExcel.Size = new System.Drawing.Size(82, 64);
             this.btn_ExportExcel.TabIndex = 29;
             this.btn_ExportExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportExcel.Click += new System.EventHandler(this.btn_ExportExcel_Click);
             // 
             // frmCustomer
             // 

@@ -46,8 +46,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_Alter = new FontAwesome.Sharp.IconButton();
-            this.pic_Avatar = new FontAwesome.Sharp.IconPictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pic_Avatar = new FontAwesome.Sharp.IconPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Avatar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,8 +55,8 @@
             // 
             this.lbl_ID.AutoSize = true;
             this.lbl_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lbl_ID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_ID.Location = new System.Drawing.Point(742, 62);
+            this.lbl_ID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_ID.Location = new System.Drawing.Point(742, 56);
             this.lbl_ID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ID.Name = "lbl_ID";
             this.lbl_ID.Size = new System.Drawing.Size(37, 29);
@@ -67,8 +67,8 @@
             // 
             this.lbl_RoleName.AutoSize = true;
             this.lbl_RoleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lbl_RoleName.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lbl_RoleName.Location = new System.Drawing.Point(742, 194);
+            this.lbl_RoleName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lbl_RoleName.Location = new System.Drawing.Point(742, 187);
             this.lbl_RoleName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_RoleName.Name = "lbl_RoleName";
             this.lbl_RoleName.Size = new System.Drawing.Size(56, 29);
@@ -121,8 +121,8 @@
             // 
             this.rad_Female.AutoSize = true;
             this.rad_Female.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.rad_Female.ForeColor = System.Drawing.Color.White;
-            this.rad_Female.Location = new System.Drawing.Point(891, 316);
+            this.rad_Female.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.rad_Female.Location = new System.Drawing.Point(891, 310);
             this.rad_Female.Margin = new System.Windows.Forms.Padding(4);
             this.rad_Female.Name = "rad_Female";
             this.rad_Female.Size = new System.Drawing.Size(66, 33);
@@ -135,8 +135,8 @@
             // 
             this.rad_Male.AutoSize = true;
             this.rad_Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.rad_Male.ForeColor = System.Drawing.Color.White;
-            this.rad_Male.Location = new System.Drawing.Point(749, 316);
+            this.rad_Male.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.rad_Male.Location = new System.Drawing.Point(749, 310);
             this.rad_Male.Margin = new System.Windows.Forms.Padding(4);
             this.rad_Male.Name = "rad_Male";
             this.rad_Male.Size = new System.Drawing.Size(88, 33);
@@ -247,6 +247,13 @@
             this.btn_Alter.Text = "Lưu";
             this.btn_Alter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Alter.UseVisualStyleBackColor = true;
+            this.btn_Alter.Click += new System.EventHandler(this.btn_Alter_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "edit.png");
             // 
             // pic_Avatar
             // 
@@ -263,12 +270,6 @@
             this.pic_Avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic_Avatar.TabIndex = 18;
             this.pic_Avatar.TabStop = false;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "edit.png");
             // 
             // frmInfomation
             // 
@@ -296,6 +297,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "frmInfomation";
             this.Text = "frmInfomation";
+            this.Load += new System.EventHandler(this.frmInfomation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Avatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

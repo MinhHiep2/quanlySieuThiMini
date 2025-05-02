@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHomeOfManager));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.lbl_Home = new System.Windows.Forms.Label();
@@ -51,6 +53,7 @@
             this.btnDangXuat = new FontAwesome.Sharp.IconButton();
             this.btnOut = new FontAwesome.Sharp.IconButton();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAnhDaiDien)).BeginInit();
@@ -64,19 +67,19 @@
             this.panel1.Controls.Add(this.lbl_Home);
             this.panel1.Location = new System.Drawing.Point(-3, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1682, 153);
+            this.panel1.Size = new System.Drawing.Size(1595, 153);
             this.panel1.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Sitka Display", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Sitka Display", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label3.Location = new System.Drawing.Point(834, 81);
+            this.label3.Location = new System.Drawing.Point(1231, 111);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(184, 48);
+            this.label3.Size = new System.Drawing.Size(193, 33);
             this.label3.TabIndex = 8;
-            this.label3.Text = "HIỆP - KHẢI";
+            this.label3.Text = "HIỆP - KHẢI TEAM";
             // 
             // lbl_Home
             // 
@@ -85,9 +88,9 @@
             this.lbl_Home.ForeColor = System.Drawing.Color.Salmon;
             this.lbl_Home.Location = new System.Drawing.Point(8, 8);
             this.lbl_Home.Name = "lbl_Home";
-            this.lbl_Home.Size = new System.Drawing.Size(602, 121);
+            this.lbl_Home.Size = new System.Drawing.Size(649, 121);
             this.lbl_Home.TabIndex = 8;
-            this.lbl_Home.Text = "Siêu thị Mini HK";
+            this.lbl_Home.Text = "Siêu thị Mini HKT";
             // 
             // btnBanHang
             // 
@@ -111,9 +114,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.NavajoWhite;
             this.pictureBox2.ErrorImage = global::ManagementSupermarket.Properties.Resources.giaodien;
             this.pictureBox2.InitialImage = global::ManagementSupermarket.Properties.Resources.giaodien;
-            this.pictureBox2.Location = new System.Drawing.Point(1679, 1);
+            this.pictureBox2.Location = new System.Drawing.Point(1588, 1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(172, 153);
+            this.pictureBox2.Size = new System.Drawing.Size(270, 153);
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -263,20 +266,28 @@
             // 
             // ptbAnhDaiDien
             // 
-            this.ptbAnhDaiDien.Location = new System.Drawing.Point(1704, 12);
+            this.ptbAnhDaiDien.BackgroundImage = global::ManagementSupermarket.Properties.Resources.giaodien;
+            this.ptbAnhDaiDien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbAnhDaiDien.ErrorImage = global::ManagementSupermarket.Properties.Resources.giaodien1;
+            this.ptbAnhDaiDien.Image = global::ManagementSupermarket.Properties.Resources.giaodien;
+            this.ptbAnhDaiDien.InitialImage = global::ManagementSupermarket.Properties.Resources.giaodien1;
+            this.ptbAnhDaiDien.Location = new System.Drawing.Point(1664, 1);
             this.ptbAnhDaiDien.Name = "ptbAnhDaiDien";
-            this.ptbAnhDaiDien.Size = new System.Drawing.Size(115, 107);
+            this.ptbAnhDaiDien.Size = new System.Drawing.Size(121, 107);
+            this.ptbAnhDaiDien.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbAnhDaiDien.TabIndex = 6;
             this.ptbAnhDaiDien.TabStop = false;
+            this.ptbAnhDaiDien.Click += new System.EventHandler(this.ptbAnhDaiDien_Click);
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.BackColor = System.Drawing.Color.NavajoWhite;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(1685, 122);
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.Blue;
+            this.lblName.Location = new System.Drawing.Point(1598, 125);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(59, 20);
+            this.lblName.Size = new System.Drawing.Size(65, 20);
             this.lblName.TabIndex = 7;
             this.lblName.Text = "Họ tên";
             // 
@@ -301,7 +312,7 @@
             this.SlideBar_.Controls.Add(this.btnDangXuat);
             this.SlideBar_.Controls.Add(this.btnOut);
             this.SlideBar_.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.SlideBar_.Location = new System.Drawing.Point(-6, 155);
+            this.SlideBar_.Location = new System.Drawing.Point(-6, 157);
             this.SlideBar_.Name = "SlideBar_";
             this.SlideBar_.Size = new System.Drawing.Size(281, 902);
             this.SlideBar_.TabIndex = 9;
@@ -332,7 +343,7 @@
             this.btnInformation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInformation.Location = new System.Drawing.Point(3, 806);
             this.btnInformation.Name = "btnInformation";
-            this.btnInformation.Size = new System.Drawing.Size(256, 67);
+            this.btnInformation.Size = new System.Drawing.Size(289, 67);
             this.btnInformation.TabIndex = 4;
             this.btnInformation.Tag = "Info";
             this.btnInformation.Text = "Thông tin tài khoản";
@@ -394,6 +405,12 @@
             this.panel_body.Size = new System.Drawing.Size(1585, 902);
             this.panel_body.TabIndex = 8;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "giaodien.jpg");
+            // 
             // frmHomeOfManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -414,6 +431,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmHomeOfManager";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmHomeOfManager_FormClosing);
+            this.Load += new System.EventHandler(this.frmHomeOfManager_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -449,5 +467,6 @@
         private FontAwesome.Sharp.IconButton btnChangePassword;
         private FontAwesome.Sharp.IconButton btnNhaCungCap;
         private FontAwesome.Sharp.IconButton btnDangXuat;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }

@@ -41,17 +41,12 @@ namespace ManagementSupermarket
                 btnNhanVien.Visible = false;
                 btnNhaCungCap.Visible = false;
                 btnLoaiSanPham.Visible = false;
-                btnOut.Visible = false;
                 btnKhuyenMai.Visible = false;
                 btnThongKe.Visible = false;
-                btnInformation.Visible = false;
+               
             }
         }
-        private void frmHomeOfManager_Load(object sender, EventArgs e)
-        {
-           // lblName.Text = (new BLL_Employee()).GetEmployeeTo("MaNV", s_idEmployee).Rows[0]["HoTen"].ToString();
-
-        }
+       
         private void OpenfrmChild(Form Child, IconButton btn)
         {
             if (buttonCurrency == btn.Tag)
@@ -187,13 +182,43 @@ namespace ManagementSupermarket
         {
             IconButton nhanvien = sender as IconButton;
             OpenfrmChild(new frmManagementEmployees(), nhanvien);
-
+             
         }
 
         private void btnProducts_Click(object sender, EventArgs e)
         {
             IconButton sanpham = sender as IconButton;
             OpenfrmChild(new frmManagementProducts(), sanpham);
+        }
+
+        private void ptbAnhDaiDien_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void frmHomeOfManager_Load_1(object sender, EventArgs e)
+        {
+
+            RoleAccess();
+            var dt = new BLL_Employee().GetEmployeeTo("MaNV", s_idEmployee);
+            if (dt.Rows.Count > 0)
+            {
+                // Thử kiểm tra tên cột
+                var row = dt.Rows[0];
+
+                if (dt.Columns.Contains("HoTen"))
+                    lblName.Text = row["HoTen"].ToString();
+                else if (dt.Columns.Contains("Ten"))
+                    lblName.Text = row["Ten"].ToString();
+                else
+                    lblName.Text = "Không tìm thấy cột tên";
+
+
+            }
+            else
+            {
+                lblName.Text = "Không tìm thấy nhân viên!";
+            }
         }
 
 
