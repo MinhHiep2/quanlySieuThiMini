@@ -27,6 +27,7 @@ namespace ManagementSupermarket
             s_idEmployee = idEmployee;
             s_role = role;
             InitializeComponent();
+           
         }
         private Form childForm;
         private object numCurrency;
@@ -35,7 +36,6 @@ namespace ManagementSupermarket
             if (s_role == "NV")
             {
                 btnAccounts.Visible = false;
-                btnBanHang.Visible = false;
                 btnProducts.Visible = false;
                 btnKhoHang.Visible = false;
                 btnNhanVien.Visible = false;
@@ -43,7 +43,7 @@ namespace ManagementSupermarket
                 btnLoaiSanPham.Visible = false;
                 btnKhuyenMai.Visible = false;
                 btnThongKe.Visible = false;
-               
+                btnKhachHang.Visible = false;
             }
         }
        
@@ -90,7 +90,7 @@ namespace ManagementSupermarket
         private void btnBanHang_Click(object sender, EventArgs e)
         {
             IconButton banhang = sender as IconButton;
-            OpenfrmChild(new frmOrder(), banhang);
+            OpenfrmChild(new frmOrder(s_idEmployee,s_role), banhang);
         }
 
         private void btnAccounts_Click(object sender, EventArgs e)
@@ -102,7 +102,7 @@ namespace ManagementSupermarket
         private void btnKhoHang_Click(object sender, EventArgs e)
         {
             IconButton khohang = sender as IconButton;
-            OpenfrmChild(new frmKhoHang(), khohang);
+            OpenfrmChild(new frmKhoHang(s_idEmployee), khohang);
         }
 
         private void btnInformation_Click(object sender, EventArgs e)
@@ -223,44 +223,44 @@ namespace ManagementSupermarket
 
 
 
-        //private void CheckProductExpire()
-        //{
-        //    DataTable tblProduct = (new BLL_Product()).GetProductExpire();
+        private void CheckProductExpire()
+        {
+            DataTable tblProduct = (new BLL_Product()).GetProductExpire();
 
-        //    if (tblProduct.Rows.Count > 0)
-        //    {
-        //        string mess = "Sản phẩm: ";
-        //        DataRowCollection rows = tblProduct.Rows;
-        //        foreach (DataRow item in rows)
-        //        {
-        //            mess += $"\n- {item["TenSP"].ToString()} với số lượng {item["SoLuong"].ToString()} đã hết hạn.";
-        //        }
+            if (tblProduct.Rows.Count > 0)
+            {
+                string mess = "Sản phẩm: ";
+                DataRowCollection rows = tblProduct.Rows;
+                foreach (DataRow item in rows)
+                {
+                    mess += $"\n- {item["TenSP"].ToString()} với số lượng {item["SoLuong"].ToString()} đã hết hạn.";
+                }
 
-        //        DialogResult result = MessageBox.Show($"{mess}\nXác nhận xoá sản phẩm đã hết hạn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-        //        if (result == DialogResult.Yes)
-        //        {
-        //            int count = 0;
-        //            foreach (DataRow item in rows)
-        //            {
-        //                string idImport, idProduct;
-        //                idImport = item["MaNK"].ToString();
-        //                idProduct = item["MaSP"].ToString();
+                DialogResult result = MessageBox.Show($"{mess}\nXác nhận xoá sản phẩm đã hết hạn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                if (result == DialogResult.Yes)
+                {
+                    int count = 0;
+                    foreach (DataRow item in rows)
+                    {
+                        string idImport, idProduct;
+                        idImport = item["MaNK"].ToString();
+                        idProduct = item["MaSP"].ToString();
 
-        //                count += (new BLL_Detail_InvoiceWarehouse()).DeleteProductExpire(idImport, idProduct);
-        //            }
+                        count += (new BLL_Detail_InvoiceWarehouse()).DeleteProductExpire(idImport, idProduct);
+                    }
 
-        //            if (count > 0)
-        //            {
-        //                MessageBox.Show($"Đã xoá {count} sản phẩm hết hạn!");
-        //                return;
-        //            }
-        //            else
-        //            {
-        //                MessageBox.Show($"Xoá sản phẩm hết hạn thất bại !");
-        //            }
+                    if (count > 0)
+                    {
+                        MessageBox.Show($"Đã xoá {count} sản phẩm hết hạn!");
+                        return;
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Xoá sản phẩm hết hạn thất bại !");
+                    }
 
-        //        }
-        //    }
-        //}
+                }
+            }
+        }
     }
 }

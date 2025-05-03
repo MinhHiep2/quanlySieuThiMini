@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtMKHienTai = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtMKMoi = new System.Windows.Forms.TextBox();
-            this.txtNhapLai = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnDoiMatKhau = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
@@ -40,18 +37,10 @@
             this.btnHidePassword = new FontAwesome.Sharp.IconButton();
             this.btnHidePassword2 = new FontAwesome.Sharp.IconButton();
             this.btnHidePassword3 = new FontAwesome.Sharp.IconButton();
+            this.txtMKHienTai = new System.Windows.Forms.TextBox();
+            this.txtMKMoi = new System.Windows.Forms.TextBox();
+            this.txtNhapLai = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // txtMKHienTai
-            // 
-            this.txtMKHienTai.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMKHienTai.Location = new System.Drawing.Point(516, 114);
-            this.txtMKHienTai.Multiline = true;
-            this.txtMKHienTai.Name = "txtMKHienTai";
-            this.txtMKHienTai.PasswordChar = '*';
-            this.txtMKHienTai.Size = new System.Drawing.Size(274, 51);
-            this.txtMKHienTai.TabIndex = 0;
-            this.txtMKHienTai.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -73,28 +62,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Mật khẩu mới";
             // 
-            // txtMKMoi
-            // 
-            this.txtMKMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMKMoi.Location = new System.Drawing.Point(516, 200);
-            this.txtMKMoi.Multiline = true;
-            this.txtMKMoi.Name = "txtMKMoi";
-            this.txtMKMoi.PasswordChar = '*';
-            this.txtMKMoi.Size = new System.Drawing.Size(274, 51);
-            this.txtMKMoi.TabIndex = 2;
-            this.txtMKMoi.UseSystemPasswordChar = true;
-            // 
-            // txtNhapLai
-            // 
-            this.txtNhapLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhapLai.Location = new System.Drawing.Point(516, 294);
-            this.txtNhapLai.Multiline = true;
-            this.txtNhapLai.Name = "txtNhapLai";
-            this.txtNhapLai.PasswordChar = '*';
-            this.txtNhapLai.Size = new System.Drawing.Size(274, 51);
-            this.txtNhapLai.TabIndex = 2;
-            this.txtNhapLai.UseSystemPasswordChar = true;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -107,7 +74,7 @@
             // 
             // btnDoiMatKhau
             // 
-            this.btnDoiMatKhau.Location = new System.Drawing.Point(609, 418);
+            this.btnDoiMatKhau.Location = new System.Drawing.Point(640, 418);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
             this.btnDoiMatKhau.Size = new System.Drawing.Size(150, 58);
             this.btnDoiMatKhau.TabIndex = 4;
@@ -141,9 +108,9 @@
             this.btnHidePassword.IconChar = FontAwesome.Sharp.IconChar.Eye;
             this.btnHidePassword.IconColor = System.Drawing.Color.Black;
             this.btnHidePassword.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHidePassword.Location = new System.Drawing.Point(797, 114);
+            this.btnHidePassword.Location = new System.Drawing.Point(814, 105);
             this.btnHidePassword.Name = "btnHidePassword";
-            this.btnHidePassword.Size = new System.Drawing.Size(68, 51);
+            this.btnHidePassword.Size = new System.Drawing.Size(68, 60);
             this.btnHidePassword.TabIndex = 6;
             this.btnHidePassword.UseVisualStyleBackColor = true;
             this.btnHidePassword.Click += new System.EventHandler(this.iconButton1_Click);
@@ -153,9 +120,9 @@
             this.btnHidePassword2.IconChar = FontAwesome.Sharp.IconChar.Eye;
             this.btnHidePassword2.IconColor = System.Drawing.Color.Black;
             this.btnHidePassword2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHidePassword2.Location = new System.Drawing.Point(797, 196);
+            this.btnHidePassword2.Location = new System.Drawing.Point(814, 196);
             this.btnHidePassword2.Name = "btnHidePassword2";
-            this.btnHidePassword2.Size = new System.Drawing.Size(68, 51);
+            this.btnHidePassword2.Size = new System.Drawing.Size(68, 55);
             this.btnHidePassword2.TabIndex = 6;
             this.btnHidePassword2.UseVisualStyleBackColor = true;
             this.btnHidePassword2.Click += new System.EventHandler(this.btnHidePassword2_Click);
@@ -165,19 +132,52 @@
             this.btnHidePassword3.IconChar = FontAwesome.Sharp.IconChar.Eye;
             this.btnHidePassword3.IconColor = System.Drawing.Color.Black;
             this.btnHidePassword3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHidePassword3.Location = new System.Drawing.Point(797, 294);
+            this.btnHidePassword3.Location = new System.Drawing.Point(814, 294);
             this.btnHidePassword3.Name = "btnHidePassword3";
             this.btnHidePassword3.Size = new System.Drawing.Size(68, 51);
             this.btnHidePassword3.TabIndex = 6;
             this.btnHidePassword3.UseVisualStyleBackColor = true;
             this.btnHidePassword3.Click += new System.EventHandler(this.btnHidePassword3_Click);
             // 
+            // txtMKHienTai
+            // 
+            this.txtMKHienTai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMKHienTai.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMKHienTai.Location = new System.Drawing.Point(516, 114);
+            this.txtMKHienTai.Name = "txtMKHienTai";
+            this.txtMKHienTai.Size = new System.Drawing.Size(273, 45);
+            this.txtMKHienTai.TabIndex = 14;
+            this.txtMKHienTai.UseSystemPasswordChar = true;
+            // 
+            // txtMKMoi
+            // 
+            this.txtMKMoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMKMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMKMoi.Location = new System.Drawing.Point(516, 193);
+            this.txtMKMoi.Name = "txtMKMoi";
+            this.txtMKMoi.Size = new System.Drawing.Size(273, 45);
+            this.txtMKMoi.TabIndex = 14;
+            this.txtMKMoi.UseSystemPasswordChar = true;
+            // 
+            // txtNhapLai
+            // 
+            this.txtNhapLai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNhapLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNhapLai.Location = new System.Drawing.Point(516, 287);
+            this.txtNhapLai.Name = "txtNhapLai";
+            this.txtNhapLai.Size = new System.Drawing.Size(273, 45);
+            this.txtNhapLai.TabIndex = 14;
+            this.txtNhapLai.UseSystemPasswordChar = true;
+            // 
             // frmChangePassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1023, 551);
+            this.ClientSize = new System.Drawing.Size(905, 545);
+            this.Controls.Add(this.txtNhapLai);
+            this.Controls.Add(this.txtMKMoi);
+            this.Controls.Add(this.txtMKHienTai);
             this.Controls.Add(this.btnHidePassword3);
             this.Controls.Add(this.btnHidePassword2);
             this.Controls.Add(this.btnHidePassword);
@@ -186,10 +186,7 @@
             this.Controls.Add(this.btnDoiMatKhau);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNhapLai);
-            this.Controls.Add(this.txtMKMoi);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtMKHienTai);
             this.Name = "frmChangePassword";
             this.Text = "frmChangePasswordcs";
             this.ResumeLayout(false);
@@ -198,12 +195,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtMKHienTai;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtMKMoi;
-        private System.Windows.Forms.TextBox txtNhapLai;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnDoiMatKhau;
         private System.Windows.Forms.Button btnHuy;
@@ -211,5 +204,8 @@
         private FontAwesome.Sharp.IconButton btnHidePassword;
         private FontAwesome.Sharp.IconButton btnHidePassword2;
         private FontAwesome.Sharp.IconButton btnHidePassword3;
+        private System.Windows.Forms.TextBox txtMKHienTai;
+        private System.Windows.Forms.TextBox txtMKMoi;
+        private System.Windows.Forms.TextBox txtNhapLai;
     }
 }

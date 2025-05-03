@@ -21,6 +21,8 @@ namespace ManagementSupermarket
             this.TopLevel = false;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Dock = DockStyle.Fill;
+            LoadData();
+            cbb_Search.SelectedIndex = 0;
         }
         private string nameForm = "Form Supplier";
         BLL_Supplier datasupplier = new BLL_Supplier();
@@ -76,11 +78,7 @@ namespace ManagementSupermarket
             lbl_Address.Visible = false;
         }
 
-        private void frmSuppiler_Load(object sender, EventArgs e)
-        {
-            LoadData();
-            cbb_Search.SelectedIndex = 0;
-        }
+       
 
         private void dgv_Supplier_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -96,7 +94,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -163,7 +161,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -212,7 +210,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -253,7 +251,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -286,7 +284,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 

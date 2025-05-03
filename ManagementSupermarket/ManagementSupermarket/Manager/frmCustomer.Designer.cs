@@ -273,8 +273,9 @@
             // 
             // txt_ID
             // 
-            this.txt_ID.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txt_ID.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.txt_ID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_ID.Enabled = false;
             this.txt_ID.Location = new System.Drawing.Point(20, 70);
             this.txt_ID.Name = "txt_ID";
             this.txt_ID.ReadOnly = true;

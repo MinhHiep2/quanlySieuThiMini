@@ -59,7 +59,7 @@
             this.lbl_ErrorDescribe.AutoSize = true;
             this.lbl_ErrorDescribe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ErrorDescribe.ForeColor = System.Drawing.Color.Red;
-            this.lbl_ErrorDescribe.Location = new System.Drawing.Point(726, 112);
+            this.lbl_ErrorDescribe.Location = new System.Drawing.Point(609, 112);
             this.lbl_ErrorDescribe.Name = "lbl_ErrorDescribe";
             this.lbl_ErrorDescribe.Size = new System.Drawing.Size(64, 25);
             this.lbl_ErrorDescribe.TabIndex = 26;
@@ -82,7 +82,7 @@
             // 
             this.txt_Desc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Desc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Desc.Location = new System.Drawing.Point(717, 45);
+            this.txt_Desc.Location = new System.Drawing.Point(600, 45);
             this.txt_Desc.Multiline = true;
             this.txt_Desc.Name = "txt_Desc";
             this.txt_Desc.Size = new System.Drawing.Size(414, 64);
@@ -93,7 +93,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(712, 13);
+            this.label2.Location = new System.Drawing.Point(595, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(265, 29);
             this.label2.TabIndex = 24;
@@ -142,7 +142,7 @@
             this.dgv_TypeProduct.RowHeadersWidth = 51;
             this.dgv_TypeProduct.RowTemplate.Height = 24;
             this.dgv_TypeProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_TypeProduct.Size = new System.Drawing.Size(1269, 510);
+            this.dgv_TypeProduct.Size = new System.Drawing.Size(1002, 510);
             this.dgv_TypeProduct.TabIndex = 28;
             this.dgv_TypeProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TypeProduct_CellClick);
             // 
@@ -179,7 +179,7 @@
             this.btn_Search.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Search.ImageIndex = 4;
             this.btn_Search.ImageList = this.imageList1;
-            this.btn_Search.Location = new System.Drawing.Point(1218, 141);
+            this.btn_Search.Location = new System.Drawing.Point(949, 139);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(65, 64);
             this.btn_Search.TabIndex = 33;
@@ -201,7 +201,7 @@
             // 
             this.txt_Search.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Search.Location = new System.Drawing.Point(974, 158);
+            this.txt_Search.Location = new System.Drawing.Point(705, 156);
             this.txt_Search.Name = "txt_Search";
             this.txt_Search.Size = new System.Drawing.Size(238, 45);
             this.txt_Search.TabIndex = 34;
@@ -295,7 +295,7 @@
             this.cbb_SearchRole.Items.AddRange(new object[] {
             "MaLoaiSP",
             "TenLoai"});
-            this.cbb_SearchRole.Location = new System.Drawing.Point(828, 164);
+            this.cbb_SearchRole.Location = new System.Drawing.Point(559, 162);
             this.cbb_SearchRole.Name = "cbb_SearchRole";
             this.cbb_SearchRole.Size = new System.Drawing.Size(131, 37);
             this.cbb_SearchRole.TabIndex = 37;
@@ -320,7 +320,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1292, 731);
+            this.ClientSize = new System.Drawing.Size(1439, 731);
             this.Controls.Add(this.cbb_SearchRole);
             this.Controls.Add(this.txt_ID);
             this.Controls.Add(this.label6);

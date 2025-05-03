@@ -38,3 +38,5 @@ D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.Buf
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.Memory.xml
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.Numerics.Vectors.xml
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.IO.Packaging.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\BLL\bin\Debug\System.IO.Packaging.xml

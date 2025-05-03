@@ -180,8 +180,9 @@
             this.txt_Address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Address.Location = new System.Drawing.Point(890, 41);
+            this.txt_Address.Multiline = true;
             this.txt_Address.Name = "txt_Address";
-            this.txt_Address.Size = new System.Drawing.Size(348, 36);
+            this.txt_Address.Size = new System.Drawing.Size(258, 65);
             this.txt_Address.TabIndex = 15;
             // 
             // label1
@@ -262,7 +263,7 @@
             // 
             this.lbl_Address.AutoSize = true;
             this.lbl_Address.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Address.Location = new System.Drawing.Point(891, 80);
+            this.lbl_Address.Location = new System.Drawing.Point(885, 108);
             this.lbl_Address.Name = "lbl_Address";
             this.lbl_Address.Size = new System.Drawing.Size(70, 26);
             this.lbl_Address.TabIndex = 21;
@@ -443,7 +444,6 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmSuppiler";
             this.Text = "frmSuppiler";
-            this.Load += new System.EventHandler(this.frmSuppiler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Supplier)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

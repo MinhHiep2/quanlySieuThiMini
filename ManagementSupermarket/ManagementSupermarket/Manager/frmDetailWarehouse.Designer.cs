@@ -214,6 +214,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmDetailWarehouse";
             this.Text = "Chi tiết hoá đơn nhập kho";
+            this.Load += new System.EventHandler(this.frmDetailWarehouse_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_DetailWarehouse)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
