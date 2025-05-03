@@ -7,3 +7,7 @@ D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.csproj
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.dll
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\obj\Debug\DAL.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DocumentFormat.OpenXml.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DocumentFormat.OpenXml.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DAL\bin\Debug\DocumentFormat.OpenXml.Framework.xml

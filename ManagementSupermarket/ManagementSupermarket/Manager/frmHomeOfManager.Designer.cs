@@ -312,9 +312,9 @@
             this.SlideBar_.Controls.Add(this.btnDangXuat);
             this.SlideBar_.Controls.Add(this.btnOut);
             this.SlideBar_.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.SlideBar_.Location = new System.Drawing.Point(-6, 157);
+            this.SlideBar_.Location = new System.Drawing.Point(-6, 159);
             this.SlideBar_.Name = "SlideBar_";
-            this.SlideBar_.Size = new System.Drawing.Size(281, 902);
+            this.SlideBar_.Size = new System.Drawing.Size(276, 896);
             this.SlideBar_.TabIndex = 9;
             this.SlideBar_.WrapContents = false;
             // 
@@ -337,16 +337,17 @@
             // btnInformation
             // 
             this.btnInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInformation.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
             this.btnInformation.IconColor = System.Drawing.Color.Black;
             this.btnInformation.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInformation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInformation.Location = new System.Drawing.Point(3, 806);
             this.btnInformation.Name = "btnInformation";
-            this.btnInformation.Size = new System.Drawing.Size(289, 67);
+            this.btnInformation.Size = new System.Drawing.Size(256, 67);
             this.btnInformation.TabIndex = 4;
             this.btnInformation.Tag = "Info";
-            this.btnInformation.Text = "Thông tin tài khoản";
+            this.btnInformation.Text = "Thông tin tài \r\nkhoản";
             this.btnInformation.UseVisualStyleBackColor = true;
             this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
             // 

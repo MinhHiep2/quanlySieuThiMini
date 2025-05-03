@@ -195,7 +195,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
           private bool ExistCCCD(string CCCD)
@@ -257,7 +257,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -311,7 +311,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -351,7 +351,7 @@ namespace ManagementSupermarket
                 }
                 catch (Exception err)
                 {
-                    MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -367,7 +367,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);            }
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+ err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);            }
         }
 
         private void btn_Refresh_Click(object sender, EventArgs e)

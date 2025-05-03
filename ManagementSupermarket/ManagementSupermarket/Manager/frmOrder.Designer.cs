@@ -316,7 +316,6 @@
             this.tab_FormCreateInvoice.Size = new System.Drawing.Size(1200, 698);
             this.tab_FormCreateInvoice.TabIndex = 0;
             this.tab_FormCreateInvoice.Text = "Lập Hoá Đơn";
-            this.tab_FormCreateInvoice.Click += new System.EventHandler(this.tab_FormCreateInvoice_Click);
             // 
             // chk_PhoneCustomer
             // 
@@ -467,7 +466,7 @@
             this.btn_FinishOrder.Text = "Tổng Tiền";
             this.btn_FinishOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_FinishOrder.UseVisualStyleBackColor = false;
-            this.btn_FinishOrder.Click += new System.EventHandler(this.btn_FinishOrder_Click);
+            this.btn_FinishOrder.Click += new System.EventHandler(this.btn_FinishOrder_Click_1);
             // 
             // btn_Alter
             // 
@@ -579,7 +578,6 @@
             this.grpInfo.TabIndex = 20;
             this.grpInfo.TabStop = false;
             this.grpInfo.Text = "Thông tin hoá đơn";
-            this.grpInfo.Enter += new System.EventHandler(this.grpInfo_Enter);
             // 
             // txt_AmountCreate
             // 
@@ -737,6 +735,7 @@
             this.Name = "frmOrder";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmOrder";
+            this.Load += new System.EventHandler(this.frmOrder_Load_1);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_InvoiceSelling)).EndInit();

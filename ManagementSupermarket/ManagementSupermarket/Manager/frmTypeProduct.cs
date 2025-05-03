@@ -14,7 +14,6 @@ using System.Xml.Serialization;
 using BLL;
 using DTO;
 using static System.Net.Mime.MediaTypeNames;
-
 namespace ManagementSupermarket.Manager
 {
     public partial class frmTypeProduct : Form
@@ -25,6 +24,8 @@ namespace ManagementSupermarket.Manager
             this.TopLevel = false;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Dock = DockStyle.Fill;
+            LoadData();
+            cbb_SearchRole.SelectedIndex = 0;
         }
         Event eventConfig = new Event();
         BLL_TypeProduct dataTypeProduct = new BLL_TypeProduct();
@@ -36,8 +37,7 @@ namespace ManagementSupermarket.Manager
 
         private void frmTypeProduct_Load(object sender, EventArgs e)
         {
-            LoadData();
-            cbb_SearchRole.SelectedIndex = 0;
+            
         }
         private bool IsEmptytTextBox(string nameType, string desc)
         {
@@ -111,7 +111,7 @@ namespace ManagementSupermarket.Manager
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -153,7 +153,7 @@ namespace ManagementSupermarket.Manager
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+ err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -183,7 +183,7 @@ namespace ManagementSupermarket.Manager
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -207,7 +207,7 @@ namespace ManagementSupermarket.Manager
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -223,9 +223,10 @@ namespace ManagementSupermarket.Manager
                     txt_Desc.Text = rowSelected["MoTa"].Value.ToString();
                 }
             }
-            catch (Exception err)
+            catch (Exception ex)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!"+ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -234,13 +235,18 @@ namespace ManagementSupermarket.Manager
 
             try
             {
+                if (dgv_TypeProduct.DataSource == null || !(dgv_TypeProduct.DataSource is DataTable))
+                {
+                    MessageBox.Show("Không có dữ liệu để xuất!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 DataTable tblTypeProduct = (DataTable)dgv_TypeProduct.DataSource;
                 ConfigExcel_PDF.ExportToExcel(tblTypeProduct, "Supplier");
-                return;
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Lỗi khi xuất file: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

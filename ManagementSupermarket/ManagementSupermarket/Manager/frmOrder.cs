@@ -36,45 +36,23 @@ namespace ManagementSupermarket
         private string s_role;
         private decimal TotalMoney = 0;
         private string nameForm = "Form Order";
-        public frmOrder()
+        public frmOrder(string idEmployee)
         {
             InitializeComponent();
             this.TopLevel = false;
             this.FormBorderStyle = FormBorderStyle.None;
             this.Dock = DockStyle.Fill;
-            tab_HomeInvoiceSelling.SelectedIndex = 0;
-            try
-            {
-                //LOAD DATA TAB 1
-                LoadDataComboBox_NameProduct(cbo_NameProductCreate);
-                LoadDataComboBox_Discount(cbo_DiscountCreate);
+            this.s_idEmployee = idEmployee;
 
-                //LOAD DATA TAB 2
-                LoadDataGridView_InvoiceSelling();
-                LoadComboBoxSearch();
-                cbo_Search.SelectedIndex = 0;
-
-                //LoadButtonProduct(Panel_Product);
-            }
-            catch (Exception err)
-            {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                //BLL_ManagementError.InsertError(err.Message, nameForm + " - Load Form");
-            }
         }
+        
         public frmOrder(string idEmployee, string role)
         {
-            this.s_idEmployee = idEmployee;
-            this.s_role = role;
             InitializeComponent();
-        }
-      
-        private void tab_FormCreateInvoice_Click(object sender, EventArgs e)
-        {
-
-            
-        }
-
+            this.s_idEmployee = idEmployee;
+            this.s_role = role;            
+        }  
+  
         Event eventConfig = new Event();
         public static string formatPrice(decimal price, string unit = "VNĐ")
         {
@@ -88,7 +66,7 @@ namespace ManagementSupermarket
 
         private void txt_CashCustomerCreate_TextChanged(object sender, EventArgs e)
         {
-
+            CapNhatTien();
         }
 
         private void txt_CashCustomerCreate_KeyPress(object sender, KeyPressEventArgs e)
@@ -203,7 +181,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
         private void btn_Alter_Click(object sender, EventArgs e)
@@ -277,17 +255,8 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
-        }
-
-       
-
-       
-
-        private void grpInfo_Enter(object sender, EventArgs e)
-        {
-
         }
         //ham xoa di nhung ky tu và chữ không cần thiết
         //Ex: "1.000.000 VNĐ" => "1000000"
@@ -400,7 +369,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
              private void ClearControl()
@@ -438,7 +407,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 //BLL_ManagementError.InsertError(err.Message, nameForm + " - Thay đổi combobox - Create Bill");
             }
         }
@@ -462,7 +431,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
         private void btn_Delete_Click(object sender, EventArgs e)
@@ -495,7 +464,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -506,121 +475,6 @@ namespace ManagementSupermarket
                 e.Handled = true;
                 return;
             }
-        }
-
-        private void btn_FinishOrder_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                lbl_ErrorCashCustomer.Visible = false;
-                lbl_ErrorPhone.Visible = false;
-                if (lst_OrderCurrency.Items.Count <= 0)
-                {
-                    MessageBox.Show("Vui lòng thêm sản phẩm trước khi lập hoá đơn", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                else if (ErrorMoneyCashCustomer())
-                {
-                    return;
-                }
-
-
-                string idInvoice, idProduct, idDiscount, idEmployee, idCustomer = null, phone;
-                float price, totalMoney, cashCustomer;
-                int countProduct;
-
-                //Process: Insert Invoice => Get Id Invoice => Check Condition Insert Invoice => Before Use Loop To Insert Detail Invoice
-
-                //@MaNV varchar(10),
-                //@MaKH varchar(10) = null,
-                //@TongTien decimal,
-                //@TienKhachDua decimal = 0
-                idEmployee = this.s_idEmployee;
-
-                if (chk_PhoneCustomer.Checked)
-                {
-                    phone = txt_PhoneCustomerCreate.Text.Trim();
-                    DataTable tblCustomer = (new BLL_Customer()).GetCustomerToPhone(phone);
-                    if (tblCustomer.Rows.Count > 0)
-                    {
-                        idCustomer = tblCustomer.Rows[0]["MaKH"].ToString();
-
-                    }
-                    else
-                    {
-                        lbl_ErrorPhone.Text = "*Số điện thoại khách hàng không tồn tại!";
-                        lbl_ErrorPhone.Visible = true;
-                        return;
-                    }
-                }
-
-                totalMoney = (float)this.TotalMoney;
-
-                cashCustomer = string.IsNullOrEmpty(txt_CashCustomerCreate.Text) ? 0 : float.Parse(txt_CashCustomerCreate.Text);
-
-                DialogResult result = MessageBox.Show("Xác nhận lập hoá đơn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    DTO_InvoiceSelling invoiceSelling = new DTO_InvoiceSelling(idEmployee, totalMoney, cashCustomer, idCustomer);
-                    DataTable dtInvoice = new BLL_InvoiceSelling().InsertInvoiceSelling(invoiceSelling);
-                    if (dtInvoice != null && dtInvoice.Rows.Count > 0)
-                    {
-                        idInvoice = dtInvoice.Rows[0][0].ToString();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Lỗi khi tạo hóa đơn, không có ID trả về", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-
-                    //FINISH INSERT INVOICE
-
-                    int countInsertDetail = 0;
-                    foreach (ListViewItem row in lst_OrderCurrency.Items)
-                    {
-                        idProduct = row.SubItems[0].Text;
-                        countProduct = int.Parse(row.SubItems[2].Text);
-                        idDiscount = string.IsNullOrEmpty(row.SubItems[4].Text) ? null : row.SubItems[4].Text;
-
-                        countInsertDetail += countProduct;
-
-                        price = int.Parse(row.SubItems[3].Text);
-
-                        DTO_Detail_InvoiceSelling detailInvoice = new DTO_Detail_InvoiceSelling(idInvoice, idProduct, idDiscount, countProduct, price);
-                        int numOfRows = (new BLL_Detail_InvoiceSelling()).InsertDetailInvoiceSelling(detailInvoice);
-                        if (numOfRows > 0)
-                        {
-                            countInsertDetail++;
-                        }
-                    }
-
-                    if (countInsertDetail > 0)
-                    {
-                        MessageBox.Show($"Đã bán {countInsertDetail} sản phẩm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        result = MessageBox.Show("Bạn có muốn in PDF hoá đơn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                        if (result == DialogResult.Yes)
-                        {
-                            invoiceSelling.Dt_CreatedTime = DateTime.Now;
-
-                            invoiceSelling.S_IdInvoice = idInvoice;
-                            if (ConfigExcel_PDF.PrintInvoicePDF(invoiceSelling))
-                            {
-                                MessageBox.Show($"Xuất PDF hoá đơn {idInvoice} thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            }
-                        }
-                        btn_RefreshCreate_Click(sender, e);
-                        return;
-                    }
-                    MessageBox.Show($"Xảy ra sai sót trong quá trình bán hàng. Vui lòng thử lại", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-            }
-            catch (Exception err)
-            {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            }
-
         }
         private void btn_RefreshCreate_Click(object sender, EventArgs e)
         {
@@ -679,7 +533,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -713,7 +567,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 //BLL_ManagementError.InsertError(err.Message, nameForm + " - Nút xuất file Excel");
             }
         }
@@ -754,8 +608,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                //BLL_ManagementError.InsertError(err.Message, nameForm + " - Nút xuất file PDF hoá đơn");
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -768,6 +621,133 @@ namespace ManagementSupermarket
             }
         }
 
+        private void btn_FinishOrder_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                lbl_ErrorCashCustomer.Visible = false;
+                lbl_ErrorPhone.Visible = false;
+                if (lst_OrderCurrency.Items.Count <= 0)
+                {
+                    MessageBox.Show("Vui lòng thêm sản phẩm trước khi lập hoá đơn", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else if (ErrorMoneyCashCustomer())
+                {
+                    return;
+                }
 
+
+                string idInvoice, idProduct, idDiscount, idEmployee, idCustomer = null, phone;
+                float price, totalMoney, cashCustomer;
+                int countProduct;
+
+                //Process: Insert Invoice => Get Id Invoice => Check Condition Insert Invoice => Before Use Loop To Insert Detail Invoice
+
+                //@MaNV varchar(10),
+                //@MaKH varchar(10) = null,
+                //@TongTien decimal,
+                //@TienKhachDua decimal = 0
+                //var dt = new BLL_Employee().GetEmployeeTo("MaNV", s_idEmployee);
+                idEmployee = this.s_idEmployee;
+                if (string.IsNullOrEmpty(idEmployee))
+                    MessageBox.Show("Mã nhân viên không hợp lệ!", "Thông báo");
+
+                if (chk_PhoneCustomer.Checked)
+                {
+                    phone = txt_PhoneCustomerCreate.Text.Trim();
+                    DataTable tblCustomer = (new BLL_Customer()).GetCustomerToPhone(phone);
+                    if (tblCustomer.Rows.Count > 0)
+                    {
+                        idCustomer = tblCustomer.Rows[0]["MaKH"].ToString();
+
+                    }
+                    else
+                    {
+                        lbl_ErrorPhone.Text = "*Số điện thoại khách hàng không tồn tại!";
+                        lbl_ErrorPhone.Visible = true;
+                        return;
+                    }
+                }
+
+                totalMoney = (float)this.TotalMoney;
+
+                cashCustomer = string.IsNullOrEmpty(txt_CashCustomerCreate.Text) ? 0 : float.Parse(txt_CashCustomerCreate.Text);
+
+                DialogResult result = MessageBox.Show("Xác nhận lập hoá đơn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    DTO_InvoiceSelling invoiceSelling = new DTO_InvoiceSelling(idEmployee, totalMoney, cashCustomer, idCustomer);
+                    idInvoice = (new BLL_InvoiceSelling()).InsertInvoiceSelling(invoiceSelling).Rows[0][0].ToString();
+                    //FINISH INSERT INVOICE
+
+                    int countInsertDetail = 0;
+                    foreach (ListViewItem row in lst_OrderCurrency.Items)
+                    {
+                        idProduct = row.SubItems[0].Text;
+                        countProduct = int.Parse(row.SubItems[2].Text);
+                        idDiscount = string.IsNullOrEmpty(row.SubItems[4].Text) ? null : row.SubItems[4].Text;
+
+                        countInsertDetail += countProduct;
+
+                        price = int.Parse(row.SubItems[3].Text);
+
+                        DTO_Detail_InvoiceSelling detailInvoice = new DTO_Detail_InvoiceSelling(idInvoice, idProduct, idDiscount, countProduct, price);
+                        int numOfRows = (new BLL_Detail_InvoiceSelling()).InsertDetailInvoiceSelling(detailInvoice);
+                        if (numOfRows > 0)
+                        {
+                            countInsertDetail++;
+                        }
+                    }
+
+                    if (countInsertDetail > 0)
+                    {
+                        MessageBox.Show($"Đã bán {countInsertDetail} sản phẩm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        result = MessageBox.Show("Bạn có muốn in PDF hoá đơn?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                        if (result == DialogResult.Yes)
+                        {
+                            invoiceSelling.Dt_CreatedTime = DateTime.Now;
+
+                            invoiceSelling.S_IdInvoice = idInvoice;
+                            if (ConfigExcel_PDF.PrintInvoicePDF(invoiceSelling))
+                            {
+                                MessageBox.Show($"Xuất PDF hoá đơn {idInvoice} thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
+                        btn_RefreshCreate_Click(sender, e);
+                        return;
+                    }
+                    MessageBox.Show($"Xảy ra sai sót trong quá trình bán hàng. Vui lòng thử lại", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void frmOrder_Load_1(object sender, EventArgs e)
+        {
+            tab_HomeInvoiceSelling.SelectedIndex = 0;
+            try
+            {
+                //LOAD DATA TAB 1
+                LoadDataComboBox_NameProduct(cbo_NameProductCreate);
+                LoadDataComboBox_Discount(cbo_DiscountCreate);
+
+                //LOAD DATA TAB 2
+                LoadDataGridView_InvoiceSelling();
+                LoadComboBoxSearch();
+                cbo_Search.SelectedIndex = 0;
+
+                //LoadButtonProduct(Panel_Product);
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!. Lỗi: " + err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
     }
 }

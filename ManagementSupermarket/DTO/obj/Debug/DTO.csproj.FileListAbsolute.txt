@@ -4,3 +4,8 @@ D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.csproj
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.dll
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.pdb
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DocumentFormat.OpenXml.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DocumentFormat.OpenXml.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\DTO\obj\Debug\DTO.csproj.Up2Date

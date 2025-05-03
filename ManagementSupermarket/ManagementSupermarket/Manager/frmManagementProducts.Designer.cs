@@ -101,14 +101,14 @@
             this.HanSuDung,
             this.DonViTinh,
             this.TrangThai});
-            this.dgv_ListProduct.Location = new System.Drawing.Point(48, 320);
+            this.dgv_ListProduct.Location = new System.Drawing.Point(23, 325);
             this.dgv_ListProduct.MultiSelect = false;
             this.dgv_ListProduct.Name = "dgv_ListProduct";
             this.dgv_ListProduct.ReadOnly = true;
             this.dgv_ListProduct.RowHeadersWidth = 51;
             this.dgv_ListProduct.RowTemplate.Height = 24;
             this.dgv_ListProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_ListProduct.Size = new System.Drawing.Size(1129, 732);
+            this.dgv_ListProduct.Size = new System.Drawing.Size(1151, 394);
             this.dgv_ListProduct.TabIndex = 1;
             this.dgv_ListProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListProduct_CellClick);
             // 
@@ -268,7 +268,7 @@
             // 
             // txt_ID
             // 
-            this.txt_ID.BackColor = System.Drawing.Color.CadetBlue;
+            this.txt_ID.BackColor = System.Drawing.Color.Silver;
             this.txt_ID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ID.Enabled = false;
             this.txt_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -418,6 +418,7 @@
             // 
             // cbb_Supplier
             // 
+            this.cbb_Supplier.BackColor = System.Drawing.Color.Silver;
             this.cbb_Supplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_Supplier.FormattingEnabled = true;
             this.cbb_Supplier.Location = new System.Drawing.Point(494, 47);
@@ -442,6 +443,7 @@
             // 
             // cbb_UnitCaculator
             // 
+            this.cbb_UnitCaculator.BackColor = System.Drawing.Color.Silver;
             this.cbb_UnitCaculator.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_UnitCaculator.FormattingEnabled = true;
             this.cbb_UnitCaculator.Location = new System.Drawing.Point(330, 108);
@@ -466,6 +468,7 @@
             // 
             // cbb_TypeProduct
             // 
+            this.cbb_TypeProduct.BackColor = System.Drawing.Color.DarkGray;
             this.cbb_TypeProduct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_TypeProduct.FormattingEnabled = true;
             this.cbb_TypeProduct.Location = new System.Drawing.Point(972, 45);
@@ -505,6 +508,7 @@
             // 
             // cbb_UnitTime
             // 
+            this.cbb_UnitTime.BackColor = System.Drawing.Color.Silver;
             this.cbb_UnitTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_UnitTime.FormattingEnabled = true;
             this.cbb_UnitTime.Location = new System.Drawing.Point(993, 108);

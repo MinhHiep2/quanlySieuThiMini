@@ -12,7 +12,6 @@ using DTO;
 using System.IO;
 using FontAwesome.Sharp;
 using System.Windows.Ink;
-using BLL;
 namespace ManagementSupermarket
 {
     public partial class frmInfomation : Form
@@ -74,7 +73,7 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại! Lỗi:"+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void txt_CCCD_KeyPress(object sender, KeyPressEventArgs e)
@@ -119,13 +118,12 @@ namespace ManagementSupermarket
             }
             catch (Exception err)
             {
-                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Có lỗi trong quá trình thực hiện. Vui lòng thử lại! Lỗi: "+err.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private bool IsEmptytTextBox(string fullName, string CCCD, string phone, string address)
         {
             bool flag = false;
-            string notEmpty = " không bỏ trống";
             if (eventConfig.IsNullOrEmpty(fullName))
             {
                 flag = true;

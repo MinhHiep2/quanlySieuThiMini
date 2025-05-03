@@ -67,3 +67,7 @@ D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bi
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\Microsoft.Bcl.HashCode.xml
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\RBush.xml
 D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\BouncyCastle.Cryptography.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\DocumentFormat.OpenXml.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\DocumentFormat.OpenXml.xml
+D:\HK5\Winform-C#\DoAnSieuThiMiNi\ManagementSupermarket\ManagementSupermarket\bin\Debug\DocumentFormat.OpenXml.Framework.xml
