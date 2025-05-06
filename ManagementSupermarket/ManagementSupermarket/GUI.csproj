@@ -94,11 +94,11 @@
     <Compile Include="frmChangePassword.Designer.cs">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmHomeOfManager.cs">
+    <Compile Include="Manager\frmTrangChuQuanLy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmHomeOfManager.Designer.cs">
-      <DependentUpon>frmHomeOfManager.cs</DependentUpon>
+    <Compile Include="Manager\frmTrangChuQuanLy.Designer.cs">
+      <DependentUpon>frmTrangChuQuanLy.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInfomation.cs">
       <SubType>Form</SubType>
@@ -112,11 +112,11 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmAccounts.cs">
+    <Compile Include="Manager\frmTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmAccounts.Designer.cs">
-      <DependentUpon>frmAccounts.cs</DependentUpon>
+    <Compile Include="Manager\frmTaiKhoan.Designer.cs">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager\frmThongTinLienHe.cs">
       <SubType>Form</SubType>
@@ -124,65 +124,65 @@
     <Compile Include="Manager\frmThongTinLienHe.Designer.cs">
       <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmCustomer.cs">
+    <Compile Include="Manager\frmKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmCustomer.Designer.cs">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
+    <Compile Include="Manager\frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmDetailInvoiceSelling.cs">
+    <Compile Include="Manager\frmHoaDonBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmDetailInvoiceSelling.Designer.cs">
-      <DependentUpon>frmDetailInvoiceSelling.cs</DependentUpon>
+    <Compile Include="Manager\frmHoaDonBanHang.Designer.cs">
+      <DependentUpon>frmHoaDonBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmDetailWarehouse.cs">
+    <Compile Include="Manager\frmHoaDonNhapKho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmDetailWarehouse.Designer.cs">
-      <DependentUpon>frmDetailWarehouse.cs</DependentUpon>
+    <Compile Include="Manager\frmHoaDonNhapKho.Designer.cs">
+      <DependentUpon>frmHoaDonNhapKho.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmDiscount.cs">
+    <Compile Include="Manager\frmGiamGia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmDiscount.Designer.cs">
-      <DependentUpon>frmDiscount.cs</DependentUpon>
+    <Compile Include="Manager\frmGiamGia.Designer.cs">
+      <DependentUpon>frmGiamGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmManagementEmployees.cs">
+    <Compile Include="Manager\frmQuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmManagementEmployees.Designer.cs">
-      <DependentUpon>frmManagementEmployees.cs</DependentUpon>
+    <Compile Include="Manager\frmQuanLyNhanVien.Designer.cs">
+      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmManagementProducts.cs">
+    <Compile Include="Manager\frmQLSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmManagementProducts.Designer.cs">
-      <DependentUpon>frmManagementProducts.cs</DependentUpon>
+    <Compile Include="Manager\frmQLSanPham.Designer.cs">
+      <DependentUpon>frmQLSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmOrder.cs">
+    <Compile Include="Manager\frmBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmOrder.Designer.cs">
-      <DependentUpon>frmOrder.cs</DependentUpon>
+    <Compile Include="Manager\frmBanHang.Designer.cs">
+      <DependentUpon>frmBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmRevenue.cs">
+    <Compile Include="Manager\frmThongke.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmRevenue.Designer.cs">
-      <DependentUpon>frmRevenue.cs</DependentUpon>
+    <Compile Include="Manager\frmThongke.Designer.cs">
+      <DependentUpon>frmThongke.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmSuppiler.cs">
+    <Compile Include="Manager\frmNhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmSuppiler.Designer.cs">
-      <DependentUpon>frmSuppiler.cs</DependentUpon>
+    <Compile Include="Manager\frmNhaCungCap.Designer.cs">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager\frmTypeProduct.cs">
+    <Compile Include="Manager\frmLoaiSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Manager\frmTypeProduct.Designer.cs">
-      <DependentUpon>frmTypeProduct.cs</DependentUpon>
+    <Compile Include="Manager\frmLoaiSanPham.Designer.cs">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
     </Compile>
     <Compile Include="Manager\frmKhoHang.cs">
       <SubType>Form</SubType>
@@ -193,13 +193,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Image\SIÊU THỊ MINI.png" />
+    <None Include="Resources\.editorconfig" />
     <None Include="Resources\giaodien1.jpg" />
     <None Include="Resources\SIÊU THỊ MINI1.png" />
     <EmbeddedResource Include="frmChangePassword.resx">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmHomeOfManager.resx">
-      <DependentUpon>frmHomeOfManager.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmTrangChuQuanLy.resx">
+      <DependentUpon>frmTrangChuQuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInfomation.resx">
       <DependentUpon>frmInfomation.cs</DependentUpon>
@@ -207,41 +208,41 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmAccounts.resx">
-      <DependentUpon>frmAccounts.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmTaiKhoan.resx">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmThongTinLienHe.resx">
       <DependentUpon>frmThongTinLienHe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmCustomer.resx">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmDetailInvoiceSelling.resx">
-      <DependentUpon>frmDetailInvoiceSelling.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmHoaDonBanHang.resx">
+      <DependentUpon>frmHoaDonBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmDetailWarehouse.resx">
-      <DependentUpon>frmDetailWarehouse.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmHoaDonNhapKho.resx">
+      <DependentUpon>frmHoaDonNhapKho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmDiscount.resx">
-      <DependentUpon>frmDiscount.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmGiamGia.resx">
+      <DependentUpon>frmGiamGia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmManagementEmployees.resx">
-      <DependentUpon>frmManagementEmployees.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmQuanLyNhanVien.resx">
+      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmManagementProducts.resx">
-      <DependentUpon>frmManagementProducts.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmQLSanPham.resx">
+      <DependentUpon>frmQLSanPham.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmOrder.resx">
-      <DependentUpon>frmOrder.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmBanHang.resx">
+      <DependentUpon>frmBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmRevenue.resx">
-      <DependentUpon>frmRevenue.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmThongke.resx">
+      <DependentUpon>frmThongke.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmSuppiler.resx">
-      <DependentUpon>frmSuppiler.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmNhaCungCap.resx">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Manager\frmTypeProduct.resx">
-      <DependentUpon>frmTypeProduct.cs</DependentUpon>
+    <EmbeddedResource Include="Manager\frmLoaiSanPham.resx">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manager\frmKhoHang.resx">
       <DependentUpon>frmKhoHang.cs</DependentUpon>

@@ -462,7 +462,7 @@ namespace ManagementSupermarket.Manager
             {
                 if (!string.IsNullOrEmpty(txt_IdToReceive.Text))
                 {
-                    frmDetailWarehouse frm = new frmDetailWarehouse();
+                    frmHoaDonNhapKho frm = new frmHoaDonNhapKho();
                     frm.MaNhapKho = txt_IdToReceive.Text;
                     frm.MaNhanVien = txt_IdEmployee.Text;
                     frm.TenNhaCungCap = cbb_NameSuplier.Text;

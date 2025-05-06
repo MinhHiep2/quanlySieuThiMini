@@ -71,7 +71,7 @@ namespace ManagementSupermarket
             {
                 string role = tblAccount.Rows[0][1].ToString();
                 string idEmployee = txt_Username.Text.Trim();
-                frmHomeOfManager frmHomeOfManager = new frmHomeOfManager(idEmployee, role);
+                frmTrangChuQuanLy frmHomeOfManager = new frmTrangChuQuanLy(idEmployee, role);
                 this.Hide();
                 frmHomeOfManager.Show();
             }

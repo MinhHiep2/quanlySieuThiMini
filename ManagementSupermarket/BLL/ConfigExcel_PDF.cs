@@ -97,9 +97,7 @@ namespace BLL
                 PdfWriter writer = PdfWriter.GetInstance(document, stream);
                 document.Open();
 
-                // Tạo font cho nội dung
-                //string fontPath = Path.Combine(Application.StartupPath, "..", "..", "Resources", "fonts", "SEGOEUI.TTF");
-                
+                // Tạo font cho nội dung                
                 string fontPath = Path.Combine(Application.StartupPath, "Resources", "fonts", "SEGOEUI.TTF");
 
                 BaseFont bf = BaseFont.CreateFont(fontPath, BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
