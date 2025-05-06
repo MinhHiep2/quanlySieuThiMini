@@ -71,9 +71,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(276, 158);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(478, 36);
+            this.label3.Size = new System.Drawing.Size(460, 36);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Phạm Quang Khải - 0949299047 - ";
+            this.label3.Text = "Phạm Quang Khải - 0949299047 ";
             // 
             // label4
             // 

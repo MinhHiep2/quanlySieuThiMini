@@ -21,6 +21,7 @@ namespace ManagementSupermarket
         {
             InitializeComponent();
             idEmployee = id;
+            lblError.Visible = false;
         }
         private bool TextboxIsNullOrEmpty()
         {
